@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TerrainDef Abstract="True" ParentName="FloorBase" Name="NeoTileStoneBase">
+    <renderPrecedence>220</renderPrecedence>
+    <description>Hexagonal Neo-Concrete tiles. Relatively , easy to pour, fireproof, and aren't ugly.</description>
+    <texturePath>Things/Buildings/NeoConcrete/NeoFloor</texturePath>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>0</Beauty>
+    </statBases>
+  </TerrainDef>
+  
+    <TerrainDef Abstract="True" ParentName="FloorBase" Name="SmoothTileStoneBase">
+    <renderPrecedence>220</renderPrecedence>
+    <description>Smoothed out neo-concrete. It's pretty to look at and sterile. Perfect for hospitals. Smoothing it out takes a lot of time though.</description>
+    <texturePath>Things/Buildings/NeoConcrete/SmoothNeo</texturePath>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <Beauty>1</Beauty>
+	  <Cleanliness>0.2</Cleanliness>
+    </statBases>
+	    <researchPrerequisites>
+      <li>SterileMaterials</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="NeoTileStoneBase">
+    <defName>TileNeoConcrete</defName>
+    <label>neo-concrete tile</label>
+    <color>(255,255,255)</color>
+    <costList>
+      <NeoConcreteMix>4</NeoConcreteMix>
+    </costList>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="SmoothTileStoneBase">
+    <defName>TileSmoothNeoConcrete</defName>
+    <label>smooth neo-concrete</label>
+    <color>(255,255,255)</color>
+    <costList>
+      <NeoConcreteMix>4</NeoConcreteMix>
+	  <Silver>4</Silver>
+    </costList>
+  </TerrainDef>
+  
+    <ThingDef ParentName="ResourceBase">
+    <defName>RockPowder</defName>
+    <label>rock powder</label>
+    <description>Powder made from stone chunks. Used to make Neo-Concrete.</description>
+    <graphicData>
+      <texPath>Things/Buildings/NeoConcrete/Rockpowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<useHitPoints>false</useHitPoints>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+      <Mass>1.25</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+  </ThingDef>
+  
+    <ThingDef ParentName="ResourceBase">
+    <defName>NeoConcreteMix</defName>
+    <label>neo-concrete mix</label>
+    <description>Neo-Concrete mix, ready to be poured into tiles or walls.</description>
+    <graphicData>
+      <color>(255,255,255)</color>
+      <texPath>Things/Buildings/NeoConcrete/Neoconcretemix</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.65</Mass>
+      <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+    </statBases>
+	<thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stuffProps>
+	  <categories>
+        <li>Stony</li>
+      </categories>
+      <color>(235,235,255)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>neo-concrete</stuffAdjective>
+      <statFactors>
+	    <WorkToMake>1.2</WorkToMake>
+        <MarketValue>0.7</MarketValue>
+        <MaxHitPoints>2</MaxHitPoints>
+		<Flammability>0</Flammability>
+      </statFactors>
+	  <appearance>Neo</appearance>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef>
+		<defName>MakeRockPowder</defName>
+		<label>make rock powder</label>
+		<description>Grinds stone chunks into powder useable for Neo-Concrete.</description>
+		<jobString>Pulverising from chunk.</jobString>
+		<workAmount>1600</workAmount>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<RockPowder>20</RockPowder>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeRockPowderMixer</defName>
+		<label>make rock powder</label>
+		<description>Grinds stone chunks into powder useable for Neo-Concrete.</description>
+		<jobString>Pulverising from chunk.</jobString>
+		<workAmount>1000</workAmount>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>TableConcreteMixer</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<RockPowder>100</RockPowder>
+		</products>
+	</RecipeDef>
+	
+		<RecipeDef>
+		<defName>MakeNeoConcreteMix</defName>
+		<label>make neo-concrete mix</label>
+		<description>Prepare Neo-Concrete mix.</description>
+		<jobString>Mixing neo-concrete.</jobString>
+		<workAmount>1600</workAmount>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RockPowder</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RockPowder</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NeoConcreteMix>20</NeoConcreteMix>
+		</products>
+	</RecipeDef>
+	
+			<RecipeDef>
+		<defName>MakeNeoConcreteMixer</defName>
+		<label>make neo-concrete mix</label>
+		<description>Prepare Neo-Concrete mix.</description>
+		<jobString>Mixing neo-concrete.</jobString>
+		<workAmount>1000</workAmount>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>TableConcreteMixer</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RockPowder</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RockPowder</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NeoConcreteMix>100</NeoConcreteMix>
+		</products>
+	</RecipeDef>
+	
+	  <WorkGiverDef>
+    <defName>DoBillsConcreteMix</defName>
+    <label>mix concrete</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <fixedBillGiverDefs>
+      <li>TableConcreteMixer</li>
+    </fixedBillGiverDefs>
+    <verb>mixing</verb>
+    <gerund>mixing concrete at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+	<!--
+	  <ThingDef ParentName="BuildingBase" Name="Wall">
+    <defName>NeoConcreteFortification</defName>
+    <label>neo-concrete fortification</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <description>An impassable wall of Neo-Concrete. Capable of holding up a roof and withstanding short range missile attacks.</description>
+    <graphicData>
+      <texPath>Things/Buildings/NeoConcrete/WallNeo/Wall_Atlas_Neo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <blueprintGraphicData>
+      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+    </blueprintGraphicData>
+    <uiIconPath>Things/Buildings/NeoConcrete/WallNeo/WallNeo_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costList>
+		<NeoConcreteMix>4</NeoConcreteMix>
+	</costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  -->
+</Defs>

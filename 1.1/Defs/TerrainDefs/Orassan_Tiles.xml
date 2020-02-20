@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef>
+    <defName>OrassanSoil</defName>
+    <label>Orassan tilled ice</label>
+    <texturePath>Terrain/OrassanSoil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+	<placeWorkers>
+		<li>Orassans.Placeworker_Orassan</li>
+    </placeWorkers>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>600</WorkToBuild>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+	  <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	<constructEffect>ConstructDirt</constructEffect>
+	<designationCategory>Floors</designationCategory>
+  </TerrainDef>
+  
+    <TerrainDef>
+    <defName>OrassanSoilRich</defName>
+    <label>Orassan processed soil</label>
+    <texturePath>Terrain/OrassanAdvancedSoil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+	<placeWorkers>
+		<li>Orassans.Placeworker_Orassan</li>
+    </placeWorkers>
+	<costList>
+      <Steel>3</Steel>
+	  <Plasteel>1</Plasteel>
+    </costList>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>600</WorkToBuild>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+	  <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.5</fertility>
+    <takeFootprints>True</takeFootprints>
+	<constructEffect>ConstructDirt</constructEffect>
+	<designationCategory>Floors</designationCategory>
+  </TerrainDef>
+  
+</Defs>

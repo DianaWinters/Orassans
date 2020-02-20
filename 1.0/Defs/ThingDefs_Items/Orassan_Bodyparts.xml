@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>OTail</defName>
+      <label>orassan tail</label>
+      <description>An Orassan tail.</description>
+      <graphicData>
+         <texPath>Things/Item/Health/HealthItemNatural</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+         <MarketValue>200</MarketValue>
+		 <Mass>2</Mass>
+      </statBases>
+   </ThingDef>
+   
+      <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Claws</defName>
+      <label>orassan claws</label>
+      <description>A set of retractable claws.</description>
+      <graphicData>
+         <texPath>Things/Item/Health/HealthItemNatural</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+         <MarketValue>200</MarketValue>
+		 <Mass>.2</Mass>
+      </statBases>
+   </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>ClothTail</defName>
+    <label>cloth orassan tail</label>
+    <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>PlasteelClaws</defName>
+    <label>orassan plasteel claws</label>
+    <description>Somewhat cheap meathod of increasing the damage claws can do.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>175</MarketValue>
+      <Mass>.5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicTail</defName>
+    <label>bionic orassan tail</label>
+    <description>A sophisticated prehensile tail replacement. It's like having another hand!</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+	<costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+ <RecipeDef ParentName="SurgeryFlesh">
+      <defName>InstallOrassanTail</defName>
+      <label>install tail</label>
+      <description>Installs tail.</description>
+      <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+      <jobString>Installing tail.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>OTail</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>OTail</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>OTail</li>
+      </appliedOnFixedBodyParts>
+   </RecipeDef>
+
+ <RecipeDef ParentName="SurgeryFlesh">
+      <defName>InstallClothTail</defName>
+      <label>install cloth tail</label>
+      <description>Installs cloth tail.</description>
+      <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+      <jobString>Installing cloth tail.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Cloth</li>
+               </thingDefs>
+            </filter>
+            <count>3</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>Cloth</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>OTail</li>
+      </appliedOnFixedBodyParts>
+      <addsHediff>ClothTail</addsHediff>
+   </RecipeDef>
+
+ <RecipeDef ParentName="SurgeryFlesh">
+      <defName>InstallBionicTail</defName>
+      <label>install bionic tail</label>
+      <description>Installs bionic tail.</description>
+      <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+      <jobString>Installing bionic tail.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>BionicTail</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>BionicTail</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>OTail</li>
+      </appliedOnFixedBodyParts>
+      <addsHediff>BionicTail</addsHediff>
+   </RecipeDef>
+
+ <RecipeDef ParentName="SurgeryFlesh">
+      <defName>InstallPlasteelClaws</defName>
+      <label>install plasteel claws</label>
+      <description>Installs plasteel claws.</description>
+      <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+      <jobString>Installing plasteel claws.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Plasteel</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>Plasteel</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>LeftHandClaws</li>
+         <li>RightHandClaws</li>
+      </appliedOnFixedBodyParts>
+      <addsHediff>PlasteelClaws</addsHediff>
+   </RecipeDef>
+
+</Defs> 

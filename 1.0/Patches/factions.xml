@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[1]/options</xpath>  <!-- Outlander "normal" group -->
+		<value>
+			<OrassanMercenarySoldier>3</OrassanMercenarySoldier>    <!-- Pawnkinds from your race, keep points down low to avoid making your pawns a majority -->
+			<OrassanMercenarySniper>3</OrassanMercenarySniper>
+			<OrassanMercenaryGunner>1</OrassanMercenaryGunner>      <!-- The more rare, the lower your points should be -->
+		</value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[3]/guards</xpath>  <!-- Outlander Caravan guard group -->
+		<value>
+			<OrassanMercenarySoldier>3</OrassanMercenarySoldier>    <!-- Pawnkinds from your race, keep points down low to avoid making your pawns a majority -->
+			<OrassanMercenarySniper>3</OrassanMercenarySniper>
+			<OrassanMercenaryGunner>1</OrassanMercenaryGunner>  
+		</value>
+	</Operation> 
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[4]/options</xpath>  <!-- Outlander base group -->
+		<value>
+			<OrassanMercenarySoldier>3</OrassanMercenarySoldier>    <!-- Pawnkinds from your race, keep points down low to avoid making your pawns a majority -->
+			<OrassanMercenarySniper>3</OrassanMercenarySniper>
+			<OrassanMercenaryGunner>1</OrassanMercenaryGunner>  
+		</value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[1]/options</xpath>  <!-- Pirate "normal" group -->
+		<value>
+			<OrassanPirate>3</OrassanPirate>
+			<OrassanPirateSlasher>2</OrassanPirateSlasher>
+			<OrassanMercenarySoldier>1</OrassanMercenarySoldier> 
+		</value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[2]/options</xpath>  <!-- Pirate "normal" melee only group -->
+		<value>
+			<OrassanPirateSlasher>5</OrassanPirateSlasher>
+		</value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[7]/options</xpath>  <!-- Pirate base group -->
+		<value>
+			<OrassanPirate>5</OrassanPirate>
+			<OrassanPirateSlasher>2</OrassanPirateSlasher>
+			<OrassanMercenarySoldier>1</OrassanMercenarySoldier> 
+		</value>
+	</Operation> 
+	
+</Patch>

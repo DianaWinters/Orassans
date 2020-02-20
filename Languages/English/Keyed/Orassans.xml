@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- GUI -->
+	<OrassansColdImmunePlants>Immune to cold</OrassansColdImmunePlants>
+	<!-- Betharian -->
+	<BetharianBorerFinished>Drilling is finished. Deconstruct the drill.</BetharianBorerFinished>
+	<BetharianBorerDrilling>Boring progress: {0}</BetharianBorerDrilling>
+	<BetharianBorerFinishedLabel>Betharian borer finished</BetharianBorerFinishedLabel>
+    <BetharianBorerFinishedText>The betharian borer machine has finished. Deconstruct it and build a power plant over the bore hole.</BetharianBorerFinishedText>
+</LanguageData>

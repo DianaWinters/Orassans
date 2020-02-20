@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <BodyPartGroupDef>
+    <defName>RightHandClawsGroup</defName>
+    <label>right hand claws</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+
+
+  <BodyPartGroupDef>
+    <defName>LeftHandClawsGroup</defName>
+    <label>left hand claws</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  
+	<BodyPartDef>
+   	 <defName>OTail</defName>
+   	 <label>orassan tail</label>
+   	 <hitPoints>15</hitPoints>
+   	 <frostbiteVulnerability>1</frostbiteVulnerability>
+   	 <spawnThingOnRemoved>OTail</spawnThingOnRemoved>
+   	 <skinCovered>true</skinCovered>
+   	 <beautyRelated>true</beautyRelated>
+   	 <tags>
+		<li>MovingLimbSegment</li>
+   	 </tags>
+	</BodyPartDef>
+
+  
+    <BodyPartDef>
+    <defName>RightHandClaws</defName>
+    <label>right claws</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>false</skinCovered>
+	<spawnThingOnRemoved>Claws</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+    
+    <BodyPartDef>
+    <defName>LeftHandClaws</defName>
+    <label>left claws</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>false</skinCovered>
+	<spawnThingOnRemoved>Claws</spawnThingOnRemoved>
+  </BodyPartDef>
+
+</Defs>

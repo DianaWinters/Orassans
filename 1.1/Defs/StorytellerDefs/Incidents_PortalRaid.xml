@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <IncidentDef>
+    <defName>PortalRaidOrassan</defName>
+    <label>orassan portal raid</label>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Orassan.IncidentWorker_PortalRaid</workerClass>
+    <baseChance>3.4</baseChance>
+    <category>ThreatBig</category>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>Raid</tale>
+    <populationEffect>None</populationEffect>
+    <letterLabel>Orassan Raid</letterLabel>
+    <letterText>The orassans are not pleased with you, they open up a portal to raid you.</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <minRefireDays>15</minRefireDays>
+    <minDifficulty>2</minDifficulty>
+    <durationDays>
+      <min>0.075</min>
+      <max>0.1</max>
+    </durationDays>
+  </IncidentDef>
+</Defs>

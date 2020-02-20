@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Generate betharian deposits -->
+	<GenStepDef>
+		<defName>ScatterBetharianLumps</defName>
+		<order>100</order>
+		<genStep Class="BetharianPower.GenStep_BetharianDeposits">
+			<minSpacing>4</minSpacing>
+			<countPer10kCellsRange>
+				<min>9</min>
+				<max>9</max>
+			</countPer10kCellsRange>
+			<warnOnFail>false</warnOnFail>
+		</genStep>
+	</GenStepDef>
+	<!-- Research -->
+
+	<!-- Bore Hole -->
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>BetharianBoreHole</defName>
+		<thingClass>BetharianPower.Building_BetharianBoreHole</thingClass>
+		<label>exposed betharian crystals</label>
+		<graphicData>
+			<texPath>Things/Buildings/Betharian_crystal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<altitudeLayer>Floor</altitudeLayer>
+		<rotatable>false</rotatable>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<description>A big deposit of crystals made by a machine exposing a betharian stone deposit.</description>
+		<size>(3,3)</size>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<blockPlants>true</blockPlants>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+		</building>
+	</ThingDef>
+	<!-- Visual Stuff -->
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_BetharianGlow</defName>
+		<graphicData>
+			<texPath>Mote/BetharianGlow</texPath>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.75</fadeInTime>
+			<solidTime>1.08</solidTime>
+			<fadeOutTime>0.8</fadeOutTime>
+		</mote>
+	</ThingDef>
+	<!-- Betharian Borer -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>BetharianBorer</defName>
+		<label>betharian borer</label>
+		<thingClass>BetharianPower.Building_BetharianBorer</thingClass>
+		<description>Drills big holes in the ground to let betharian powerplants tap the deposits of betharian stone.</description>
+		<graphicData>
+			<texPath>Things/Buildings/OrassanDrill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+			<shadowData>
+				<volume>(1.4, 0.5, 1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+			<!--li Class="CompProperties_LongRangeMineralScanner"/-->
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>BetharianPower.PlaceWorker_ShowBetharianStone</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>BetharianPower.PlaceWorker_BetharianStoneDepositCoverage</li>
+		</placeWorkers>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-8</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.40</fillPercent>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<pathCost>25</pathCost>
+		<designationCategory>Misc</designationCategory>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(5, 5)</size>
+		<researchPrerequisites>
+			<li>DeepDrillBoring</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+	<!-- Power generator -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>BetharianGenerator</defName>
+		<label>betharian generator</label>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Buildings/sci-fi_power_plant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<damageData>
+				<rect>(0.3,0,5.4,6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>6000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>Produces electricity from betharian. Combined miner and power plant.</description>
+		<size>(7,7)</size>
+		<costList>
+			<Plasteel>200</Plasteel>
+			<Steel>400</Steel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+			  <researchPrerequisites>
+		<li>BetherianPower</li>
+	  </researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>BetharianPower.CompPowerPlantBetharian</compClass>
+				<basePowerConsumption>-250000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>BetharianPower.PlaceWorker_BetharianBoreHole</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc6</designationHotKey>
+		<!--researchPrerequisites><li>GeothermalPower</li></researchPrerequisites-->
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+</Defs>
