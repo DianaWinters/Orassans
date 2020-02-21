@@ -6,7 +6,7 @@ using Verse;
 
 namespace CustomFactionBase
 {
-    [StaticConstructorOnStartup]
+    //[StaticConstructorOnStartup]
     public static partial class CustomBaseUtility
     {
         internal static List<ResolverStruct> resolvers = new List<ResolverStruct>();
