@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDBC2C47-C955-4034-A212-C06B18BCBCAE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Orassans</RootNamespace>
+    <AssemblyName>Orassans</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\RimWorld\Mods\Orassans\1.1\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\RimWorld\Mods\Orassan\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="AlienRace">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\294100\839005762\Assemblies\AlienRace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AI\JobGiver_OrassanNuzzle.cs" />
+    <Compile Include="Data\ProjectileSwitcherInfo.cs" />
+    <Compile Include="ThingComponents\ProjectileSwitcherComp.cs" />
+    <Compile Include="ThingComponents\Properties\CompProperties_ProjectileSwitcher.cs" />
+    <Compile Include="Things\Building_BombardmentBeacon.cs" />
+    <Compile Include="Things\Building_BombardmentBeacon2.cs" />
+    <Compile Include="ThingComponents\CompOrassanShield.cs" />
+    <Compile Include="Bombardment\IncidentWorker_OrassanBombardment.cs" />
+    <Compile Include="Bombardment\MapCondition_OrassanBombardment.cs" />
+    <Compile Include="Bombardment\WeatherEvent_OrbitalBombardment.cs" />
+    <Compile Include="ThingComponents\CompOrassanPower.cs" />
+    <Compile Include="ThingComponents\Comp_FoodOrassan.cs" />
+    <Compile Include="IncidentWorker_PortalRaid.cs" />
+    <Compile Include="CustomFactionBases\CustomBaseUtility.cs" />
+    <Compile Include="CustomFactionBases\ResolverStruct.cs" />
+    <Compile Include="CustomFactionBases\SymbolResolverAdder.cs" />
+    <Compile Include="CustomFactionBases\SymbolResolver_CustomTest.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="DefOfs\OrassanDefOf.cs" />
+    <Compile Include="Defs\PawnBioDef.cs" />
+    <Compile Include="Placeworkers\Placeworker_Orassan.cs" />
+    <Compile Include="Things\Projectile_SnowMaker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SymbolResolver_OrassanBase.cs" />
+    <Compile Include="Things\FrostPlant.cs" />
+    <Compile Include="AI\ThinkNode_ConditionalIsOrassan.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
