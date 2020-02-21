@@ -2,7 +2,7 @@
 <Defs>
 
   <FactionDef Abstract="True" Name="OrassanFactionBase">
-    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
       <li>(0, 0.737, 0.847)</li>
     </colorSpectrum>
@@ -18,8 +18,8 @@
 	<pawnNameMaker>NamerPersonOrassan</pawnNameMaker>
     <techLevel>Ultra</techLevel>
     <backstoryCategories><li>Orassan</li></backstoryCategories>
-    <homeIconPath>World/OrassanBaseIcon</homeIconPath>
-    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+    <factionIconPath>World/OrassanBaseIcon</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>

@@ -45,10 +45,7 @@
     <baseTraderKinds>
       <li>Base_Outlander_Standard</li>
     </baseTraderKinds>
-    <allowedArrivalTemperatureRange>
-      <min>-60</min>
-      <max>30</max>
-    </allowedArrivalTemperatureRange>
+    <allowedArrivalTemperatureRange>-60~35</allowedArrivalTemperatureRange>
 	<maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
@@ -109,8 +106,8 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/OrassanBaseIcon</homeIconPath>
-    <expandingIconTexture>World/OrassanBaseIcon</expandingIconTexture>
+    <settlementTexturePath>World/OrassanBaseIcon</settlementTexturePath>
+    <factionIconPath>World/OrassanBaseIcon</factionIconPath>
   </FactionDef>
 
 </Defs>

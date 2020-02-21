@@ -4,6 +4,9 @@
 <author>Diana(Kitty)</author>
 	<supportedVersions>
     <li>1.0</li>
+	<li>1.1</li>
 	</supportedVersions>
-<description>Now for 1.0!</description>
+	<packageId>dianawinters.Orassans</packageId>
+  <url>https://github.com/DianaWinters/Orassans</url>
+<description>Now for 1.1!</description>
 </ModMetaData>

@@ -187,6 +187,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>cat's eye berry</label>
     <labelNoun>juiciness</labelNoun>
+	<description>Cat Eye berries, when injested, act as a stimulant.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <isBad>false</isBad>
@@ -293,6 +294,7 @@
   <HediffDef ParentName="DrugToleranceBase">
     <defName>CatberryTolerance</defName>
     <label>Cat's eye berry tolerance</label>
+	<description>The more cat eye berries consumed, the less of an effect the same amount will have in the future.</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.02</severityPerDay>
@@ -321,6 +323,7 @@
   <HediffDef ParentName="DrugToleranceBase">
     <defName>CateyeTolerance</defName>
     <label>Cat's Eye berry tolerance</label>
+	<description>The more cat eye berries consumed, the less of an effect the same amount will have in the future.</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.02</severityPerDay>
@@ -336,6 +339,7 @@
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>Cat's Eye berry dependence</label>
     <causesNeed>Chemical_Cateye</causesNeed>
+	<description>Continued consumption of cat eye can lead to addiction.</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.04</severityPerDay>

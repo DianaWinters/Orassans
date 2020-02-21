@@ -7,69 +7,67 @@
       <label>orassan tail</label>
       <description>An Orassan tail.</description>
       <graphicData>
-         <texPath>Things/Item/Health/HealthItemNatural</texPath>
+         <texPath>Things/Item/Health/HealthItem</texPath>
          <graphicClass>Graphic_Single</graphicClass>
       </graphicData>
+	  <descriptionHyperlinks><RecipeDef>InstallOrassanTail</RecipeDef></descriptionHyperlinks>
       <statBases>
          <MarketValue>200</MarketValue>
 		 <Mass>2</Mass>
       </statBases>
    </ThingDef>
-   
-      <ThingDef ParentName="BodyPartNaturalBase">
-      <defName>Claws</defName>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OClothTail</defName>
+    <label>cloth orassan tail</label>
+    <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.8</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>PlasteelClaws</defName>
+    <label>orassan plasteel claws</label>
+    <description>Even sharper claws capable of murdering many more couches!</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>plasteel claws</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>20</power>
+            <cooldownTime>1.3</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  
+     <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>OClaws</defName>
       <label>orassan claws</label>
-      <description>A set of retractable claws.</description>
-      <graphicData>
-         <texPath>Things/Item/Health/HealthItemNatural</texPath>
-         <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
+      <description>Sharp claws capable of murdering many couches.</description>
+	  <descriptionHyperlinks><RecipeDef>InstallOrassanClaws</RecipeDef></descriptionHyperlinks>
       <statBases>
          <MarketValue>200</MarketValue>
 		 <Mass>.2</Mass>
       </statBases>
    </ThingDef>
 
-  <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>ClothTail</defName>
-    <label>cloth orassan tail</label>
-    <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>400</MarketValue>
-      <Mass>1</Mass>
-    </statBases>
-    <techHediffsTags>
-      <li>Simple</li>
-    </techHediffsTags>
-  </ThingDef>
-
-  <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>PlasteelClaws</defName>
-    <label>orassan plasteel claws</label>
-    <description>Somewhat cheap meathod of increasing the damage claws can do.</description>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItemBionic</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>175</MarketValue>
-      <Mass>.5</Mass>
-    </statBases>
-    <techHediffsTags>
-      <li>Advanced</li>
-    </techHediffsTags>
-  </ThingDef>
-
   <ThingDef ParentName="BodyPartBionicBase">
-    <defName>BionicTail</defName>
+    <defName>OBionicTail</defName>
     <label>bionic orassan tail</label>
     <description>A sophisticated prehensile tail replacement. It's like having another hand!</description>
     <graphicData>
-      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <texPath>Things/Item/Health/HealthItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -84,5 +82,26 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
+  
+    <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OBionicTail</defName>
+    <label>bionic orassan tail</label>
+    <spawnThingOnRemoved>OBionicTail</spawnThingOnRemoved>
+	<description>Includes an integrated gyroscope to help maintain balance and imrpove manipulation.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+          <capMods>
+            <li>
+              <capacity>Manipulation</capacity>
+              <offset>0.2</offset>
+            </li>
+          </capMods>
+      </li>
+    </stages>
+  </HediffDef>
 
 </Defs>

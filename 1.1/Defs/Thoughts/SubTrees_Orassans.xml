@@ -12,7 +12,7 @@
                             <subNodes>
                                 <li Class="ThinkNode_ChancePerHour_Nuzzle">
 									<subNodes>
-										<li Class="Orassan.JobGiver_OrassanNuzzle" />
+										<li Class="Orassans.JobGiver_OrassanNuzzle" />
 									</subNodes>
 								</li>
                             </subNodes>

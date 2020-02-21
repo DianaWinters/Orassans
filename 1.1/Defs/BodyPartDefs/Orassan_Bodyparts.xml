@@ -35,7 +35,7 @@
 		<description>Sharp claws capable of murdering many couches.</description>
 		<hitPoints>10</hitPoints>
 		<skinCovered>false</skinCovered>
-		<spawnThingOnRemoved>Claws</spawnThingOnRemoved>
+		<spawnThingOnRemoved>OClaws</spawnThingOnRemoved>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -44,7 +44,7 @@
 		<description>Sharp claws capable of murdering many couches.</description>
 		<hitPoints>10</hitPoints>
 		<skinCovered>false</skinCovered>
-		<spawnThingOnRemoved>Claws</spawnThingOnRemoved>
+		<spawnThingOnRemoved>OClaws</spawnThingOnRemoved>
 	</BodyPartDef>
 
 </Defs>

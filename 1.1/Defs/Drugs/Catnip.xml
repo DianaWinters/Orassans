@@ -86,11 +86,11 @@
         <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
-		<defName>MakeCatnipJoint</defName>
+		<defName>MakeCatnipJoint5</defName>
 		<label>make catnip joints (5)</label>
 		<description>Make catnip joints from catnip leaves.</description>
 		<jobString>Making catnip joints.</jobString>
-        <workSpeedStat>TailoringSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Tailor</effectWorking>
 		<soundWorking></soundWorking>
@@ -121,11 +121,11 @@
         <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
-		<defName>MakeCatnipJoint</defName>
+		<defName>MakeCatnipJoint15</defName>
 		<label>make bulk catnip joints (15)</label>
 		<description>Make catnip joints from catnip leaves.</description>
 		<jobString>Making catnip joints.</jobString>
-        <workSpeedStat>TailoringSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Crafting</workSkill>
         <effectWorking>Tailor</effectWorking>
 		<soundWorking></soundWorking>
@@ -156,6 +156,7 @@
     <defName>CatnipHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>stoned on catnip</label>
+	<description>When smoked, the chemical nepetalactone acts as a potent sedative.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -216,6 +217,7 @@
   <HediffDef ParentName="DrugToleranceBase">
     <defName>CatnipTolerance</defName>
     <label>Catnip tolerance</label>
+	<description>The more catnip is smoked, the less effect tehe same amount will have.</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.02</severityPerDay>
@@ -231,6 +233,7 @@
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>Catnip dependence</label>
     <causesNeed>Chemical_Catnip</causesNeed>
+	<description>A psychological dependance can be developed due to continued use of catnip.</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.04</severityPerDay>

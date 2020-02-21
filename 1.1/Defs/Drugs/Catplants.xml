@@ -31,10 +31,7 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>8</growDays>
       <fertilitySensitivity>1.0</fertilitySensitivity>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
     </plant>
   </ThingDef>
   
@@ -68,10 +65,7 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>5.5</growDays>
       <fertilitySensitivity>1.2</fertilitySensitivity>
-      <visualSizeRange>
-        <min>0.3</min>
-        <max>1.0</max>
-      </visualSizeRange>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
     </plant>
   </ThingDef>
 

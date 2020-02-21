@@ -28,6 +28,9 @@
     <takeFootprints>True</takeFootprints>
 	<constructEffect>ConstructDirt</constructEffect>
 	<designationCategory>Floors</designationCategory>
+	<filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
   </TerrainDef>
   
     <TerrainDef>
@@ -60,6 +63,9 @@
     <takeFootprints>True</takeFootprints>
 	<constructEffect>ConstructDirt</constructEffect>
 	<designationCategory>Floors</designationCategory>
+	<filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
   </TerrainDef>
   
 </Defs>
