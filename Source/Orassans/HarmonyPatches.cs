@@ -12,7 +12,7 @@ using HarmonyLib;
 
 namespace Orassan
 {
-    [StaticConstructorOnStartup]
+    //[StaticConstructorOnStartup]
     static class HarmonyPatches
     {
         static HarmonyPatches()

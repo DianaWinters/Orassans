@@ -7,3 +7,7 @@ D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassan\Assemblies\B
 D:\Programmering\C#\Rimworld\Orassans\BatharianPower\obj\Debug\BetharianPower.csprojAssemblyReference.cache
 D:\Programmering\C#\Rimworld\Orassans\BatharianPower\obj\Debug\BetharianPower.csproj.CoreCompileInputs.cache
 D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\1.1\Assemblies\BetharianPower.dll
+D:\Program Files (x86)\Steam\steamapps\common\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\1.1\Assemblies\BetharianPower.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\BatharianPower\obj\Debug\BetharianPower.csprojAssemblyReference.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\BatharianPower\obj\Debug\BetharianPower.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\BatharianPower\obj\Debug\BetharianPower.dll

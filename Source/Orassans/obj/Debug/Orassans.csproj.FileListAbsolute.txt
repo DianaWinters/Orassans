@@ -11,3 +11,8 @@ D:\Programmering\C#\Rimworld\Orassans\Orassans\obj\Debug\Orassans.csproj.CoreCom
 D:\Programmering\C#\Rimworld\Orassans\Orassans\obj\Debug\Orassans.csproj.CopyComplete
 D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\1.1\Assemblies\Orassans.dll
 D:\Programmering\C#\Rimworld\Orassans\Orassans\obj\Debug\Orassans.csprojAssemblyReference.cache
+D:\Program Files (x86)\Steam\steamapps\common\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\1.1\Assemblies\Orassans.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\Orassans\obj\Debug\Orassans.csprojAssemblyReference.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\Orassans\obj\Debug\Orassans.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\Orassans\obj\Debug\Orassans.csproj.CopyComplete
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Orassans\Source\Orassans\obj\Debug\Orassans.dll
