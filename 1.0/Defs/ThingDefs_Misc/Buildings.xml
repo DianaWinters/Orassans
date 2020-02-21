@@ -154,6 +154,12 @@
 			<MarketValue>10000</MarketValue>
 			<Mass>25</Mass>
 		</statBases>
+				    <costList>
+      <Steel>150</Steel>
+	  <Plasteel>100</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+	  <ComponentSpacer>6</ComponentSpacer>
+    </costList>
 		<graphicData>
 			<texPath>Things/Buildings/OrassanPower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
