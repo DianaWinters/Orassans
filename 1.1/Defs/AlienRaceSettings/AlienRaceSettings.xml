@@ -66,16 +66,5 @@
                 </li>
             </alienwandererkinds>
             </pawnKindSettings>
-			<factionRelations>
-                <li>
-                    <factions>
-                       <li>OrassanPlayerColony</li>
-                    </factions>
-                    <goodwill>
-                       <min>100</min>
-                       <max>100</max>
-                    </goodwill>
-                </li>               
-            </factionRelations>
 </AlienRace.RaceSettings>
 </Defs>
