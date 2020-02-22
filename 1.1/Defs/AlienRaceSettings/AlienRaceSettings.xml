@@ -8,9 +8,6 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-                                <li>OrassanTownGuard</li>
-                                <li>OrassanSniper</li>
-                                <li>OrassanGunner</li>
                                 <li>OrassanVillager</li>
                             </kindDefs>
                             <chance>10.0</chance>
@@ -55,6 +52,9 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
+                                <li>OrassanTownGuard</li>
+                                <li>OrassanSniper</li>
+                                <li>OrassanGunner</li>
                                 <li>OrassanVillager</li>
                             </kindDefs>
                             <chance>15.0</chance>
@@ -66,5 +66,16 @@
                 </li>
             </alienwandererkinds>
             </pawnKindSettings>
+			<factionRelations>
+                <li>
+                    <factions>
+                       <li>OrassanPlayerColony</li>
+                    </factions>
+                    <goodwill>
+                       <min>100</min>
+                       <max>100</max>
+                    </goodwill>
+                </li>               
+            </factionRelations>
 </AlienRace.RaceSettings>
 </Defs>
