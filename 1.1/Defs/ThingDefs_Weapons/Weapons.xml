@@ -880,14 +880,14 @@
       <texPath>Things/Item/Equipment/Weapons/kittyclaws</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Ultra</techLevel>
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>OrassanMelee</li>
     </weaponTags>
     <costList>
-    <Plasteel>125</Plasteel>
-    <ComponentSpacer>1</ComponentSpacer>
+    <Plasteel>150</Plasteel>
+    <ComponentSpacer>4</ComponentSpacer>
 </costList>
     <statBases>
       <WorkToMake>10000</WorkToMake>
@@ -901,7 +901,7 @@
           <li>Blunt</li>
         </capacities>
         <power>10</power>
-        <cooldownTime>2.5</cooldownTime>
+        <cooldownTime>1.75</cooldownTime>
       </li>
       <li>
         <label>point</label>
@@ -909,7 +909,8 @@
           <li>Stab</li>
         </capacities>
         <power>25</power>
-        <cooldownTime>2.5</cooldownTime>
+        <cooldownTime>1.75</cooldownTime>
+		<armorPenetration>0.7</armorPenetration>
       </li>
       <li>
         <label>edge</label>
@@ -917,12 +918,17 @@
           <li>Cut</li>
         </capacities>
         <power>32</power>
-        <cooldownTime>2.5</cooldownTime>
+        <cooldownTime>1.75</cooldownTime>
+        <armorPenetration>0.7</armorPenetration>
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
+		<researchPrerequisite>OMachining</researchPrerequisite>
+		<recipeUsers>
+			<li>TableOrassanMachining</li>
+		</recipeUsers>
     </recipeMaker>
+
   </ThingDef>
 
   
