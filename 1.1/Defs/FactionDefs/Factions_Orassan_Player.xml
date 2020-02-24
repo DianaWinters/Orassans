@@ -33,6 +33,7 @@
     <apparelStuffFilter>
       <thingDefs>
         <li>Synthread</li>
+		<li>CatLavenderCloth</li>
       </thingDefs>
     </apparelStuffFilter>
 

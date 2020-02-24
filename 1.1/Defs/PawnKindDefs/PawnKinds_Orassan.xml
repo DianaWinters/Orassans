@@ -353,7 +353,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
     <weaponMoney>
-      <min>2000</min>
+      <min>3000</min>
       <max>6000</max>
     </weaponMoney>
     <weaponTags>
