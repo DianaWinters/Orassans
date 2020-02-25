@@ -49,6 +49,9 @@
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
+	    <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+    </comps>
   </ThingDef>
   <!-- ==================== orassan rocket launcher ========================== -->
 
@@ -70,7 +73,7 @@
       <stoppingPower>5</stoppingPower>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="OrassanBaseGun">
+  <ThingDef ParentName="BaseOrassanMakeableGun">
     <defName>Gun_OrassanRocket</defName>
     <label>orassan missile launcher</label>
     <description>A missle launcher of Orassan design; typically used to destroy fortified positions or armored vehicles. Due to the focused nature of the explosives, the explosion radius is small compared to some other kinds of explosives.</description>
