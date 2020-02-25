@@ -40,6 +40,9 @@
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
+    <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+    </comps>
   </ThingDef>
   
   <ThingDef Name="BaseOrassanMakeableGun" ParentName="OrassanBaseMakeableGun" Abstract="True">
