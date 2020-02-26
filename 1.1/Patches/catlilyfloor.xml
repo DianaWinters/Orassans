@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-<Operation Class="PatchOperationConditional">
-    <xpath>/Defs/TerrainDef[defName="CarpetFineIndigo"]</xpath>
-    <match Class="PatchOperationInsert">
-        <xpath>/Defs/TerrainDef[defName="CarpetFineIndigo"]</xpath>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
         <value>
               <TerrainDef ParentName="FloorBase">
     <texturePath>Terrain/CatLavenderCarpet</texturePath>
