@@ -1151,6 +1151,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
     
     <!--<saveKeyIdentifier>OrassanIDCapitalChild</saveKeyIdentifier>-->
@@ -1202,6 +1203,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
     
     <!--<saveKeyIdentifier>OrassanIDGeneChild</saveKeyIdentifier>-->
@@ -1233,6 +1235,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
     
     <!--<saveKeyIdentifier>OrassanIDCapitalChild</saveKeyIdentifier>-->
@@ -1302,6 +1305,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
     
     
@@ -1397,6 +1401,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
     
     
@@ -1484,6 +1489,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
 	</AlienRace.BackstoryDef>
 	
@@ -1510,6 +1516,7 @@
     <spawnCategories>
       <li>Orassan</li>
 	  <li>OrassanSoldier</li>
+	  <li>OrassanPirate</li>
     </spawnCategories>
 	</AlienRace.BackstoryDef>
 	
