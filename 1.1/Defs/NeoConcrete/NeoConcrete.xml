@@ -43,6 +43,42 @@
     </costList>
   </TerrainDef>
   
+	<TerrainDef ParentName="SmoothTileStoneBase">
+		<defName>TileMedicalNeoConcrete</defName>
+		<label>Medical Tiles</label>
+		<pathCost>-1</pathCost><!-- be careful here can wreck pathing if number is too low. -1 = 108% -2 = 118% -->
+		<description>Flat and clean</description>
+		<color>(350,350,350)</color>
+		<statBases>
+			<WorkToBuild>1200</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Cleanliness>0.7</Cleanliness>
+		</statBases>
+		<costList>
+			<NeoConcreteMix>15</NeoConcreteMix>
+			<Silver>7</Silver>
+		</costList>
+	</TerrainDef>
+	
+		<TerrainDef ParentName="SmoothTileStoneBase">
+		<defName>TileDiplomaticNeoConcrete</defName>
+		<label>Diplomatic Tiles </label>
+		<texturePath>Things/Buildings/NeoConcrete/NeoFloor</texturePath>
+		<description>Hexagonal Neo-Concrete tiles mixed with some gold, silver, and plasteel.</description>
+		<color>(189, 185, 92)</color>
+		<statBases>
+			<WorkToBuild>1700</WorkToBuild>
+			<Beauty>4</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<NeoConcreteMix>20</NeoConcreteMix>
+			<Silver>7</Silver>
+			<Gold>1</Gold>
+			<Plasteel>1</Plasteel>
+		</costList>
+	</TerrainDef>
+  
     <ThingDef ParentName="ResourceBase">
     <defName>RockPowder</defName>
     <label>rock powder</label>
