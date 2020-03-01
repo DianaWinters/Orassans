@@ -11,6 +11,9 @@
 	<placeWorkers>
 		<li>Orassans.Placeworker_Orassan</li>
     </placeWorkers>
+		<costList>
+      <Steel>1</Steel>
+    </costList>
     <statBases>
       <Beauty>0</Beauty>
 	  <WorkToBuild>600</WorkToBuild>
