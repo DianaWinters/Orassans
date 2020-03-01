@@ -41,5 +41,24 @@
     </stuffProps>
   </ThingDef>
   
+     <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Desiri</defName>
+    <label>ori fur</label>
+    <description>A soft furry pelt harvested from a desiri. It insulates moderately well.</description>
+    <graphicData>
+      <color>(235,235,235)</color>
+      <colorTwo>(235,235,235)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.5</MarketValue>
+      <StuffPower_Armor_Sharp>0.22</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(235,235,235)</color>
+      <commonality>0.05</commonality>
+    </stuffProps>
+  </ThingDef>
 
 </Defs>

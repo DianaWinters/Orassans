@@ -173,4 +173,79 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+  
+  
+  <!-- Desiri-->
+  
+    <ThingDef ParentName="ThingBaseFox">
+    <defName>Animal_Desiri</defName>
+    <label>desiri</label>
+    <description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey.</description>
+    <race>
+      <useMeatFrom>Fox_Fennec</useMeatFrom>
+	        <petness>0.3</petness>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>0.6</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Desiri</leatherDef>
+      <trainability>Advanced</trainability>
+      <wildness>0.40</wildness>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <lifeExpectancy>20</lifeExpectancy>
+    </race>
+    <statBases>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+    </statBases>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Animal_Desiri</defName>
+    <label>desiri</label>
+    <labelPlural>desiri</labelPlural>
+    <race>Animal_Desiri</race>
+	    <wildGroupSize>
+      <min>2</min>
+      <max>2</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>desiri puppy</label>
+        <labelPlural>desiri puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiri</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiri</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiri</texPath>
+          <drawSize>1.75</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 </Defs>
