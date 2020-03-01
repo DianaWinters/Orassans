@@ -328,20 +328,6 @@
 				<li>Naked</li>
                 </cannotReceiveThoughts>
             </thoughtSettings>
-			<raceRestriction>
-			    <buildingList>
-					<li>OrassanSoilRich</li>
-					<li>OrassanSoil</li>
-				</buildingList>
-			    <recipeList>
-					<li>MakeCatJuice</li>
-				</recipeList>
-
-			    <plantList>
-					<li>PlantCatnip</li>
-					<li>PlantCateye</li>
-				</plantList>
-			</raceRestriction>
         </alienRace>
         <!--<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>-->
         <statBases>
