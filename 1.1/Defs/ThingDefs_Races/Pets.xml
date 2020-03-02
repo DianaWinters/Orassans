@@ -180,7 +180,7 @@
     <ThingDef ParentName="ThingBaseFox">
     <defName>Animal_Desiri</defName>
     <label>desiri</label>
-    <description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey.</description>
+    <description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey. A somewhat popular pet among orassans. They typically live in pairs.</description>
     <race>
       <useMeatFrom>Fox_Fennec</useMeatFrom>
 	        <petness>0.3</petness>
@@ -194,6 +194,14 @@
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <gestationPeriodDays>16</gestationPeriodDays>
       <lifeExpectancy>20</lifeExpectancy>
+	        <wildBiomes>
+	<IceSheet>0.5</IceSheet>
+
+	<Tundra>0.8</Tundra>
+	<BorealForest>0.8</BorealForest>
+
+	<TemperateForest>1</TemperateForest>
+      </wildBiomes>
     </race>
     <statBases>
       <ComfyTemperatureMin>-50</ComfyTemperatureMin>
