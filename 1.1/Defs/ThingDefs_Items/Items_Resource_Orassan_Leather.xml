@@ -43,11 +43,11 @@
   
      <ThingDef ParentName="LeatherBase">
     <defName>Leather_Desiri</defName>
-    <label>ori fur</label>
+    <label>desiri fur</label>
     <description>A soft furry pelt harvested from a desiri. It insulates moderately well.</description>
     <graphicData>
       <color>(235,235,235)</color>
-      <colorTwo>(235,235,235)</colorTwo>
+      <colorTwo>(235,235,240)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>4.5</MarketValue>
