@@ -22,7 +22,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef Name="OrassanBaseMakeableGun" ParentName="OrassanBaseGun" Abstract="True">
+  <ThingDef Name="BaseOrassanMakeableGun" ParentName="OrassanBaseGun" Abstract="True">
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -36,23 +36,6 @@
     </recipeMaker>
   </ThingDef>
 
-    <ThingDef Name="BaseOrassanGun" ParentName="OrassanBaseGun" Abstract="True">
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-    <comps>
-      <li Class="CompProperties_BiocodableWeapon"/>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef Name="BaseOrassanMakeableGun" ParentName="OrassanBaseMakeableGun" Abstract="True">
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-	    <comps>
-      <li Class="CompProperties_BiocodableWeapon"/>
-    </comps>
-  </ThingDef>
   <!-- ==================== orassan rocket launcher ========================== -->
 
   <ThingDef ParentName="BaseBullet">
