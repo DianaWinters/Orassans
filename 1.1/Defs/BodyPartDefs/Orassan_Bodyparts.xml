@@ -47,4 +47,16 @@
 		<spawnThingOnRemoved>OClaws</spawnThingOnRemoved>
 	</BodyPartDef>
 
+	<!-- Gryphon -->
+	<BodyPartDef>
+		<defName>Gryphon_Wing</defName>
+		<label>wing</label>
+		<description>Large feather covered wings.</description>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>false</skinCovered>
+		<!--<spawnThingOnRemoved>Gryphon_Wing</spawnThingOnRemoved>-->
+	</BodyPartDef>
+
+
 </Defs>
