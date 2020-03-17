@@ -203,6 +203,10 @@
 	<TemperateForest>1</TemperateForest>
       </wildBiomes>
     </race>
+	    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
     <statBases>
       <ComfyTemperatureMin>-50</ComfyTemperatureMin>
     </statBases>
@@ -376,6 +380,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>BadassAnimal</li>
 		</tradeTags>
 	</ThingDef>
 

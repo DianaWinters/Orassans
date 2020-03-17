@@ -118,8 +118,8 @@
  
 	<ThingDef ParentName="OArmorMakeableBase">
 		<defName>Apparel_KittyArmor</defName>
-		<label>orassan exoskeletal armor</label>
-		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors greatly increase the wearer's load bearing capacity and assist in weapon-handling.</description>
+		<label>orassan heavy exoskeletal armor</label>
+		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors greatly increase the wearer's load bearing capacity and assist in weapon-handling. This variant is heavily armored and can withstand even the most extreme punishment.</description>
 		<techLevel>Ultra</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -175,8 +175,8 @@
 
 	<ThingDef ParentName="OArmorMakeableBase">
 		<defName>Apparel_MediumKittyArmor</defName>
-		<label>orassan medium exoskeletal armor</label>
-		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors increase the wearer's load bearing capacity and assist in weapon-handling. This version is lightly armored to reduce weight and cost.</description>
+		<label>orassan exoskeletal armor</label>
+		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors increase the wearer's load bearing capacity and assist in weapon-handling. This version is moderately armored to reduce weight and cost.</description>
 		<techLevel>Ultra</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -199,7 +199,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>.1</ShootingAccuracyPawn>
-			<CarryingCapacity>35</CarryingCapacity>
+			<CarryingCapacity>50</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Apparel</li>
