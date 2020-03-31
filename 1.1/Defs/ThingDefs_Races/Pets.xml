@@ -535,8 +535,6 @@
 
 					<drawSize>0.9</drawSize>
 
-					<shaderType>CutoutComplex</shaderType>
-
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
@@ -553,11 +551,10 @@
 
 				<bodyGraphicData>
 
-					<texPath>Things/Pawn/Animal/Gryphon/Gryphon</texPath>
+					<texPath>Things/Pawn/Gryphon/Gryphon</texPath>
 
 					<drawSize>1.9</drawSize>
 
-					<shaderType>CutoutComplex</shaderType>
 
 					<shadowData>
 
@@ -586,8 +583,6 @@
 					<texPath>Things/Pawn/Gryphon/Gryphon</texPath>
 
 					<drawSize>2.7</drawSize>
-
-					<shaderType>CutoutComplex</shaderType>
 
 					<shadowData>
 
