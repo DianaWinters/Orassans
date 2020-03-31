@@ -298,7 +298,6 @@
     <costStuffCount>60</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
-	  <li>CatLavenderCloth</li>
       <li>Leathery</li>
     </stuffCategories>
 	<tradeability>Sellable</tradeability>
