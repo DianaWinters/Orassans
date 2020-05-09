@@ -266,7 +266,10 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <researchPrerequisites><li>Stonecutting</li></researchPrerequisites>
+    <researchPrerequisites>
+		<li>Stonecutting</li>
+		<li>Electricity</li>
+	</researchPrerequisites>
     <designationHotKey>Misc9</designationHotKey>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
