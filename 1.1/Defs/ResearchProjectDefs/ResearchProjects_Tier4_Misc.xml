@@ -3,33 +3,40 @@
 
 	<!--========================= Tier 4: Hi-tech research bench with multi-analyzer ===================================-->
 
-		<ResearchProjectDef>
+	<ResearchProjectDef>
 		<defName>BetharianScanning</defName>
 		<label>betharian scanning</label>
-                <tab>OrassanResearch</tab>
+		<tab>OrassanResearch</tab>
 		<description>Unlocks betharian stone scanning capabilities in the deep scanner.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>GroundPenetratingScanner</li>
+		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 	
-		<ResearchProjectDef>
+	<ResearchProjectDef>
 		<defName>DeepDrillBoring</defName>
 		<label>deep drill boring</label>
-                <tab>OrassanResearch</tab>
+		<tab>OrassanResearch</tab>
 		<description>Unlocks the betherian borer, which unearths betherian stone that can be exploited for power.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>DeepDrilling</li>
+			<li>BetharianScanning</li>
+		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 	
 	
-			<ResearchProjectDef>
+	<ResearchProjectDef>
 		<defName>BetherianPower</defName>
 		<label>betherian stone exploitation</label>
-                <tab>OrassanResearch</tab>
+		<tab>OrassanResearch</tab>
 		<description>Unlocks the betherian power plant.</description>
 		<baseCost>5000</baseCost>
 		<techLevel>Ultra</techLevel>

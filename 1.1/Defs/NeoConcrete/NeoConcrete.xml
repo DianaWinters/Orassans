@@ -2,7 +2,7 @@
 <Defs>
   <TerrainDef Abstract="True" ParentName="FloorBase" Name="NeoTileStoneBase">
     <renderPrecedence>220</renderPrecedence>
-    <description>Hexagonal Neo-Concrete tiles. Relatively , easy to pour, fireproof, and aren't ugly.</description>
+    <description>Hexagonal Neo-Concrete tiles. Easy to pour, fireproof, and aren't ugly.</description>
     <texturePath>Things/Buildings/NeoConcrete/NeoFloor</texturePath>
     <statBases>
       <WorkToBuild>800</WorkToBuild>
