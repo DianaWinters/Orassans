@@ -104,6 +104,7 @@
 							</backstoryGraphics>
 							<inFrontOfBody>true</inFrontOfBody>
 							<useSkinColor>true</useSkinColor>
+							<drawnInBed>false</drawnInBed>
 							<offsets>
 								<south>
 									<bodyTypes>
