@@ -39,6 +39,11 @@
 		<tab>OrassanResearch</tab>
 		<description>Unlocks the betherian power plant.</description>
 		<baseCost>5000</baseCost>
+		<prerequisites>
+			<li>DeepDrilling</li>
+			<li>BetharianScanning</li>
+			<li>DeepDrillBoring</li>
+		</prerequisites>
 		<techLevel>Ultra</techLevel>
 		<researchViewX>1</researchViewX>
 		<researchViewY>5</researchViewY>
