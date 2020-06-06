@@ -416,11 +416,11 @@
 
 			<body>Orassan_Gryphon_Body</body>
 
-			<herdAnimal>false</herdAnimal>
+			<herdAnimal>true</herdAnimal>
 
 			<predator>true</predator>
 
-			<maxPreyBodySize>0.74</maxPreyBodySize>
+			<maxPreyBodySize>1</maxPreyBodySize>
 
 			<baseBodySize>1.8</baseBodySize>
 
@@ -428,7 +428,7 @@
 
 			<baseHealthScale>1.8</baseHealthScale>
 
-			<foodType>CarnivoreAnimal, OvivoreAnimal, VegetarianRoughAnimal</foodType>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 
 			<leatherDef>Leather_Gryphon</leatherDef>
 
