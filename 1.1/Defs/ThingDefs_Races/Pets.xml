@@ -555,7 +555,7 @@
 
 				<bodyGraphicData>
 
-					<texPath>Things/Pawn/Animal/Gryphon/Gryphon</texPath>
+					<texPath>Things/Pawn/Gryphon/Gryphon</texPath>
 
 					<drawSize>1.9</drawSize>
 
