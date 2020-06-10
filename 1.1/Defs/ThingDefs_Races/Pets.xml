@@ -429,7 +429,9 @@
 			<baseHealthScale>1.8</baseHealthScale>
 
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-
+			
+			<trainability>Advanced</trainability>
+			
 			<leatherDef>Leather_Gryphon</leatherDef>
 
 			<wildness>0.65</wildness>
