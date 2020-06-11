@@ -416,7 +416,7 @@
 
 			<body>Orassan_Gryphon_Body</body>
 
-			<herdAnimal>true</herdAnimal>
+			<packAnimal>true</packAnimal>
 
 			<predator>true</predator>
 
