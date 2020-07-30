@@ -5,10 +5,11 @@
 	<supportedVersions>
     <li>1.0</li>
 	<li>1.1</li>
+	<li>1.2</li>
 	</supportedVersions>
 	<packageId>dianawinters.Orassans</packageId>
   <url>https://github.com/DianaWinters/Orassans</url>
-<description>Now for 1.1!</description>
+<description>Now for 1.x!</description>
 <modDependencies>
    <li>
       <packageId>erdelf.HumanoidAlienRaces</packageId>

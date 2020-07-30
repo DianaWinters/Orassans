@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<PawnKindDef Name="BaseOrassanPawnKind">
+        <defName>Orassan</defName>
+        <label>colonist</label>
+    <combatPower>25</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		
+    <race>Alien_Orassan</race>
+        <defaultFactionType>PlayerColony</defaultFactionType>
+        <backstoryCategories><li>Orassan</li></backstoryCategories>
+        <chemicalAddictionChance>0.06</chemicalAddictionChance>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+        </apparelTags>
+        <apparelMoney>350~600</apparelMoney>
+        <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+        <techHediffsChance>0.05</techHediffsChance>
+    <techHediffsMoney>2000~3000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    </PawnKindDef>
+
+
+  <PawnKindDef Name="Villager">
+    <defName>OrassanVillager</defName>
+    <label>orassan colonist</label>
+    <race>Alien_Orassan</race>
+    <combatPower>25</combatPower>
+    <baseRecruitDifficulty>0.80</baseRecruitDifficulty>
+    <backstoryCategories><li>Orassan</li></backstoryCategories>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.7~2</gearHealthRange>
+    <apparelMoney>350~600</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <weaponMoney>800~1800</weaponMoney>
+    <weaponTags>
+      <li>OrassanPistol</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>2000</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.01</techHediffsChance>
+    <invNutrition>3</invNutrition>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>25~70</countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>700~1000</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+    <PawnKindDef>
+    <defName>OrassanSlave</defName>
+    <label>orassan slave</label>
+    <race>Alien_Orassan</race>
+    <combatPower>25</combatPower>
+    <baseRecruitDifficulty>0.40</baseRecruitDifficulty>
+    <backstoryCategories><li>Orassan</li></backstoryCategories>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <itemQuality>Poor</itemQuality>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.2~0.6</gearHealthRange>
+    <apparelMoney>100~250</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <techHediffsMoney>2000~3000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.01</techHediffsChance>
+    <invNutrition>3</invNutrition>
+  </PawnKindDef>
+  
+      <PawnKindDef>
+    <defName>OrassanRefugee</defName>
+    <label>orassan refugee</label>
+    <race>Alien_Orassan</race>
+    <combatPower>25</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <backstoryCategories><li>Orassan</li></backstoryCategories>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.2~2</gearHealthRange>
+    <apparelMoney>1000~3000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <techHediffsMoney>2000~3000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.01</techHediffsChance>
+    <invNutrition>3</invNutrition>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="Villager">
+    <defName>OrassanTownCouncilman</defName>
+    <label>orassan governor</label>
+    <combatPower>40</combatPower>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>30</minGenerationAge>
+    <isFighter>false</isFighter>
+    <gearHealthRange>1~1</gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponMoney>200~2000</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <apparelMoney>700~1200</apparelMoney>
+    <apparelTags>
+      <li>IndustrialMilitaryBasic</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Apparel_BowlerHat</li>
+    </apparelRequired>
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>600~1500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="Villager">
+    <defName>OrassanTrader</defName>
+    <label>town trader</label>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="OrassanSoldier">
+    <defName>OrassanTownGuard</defName>
+    <label>orassan soldier</label>
+    <race>Alien_Orassan</race>
+    <combatPower>50</combatPower>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <backstoryCategories><li>OrassanSoldier</li></backstoryCategories>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>5000~9000</apparelMoney>
+    <apparelTags>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+<weaponMoney>5000~10000</weaponMoney>
+    <weaponTags>
+      <li>OrassanRifle</li>
+    </weaponTags>
+    <techHediffsMoney>2000~3000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.05</techHediffsChance>
+    <invNutrition>3</invNutrition>
+  </PawnKindDef>
+	
+  <PawnKindDef ParentName="OrassanSoldier">
+    <defName>OrassanSniper</defName>
+    <label>orassan sniper</label>
+    <race>Alien_Orassan</race>
+    <combatPower>140</combatPower>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <backstoryCategories><li>OrassanSoldier</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+     <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+	  <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+    <apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>5000~10000
+    </weaponMoney>
+    <weaponTags>
+      <li>OrassanSniper</li>
+    </weaponTags>
+    <techHediffsMoney>2000~3500
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef>
+    <defName>OrassanMercenarySniper</defName>
+    <label>orassan sniper</label>
+    <race>Alien_Orassan</race>
+    <combatPower>140</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <backstoryCategories><li>OrassanMercenary</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+<apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+<weaponMoney>5000~10000</weaponMoney>
+    <weaponTags>
+      <li>OrassanSniper</li>
+    </weaponTags>
+<techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OrassanSoldier">
+    <defName>OrassanSlasher</defName>
+    <label>frontliner</label>
+    <combatPower>135</combatPower>
+    <race>Alien_Orassan</race>
+    <defaultFactionType>Orassan</defaultFactionType>
+<backstoryCategories><li>OrassanFrontliner</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>50</maxGenerationAge>
+    <gearHealthRange>0.5~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
+    </apparelRequired>
+    <apparelMoney>3500~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+    <weaponMoney>5000~7500</weaponMoney>
+    <weaponTags>
+      <li>OrassanMelee</li>
+    </weaponTags>
+    <techHediffsMoney>5000~10000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.08</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>180~400</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef>
+    <defName>OrassanPirateSlasher</defName>
+    <label>orassan pirate</label>
+    <combatPower>150</combatPower>
+    <race>Alien_Orassan</race>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <backstoryCategories><li>OrassanPirate</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>50</maxGenerationAge>
+    <gearHealthRange>0.5~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Apparel_ShieldBelt</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>1750</min>
+      <max>6000</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>3000</min>
+      <max>6000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>OrassanMelee</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>5000</min>
+      <max>10000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.08</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>180~400</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OrassanSoldier">
+    <defName>OrassanGunner</defName>
+    <label>orassan gunner</label>
+    <race>Alien_Orassan</race>
+    <combatPower>200</combatPower>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <backstoryCategories><li>OrassanSoldier</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+<apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+<weaponMoney>5000~10000</weaponMoney>
+    <weaponTags>
+      <li>OrassanLMG</li>
+    </weaponTags>
+<techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+    <PawnKindDef>
+    <defName>OrassanMercenaryGunner</defName>
+    <label>orassan gunner</label>
+    <race>Alien_Orassan</race>
+    <combatPower>200</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <backstoryCategories><li>OrassanMercenary</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+<apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+<weaponMoney>5000~10000</weaponMoney>
+    <weaponTags>
+      <li>OrassanLMG</li>
+    </weaponTags>
+<techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OrassanSoldier">
+    <defName>OrassanGrenadier</defName>
+    <label>orassan grenadier</label>
+    <race>Alien_Orassan</race>
+    <combatPower>250</combatPower>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <backstoryCategories><li>OrassanSoldier</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+<apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+<weaponMoney>5000~25000</weaponMoney>
+    <weaponTags>
+      <li>OrassanCryo</li>
+      <li>OrassanMissile</li>
+    </weaponTags>
+<techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+    <PawnKindDef Name="OrassanSoldier">
+    <defName>OrassanSoldier</defName>
+    <label>orassan soldier</label>
+    <race>Alien_Orassan</race>
+    <combatPower>150</combatPower>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <defaultFactionType>Orassan</defaultFactionType>
+    <backstoryCategories><li>OrassanSoldier</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+<apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+<weaponMoney>5000~10000</weaponMoney>
+    <weaponTags>
+      <li>OrassanRifle</li>
+	  <li>OrassanSMG</li>
+	  <li>OrassanShotgun</li>
+    </weaponTags>
+<techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+			<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+			<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
+  </PawnKindDef>
+  	
+   <PawnKindDef>
+    <defName>OrassanMercenarySoldier</defName>
+    <label>orassan mercenary</label>
+    <race>Alien_Orassan</race>
+    <combatPower>150</combatPower>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <backstoryCategories><li>OrassanMercenary</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Good</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+    <apparelMoney>5000~10000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>5000~10000</weaponMoney>
+    <weaponTags>
+      <li>OrassanRifle</li>
+	  <li>OrassanSMG</li>
+	  <li>OrassanShotgun</li>
+    </weaponTags>
+    <techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+     <PawnKindDef>
+    <defName>OrassanPirate</defName>
+    <label>orassan pirate</label>
+    <race>Alien_Orassan</race>
+    <combatPower>120</combatPower>
+    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+    <backstoryCategories><li>OrassanPirate</li></backstoryCategories>
+    <invNutrition>3</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>35</maxGenerationAge>
+<gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>OrassanMilitary</li>
+      <li>OrassanSoldier</li>
+    </apparelTags>
+    <apparelMoney>2500~4000</apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <weaponMoney>2500~3000</weaponMoney>
+    <weaponTags>
+      <li>OrassanRifle</li>
+	  <li>OrassanSMG</li>
+	  <li>OrassanShotgun</li>
+    </weaponTags>
+    <techHediffsMoney>2000~3500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.075</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>.2</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+			<countRange>50~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</Defs>

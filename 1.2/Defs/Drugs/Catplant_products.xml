@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>CatnipLeaves</defName>
+    <label>catnip leaves</label>
+    <description>Raw cut leaves of a catnip plant. Can be rolled into smokeable joint at a crafting spot.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/CatnipLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+  
+    <ThingDef ParentName="PlantFoodRawBase">
+    <defName>CateyeBerries</defName>
+	<socialPropernessMatters>true</socialPropernessMatters>
+    <label>cat's eye berries</label>
+    <description>Ripe cat's eye berries. Can be consumed directly for a small buzz or refined further into a refreshing juice.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/CateyeBerries</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+	    <ingestible>
+      <preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+	  	      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Catberries</hediffDef>
+          <severity>0.025</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+
+  </ThingDef>
+</Defs>

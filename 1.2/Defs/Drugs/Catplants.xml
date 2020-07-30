@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantCatnip</defName>
+    <label>catnip plant</label>
+    <description>A leafy plant cultivated for its psychological effects. Catnip leaves can be rolled into joints at a crafting spot. Can withstand even the harshest cold weather.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>5</Beauty>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+	<thingClass>Orassans.FrostPlant</thingClass>
+    <graphicData>
+      <texPath>Things/Plant/CatnipPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CatnipLeaves</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+      <harvestYield>14</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantCateye</defName>
+    <label>cat's eye plant</label>
+    <description>A bush plant cultivated for its stimulating berries. Cat's eye berries can be brewed into a drink analagous to coffee... except it tastes much better. Can withstand even the harshest cold weather.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>5</Beauty>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+	<thingClass>Orassans.FrostPlant</thingClass>
+    <graphicData>
+      <texPath>Things/Plant/CateyePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CateyeBerries</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+      <harvestYield>14</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>5.5</growDays>
+      <fertilitySensitivity>1.2</fertilitySensitivity>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+   <ThingDef ParentName="PlantBase">
+    <defName>Plant_CatLavender</defName>
+    <label>Blue Cat Lily</label>
+    <description>This fragile flowering plant was genetically engineered to produce a silk net that is both difficult to tear and soft to the touch. While the plant takes a very long time to grow, only exotic ultra-tech fabrics outperform its fibers.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+	<thingClass>Orassans.FrostPlant</thingClass>
+    <graphicData>
+      <texPath>Things/Plant/CatLavender</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>22.5</growDays>
+      <sowWork>400</sowWork>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CatLavenderCloth</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <neverBlightable>true</neverBlightable>
+      <sowTags>
+        <li>Ground</li>
+		<li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>CatLavenderCloth</defName>
+    <label>blue cat lily</label>
+    <description>Fabric spun from microfibers extracted from blue cat lillies. It is very tough and exceptionally good at insulating.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/CatLavender</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5.5</MarketValue>
+      <Mass>0.032</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>1.40</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>3.00</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.20</commonality>
+      <color>(2, 2, 140)</color>
+      <statFactors>
+        <Flammability>0.4</Flammability>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <Beauty>3.2</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

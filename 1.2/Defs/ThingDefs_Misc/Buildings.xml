@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef>
+		<defName>Building_OrassanShield</defName>
+		<label>orassan shield</label>
+		<description>Automatically switches on to protect from the orbital bombardment; tremendous power drain and considerable heating when operational.</description>
+		<designationCategory>Security</designationCategory>
+		<tickerType>Normal</tickerType>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Buildings/Shield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(10,10)</drawSize>
+			<damageData>
+				<rect>(0.3, 0.3, 1.2, 1.2)</rect>
+			</damageData>
+		</graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<repairEffect>Repair</repairEffect>
+		<constructEffect>ConstructMetal</constructEffect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<castEdgeShadows>false</castEdgeShadows>
+		<size>(10,10)</size>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<selectable>True</selectable>
+		<rotatable>False</rotatable>
+		<fillPercent>0.30</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<researchPrerequisites>
+			<li>ShieldAssembly</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>750</Steel>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<ComponentSpacer>25</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>10000</basePowerConsumption>
+				<shortCircuitInRain>True</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="OrassanBombardment.CompProperties_OrassanShield"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>OrassanBombardmentBeacon</defName>
+		<label>oudated bombardment beacon</label>
+		<description>An outdated Orassan beacon. These can only be sold for a small price.</description>
+		<tickerType>Normal</tickerType>
+		<category>Building</category>
+		<thingClass>OrassanBombardment.Building_BombardmentBeacon</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Buildings/bbeacon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rect>(0.3, 0.3, 1.2, 1.2)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+  	</ThingDef>
+
+	<ThingDef>
+		<defName>OrassanBombardmentBeaconSecond</defName>
+		<label>outdated safe distance bombardment beacon</label>
+		<description>An Orassan beacon. These can only be sold for a small price.</description>
+		<tickerType>Normal</tickerType>
+		<category>Building</category>
+		<thingClass>OrassanBombardment.Building_BombardmentBeacon2</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Buildings/sbeacon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rect>(0.3, 0.3, 1.2, 1.2)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+  	</ThingDef>
+
+	<ThingDef>
+		<defName>OrassanPowerTransfer</defName>
+		<label>orassan power transfer</label>
+		<description>Power rations. The Orassans will send you power. The higher relations, the more power.</description>
+		<tickerType>Normal</tickerType>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		 <thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+    	<pathCost>200</pathCost>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
+		<passability>Impassable</passability>
+		<statBases>
+			<MarketValue>10000</MarketValue>
+			<Mass>25</Mass>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<graphicData>
+			<texPath>Things/Buildings/OrassanPower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.3, 0.3, 1.2, 1.2)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,3)</size>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>Orassan.CompOrassanPower</compClass>
+				<basePowerConsumption>0</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>OrassanPortal</defName>
+		<label>orassan portal</label>
+		<description>A portal to transport Orassan troops.</description>
+		<tickerType>Normal</tickerType>
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>false</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<pathCost>0</pathCost>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MarketValue>0</MarketValue>
+			<Mass>99999</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Blueportal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Mote</shaderType>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="BenchBase">
+		<defName>TableConcreteMixer</defName>
+		<label>concrete mixer</label>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<description>A concrete mixer.</description>
+		<graphicData>
+			<texPath>Things/Buildings/NeoConcrete/concretemixer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-5</Cleanliness>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(200,200,0,0)</glowColor>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+				<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<designationHotKey>Misc9</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="BenchBase">
+		<defName>TableOrassanMachining</defName>
+		<label>orassan machining table</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A work station for assembling advanced orassan weaponry and armor.</description>
+		<graphicData>
+			<texPath>Things/Buildings/OrassanWorkbench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>ButcherCorpseMechanoid</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(73,123,138,0)</glowColor>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites><li>OMachining</li></researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<WorkGiverDef>
+		<defName>DoBillsOrassanMachiningTable</defName>
+		<label>do bills at orassan machining table</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>75</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableOrassanMachining</li>
+		</fixedBillGiverDefs>
+		<verb>work</verb>
+		<gerund>working at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+</Defs>

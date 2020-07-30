@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_Orassan</defName>
+		<label>orassan fur</label>
+		<description>A soft furry pelt harvested from an orassan. Most will find this ditestible, and it doesn't protect well from physical damage, but it will keep you warm in even the coldest enviroments.</description>
+		<graphicData>
+			<color>(235,235,235)</color>
+			<colorTwo>(235,235,235)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<StuffPower_Armor_Sharp>0.18</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(235,235,235)</color>
+			<commonality>0.001</commonality>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_Ori</defName>
+		<label>ori fur</label>
+		<description>A soft furry pelt harvested from an ori. It insulates moderately well.</description>
+		<graphicData>
+			<color>(235,235,235)</color>
+			<colorTwo>(235,235,235)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<StuffPower_Armor_Sharp>0.18</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(235,235,235)</color>
+			<commonality>0.05</commonality>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_Desiri</defName>
+		<label>desiri fur</label>
+		<description>A soft furry pelt harvested from a desiri. It insulates moderately well.</description>
+		<graphicData>
+			<color>(235,235,235)</color>
+			<colorTwo>(235,235,240)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.5</MarketValue>
+			<StuffPower_Armor_Sharp>0.22</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(235,235,235)</color>
+			<commonality>0.05</commonality>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_Gryphon</defName>
+		<label>gryphon hide</label>
+		<description>This hide is a strange combination of panthera fur and bird feathers. It is luxuriously soft and resistant to cold weather.</description>
+		<graphicData>
+			<color>(235,235,235)</color>
+			<colorTwo>(235,235,235)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<StuffPower_Armor_Sharp>0.23</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(235,235,235)</color>
+			<commonality>0.001</commonality>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
