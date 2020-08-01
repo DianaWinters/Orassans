@@ -104,7 +104,7 @@
 							<Orassan_GeneWarrior>Things/Pawn/Humanlike/Tails/OTailG</Orassan_GeneWarrior>
 							</backstoryGraphics>
 							<inFrontOfBody>true</inFrontOfBody>
-							<useSkinColor>true</useSkinColor>
+							<colorChannel>skin</colorChannel>
 							<drawnInBed>false</drawnInBed>
 							<offsets>
 								<south>
@@ -147,7 +147,7 @@
 							<path>EarLeft</path>
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<useSkinColor>true</useSkinColor>
+							<colorChannel>skin</colorChannel>
 							<offsets>
 								<south>
 									<bodyTypes>
@@ -211,7 +211,7 @@
 							<path>EarRight</path>
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<useSkinColor>true</useSkinColor>
+							<colorChannel>skin</colorChannel>
 							<offsets>
 								<south>
 									<bodyTypes>
@@ -271,8 +271,10 @@
                 </hiddenUnderApparelFor>
 						</li>
 					</bodyAddons>
-
-                    <alienskincolorgen Class="ColorGenerator_Options">
+			<colorChannels>
+				<li>
+					<name>skin</name>
+                    <first Class="ColorGenerator_Options">
                         <options>
                         <li>
                             <weight>10</weight>
@@ -303,7 +305,9 @@
                         <only>RGBA(0.502,0.071,0.145,1)</only>
 						</li>
                         </options>
-                    </alienskincolorgen>
+					</first>
+				</li>
+            </colorChannels>
                     <customDrawSize>(0.7, 0.7)</customDrawSize>
                     <customPortraitDrawSize>(.7, .7)</customPortraitDrawSize>
                 </alienPartGenerator>
