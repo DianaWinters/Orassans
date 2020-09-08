@@ -56,7 +56,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CateyeBerries</harvestedThingDef>
       <harvestFailable>true</harvestFailable>
-      <harvestYield>14</harvestYield>
+      <harvestYield>8</harvestYield>
       <sowMinSkill>6</sowMinSkill>
       <sowTags>
         <li>Ground</li>
