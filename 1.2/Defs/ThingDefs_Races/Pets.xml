@@ -50,14 +50,6 @@
       </li>
     </tools>
     <race>
-      <wildBiomes>
-	<IceSheet>0.5</IceSheet>
-
-	<Tundra>0.8</Tundra>
-	<BorealForest>0.8</BorealForest>
-
-	<TemperateForest>1</TemperateForest>
-      </wildBiomes>
       <body>Monkey</body>
 
       <herdAnimal>true</herdAnimal>
@@ -106,7 +98,7 @@
     <label>ori</label>
     <race>Ori</race>
     <combatPower>40</combatPower>
-    <ecoSystemWeight>0.20</ecoSystemWeight>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
     <labelMale>ori</labelMale>
     <labelFemale>ori</labelFemale>
     <wildGroupSize>
@@ -178,16 +170,141 @@
   
   <!-- Desiri-->
   
-    <ThingDef ParentName="ThingBaseFox">
+    <ThingDef Name="ThingBaseDesiri" ParentName="AnimalThingBase" Abstract="True">
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+		  <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>23</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <maxPreyBodySize>1.2</maxPreyBodySize>
+      <baseBodySize>0.75</baseBodySize>
+      <baseHungerRate>0.12</baseHungerRate>
+      <baseHealthScale>0.70</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Fox</leatherDef>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.75</wildness>
+      <nuzzleMtbHours>60</nuzzleMtbHours>
+      <gestationPeriodDays>21</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(2.5, 0.7)</li>
+          <li>(3, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>9</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.35</minAge>
+          <!-- no sounds -->
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase" Name="AnimalKindBaseDesiri" Abstract="True">
+    <combatPower>45</combatPower>
+    <ecoSystemWeight>0.75</ecoSystemWeight>
+  </PawnKindDef>
+  
+  
+    <ThingDef ParentName="ThingBaseDesiri">
     <defName>Animal_Desiri</defName>
     <label>desiri</label>
-    <description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey. A somewhat popular pet among orassans. They typically live in pairs.</description>
+    <description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey... and the giant spiders native to Orassia. They use their strong jaws to crush their prey's exoskeleton and/or bones, and are surprisingly durable for their size. A somewhat popular pet among orassans. They typically live in pairs.</description>
     <race>
       <useMeatFrom>Fox_Fennec</useMeatFrom>
 	        <petness>0.3</petness>
-      <baseBodySize>0.6</baseBodySize>
+      <baseBodySize>0.75</baseBodySize>
       <baseHungerRate>0.3</baseHungerRate>
-      <baseHealthScale>0.6</baseHealthScale>
+      <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_Desiri</leatherDef>
       <trainability>Advanced</trainability>
@@ -195,14 +312,6 @@
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <gestationPeriodDays>16</gestationPeriodDays>
       <lifeExpectancy>20</lifeExpectancy>
-	        <wildBiomes>
-	<IceSheet>0.5</IceSheet>
-
-	<Tundra>0.8</Tundra>
-	<BorealForest>0.8</BorealForest>
-
-	<TemperateForest>1</TemperateForest>
-      </wildBiomes>
     </race>
 	    <tradeTags>
           <li>AnimalUncommon</li>
@@ -214,7 +323,7 @@
     </statBases>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBaseFox">
+  <PawnKindDef ParentName="AnimalKindBaseDesiri">
     <defName>Animal_Desiri</defName>
     <label>desiri</label>
     <labelPlural>desiri</labelPlural>
@@ -239,7 +348,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Desiri/Desiri</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>1.35</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -247,17 +356,17 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Desiri/Desiri</texPath>
-          <drawSize>1.75</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
-          <drawSize>1.75</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -487,16 +596,6 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-
-			<wildBiomes>
-
-				<TemperateForest>0.1</TemperateForest>
-				<IceSheet>0.15</IceSheet>
-
-				<Tundra>0.25</Tundra>
-				<BorealForest>0.2</BorealForest>
-
-			</wildBiomes>
 
 		</race>
 
