@@ -51,7 +51,18 @@
     </tools>
     <race>
       <body>Monkey</body>
+			<wildBiomes>
+				<BorealForest>0.12</BorealForest>
+				<Tundra>0.07</Tundra>
+				<ColdBog>0.07</ColdBog>
+				<TemperateForest>0.12</TemperateForest>
+				<TemperateSwamp>0.12</TemperateSwamp>
+				<TropicalRainforest>0.12</TropicalRainforest>
+				<TropicalSwamp>0.12</TropicalSwamp>
+				<AridShrubland>0.1</AridShrubland>
 
+
+			</wildBiomes>
       <herdAnimal>true</herdAnimal>
       <petness>0.4</petness>
       <baseBodySize>0.55</baseBodySize>
@@ -98,7 +109,7 @@
     <label>ori</label>
     <race>Ori</race>
     <combatPower>40</combatPower>
-    <ecoSystemWeight>0.30</ecoSystemWeight>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
     <labelMale>ori</labelMale>
     <labelFemale>ori</labelFemale>
     <wildGroupSize>
@@ -255,6 +266,18 @@
       <wildness>0.75</wildness>
       <nuzzleMtbHours>60</nuzzleMtbHours>
       <gestationPeriodDays>21</gestationPeriodDays>
+	  			<wildBiomes>
+				<BorealForest>0.05</BorealForest>
+				<Tundra>0.03</Tundra>
+				<ColdBog>0.02</ColdBog>
+				<TemperateForest>0.07</TemperateForest>
+				<TemperateSwamp>0.07</TemperateSwamp>
+				<TropicalRainforest>0.07</TropicalRainforest>
+				<TropicalSwamp>0.07</TropicalSwamp>
+				<AridShrubland>0.05</AridShrubland>
+
+
+			</wildBiomes>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -552,6 +575,18 @@
 			<gestationPeriodDays>30</gestationPeriodDays>
 
 			<lifeExpectancy>35</lifeExpectancy>
+						<wildBiomes>
+				<BorealForest>0.05</BorealForest>
+				<Tundra>0.03</Tundra>
+				<ColdBog>0.02</ColdBog>
+				<TemperateForest>0.07</TemperateForest>
+				<TemperateSwamp>0.07</TemperateSwamp>
+				<TropicalRainforest>0.07</TropicalRainforest>
+				<TropicalSwamp>0.07</TropicalSwamp>
+				<AridShrubland>0.05</AridShrubland>
+
+
+			</wildBiomes>
 
 			<lifeStageAges>
 
