@@ -109,7 +109,7 @@
     <label>ori</label>
     <race>Ori</race>
     <combatPower>40</combatPower>
-    <ecoSystemWeight>0.50</ecoSystemWeight>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
     <labelMale>ori</labelMale>
     <labelFemale>ori</labelFemale>
     <wildGroupSize>
@@ -314,7 +314,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase" Name="AnimalKindBaseDesiri" Abstract="True">
     <combatPower>45</combatPower>
-    <ecoSystemWeight>0.75</ecoSystemWeight>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
   </PawnKindDef>
   
   
