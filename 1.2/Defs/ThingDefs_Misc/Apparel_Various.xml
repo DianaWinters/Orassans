@@ -142,7 +142,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>.1</ShootingAccuracyPawn>
-			<CarryingCapacity>50</CarryingCapacity>
+			<CarryingCapacity>100</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Apparel</li>
@@ -199,7 +199,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>.1</ShootingAccuracyPawn>
-			<CarryingCapacity>50</CarryingCapacity>
+			<CarryingCapacity>100</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Apparel</li>
@@ -256,7 +256,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>.1</ShootingAccuracyPawn>
-			<CarryingCapacity>20</CarryingCapacity>
+			<CarryingCapacity>100</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Apparel</li>
