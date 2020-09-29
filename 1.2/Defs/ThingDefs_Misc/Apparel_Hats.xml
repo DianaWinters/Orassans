@@ -50,6 +50,7 @@
       </layers>
       <tags>
         <li>Orassan</li>
+		<li>EVA</li>
       </tags>
       <defaultOutfitTags>
         <li>OrassanScientist</li>
@@ -106,6 +107,7 @@
       </layers>
       <tags>
         <li>OrassanMilitary</li>
+		<li>EVA</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>

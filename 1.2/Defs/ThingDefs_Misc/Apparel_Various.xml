@@ -101,6 +101,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/OrassanSacriSuit/KittySacriSuit</wornGraphicPath>
 			<layers>
@@ -109,6 +111,7 @@
 			</layers>
 			<tags>
 				<li>Orassan</li>
+				<li>EVA</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>OrassanScientist</li>
@@ -119,7 +122,7 @@
 	<ThingDef ParentName="OArmorMakeableBase">
 		<defName>Apparel_KittyArmor</defName>
 		<label>orassan heavy exoskeletal armor</label>
-		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors greatly increase the wearer's load bearing capacity and assist in weapon-handling. This variant is heavily armored and can withstand even the most extreme punishment.</description>
+		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors and micro thrusters greatly increase the wearer's load bearing capacity and assist in weapon-handling. This variant is heavily armored and can withstand even the most extreme punishment and allows the wearer to survive in the conditions of a vacuum.</description>
 		<techLevel>Ultra</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -158,6 +161,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/OrassanPoweredExoskeleton/KittyArmor</wornGraphicPath>
 			<layers>
@@ -166,6 +171,7 @@
 			</layers>
 			<tags>
 				<li>OrassanMilitary</li>
+				<li>EVA</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>OrassanSoldier</li>
