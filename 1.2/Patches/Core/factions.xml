@@ -6,6 +6,7 @@
 			<OrassanMercenarySoldier>3</OrassanMercenarySoldier>    <!-- Pawnkinds from your race, keep points down low to avoid making your pawns a majority -->
 			<OrassanMercenarySniper>3</OrassanMercenarySniper>
 			<OrassanMercenaryGunner>1</OrassanMercenaryGunner>      <!-- The more rare, the lower your points should be -->
+			<HybridSoldier>1</HybridSoldier>
 		</value>
 	</Operation> 
 	
@@ -15,6 +16,7 @@
 			<OrassanMercenarySoldier>3</OrassanMercenarySoldier>    <!-- Pawnkinds from your race, keep points down low to avoid making your pawns a majority -->
 			<OrassanMercenarySniper>3</OrassanMercenarySniper>
 			<OrassanMercenaryGunner>1</OrassanMercenaryGunner>  
+			<HybridSoldier>1</HybridSoldier>
 		</value>
 	</Operation> 
 
@@ -24,6 +26,7 @@
 			<OrassanMercenarySoldier>3</OrassanMercenarySoldier>    <!-- Pawnkinds from your race, keep points down low to avoid making your pawns a majority -->
 			<OrassanMercenarySniper>3</OrassanMercenarySniper>
 			<OrassanMercenaryGunner>1</OrassanMercenaryGunner>  
+			<HybridSoldier>1</HybridSoldier>
 		</value>
 	</Operation> 
 	
@@ -33,6 +36,7 @@
 			<OrassanPirate>3</OrassanPirate>
 			<OrassanPirateSlasher>2</OrassanPirateSlasher>
 			<OrassanMercenarySoldier>1</OrassanMercenarySoldier> 
+			<HybridSoldier>1</HybridSoldier>
 		</value>
 	</Operation> 
 	
@@ -49,6 +53,7 @@
 			<OrassanPirate>5</OrassanPirate>
 			<OrassanPirateSlasher>2</OrassanPirateSlasher>
 			<OrassanMercenarySoldier>1</OrassanMercenarySoldier> 
+			<HybridSoldier>1</HybridSoldier>
 		</value>
 	</Operation> 
 	

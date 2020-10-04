@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-	<!-- Orassans. 1541519487. https://steamcommunity.com/sharedfiles/filedetails/?id=1541519487 -->
 	<!-- Creama da le NyaNya -->
 	<rjw.RaceGroupDef>
 		<defName>Orassan_Petite_Cat_Furries</defName>
@@ -13,6 +12,7 @@
 		<pawnKindNames>
 		</pawnKindNames>
 		
+		<!-- list multiple times for higher chance to pick  -->
 		<anuses>
 			<li>Anus</li>
 			<li>Anus</li>
@@ -206,6 +206,7 @@
 			<!-- <li>zzzzzzCat</li> -->
 		<!-- </hybridChildKindDef> -->
 
+		<raceSexDrive>1.2</raceSexDrive>
 		<hasSingleGender>false</hasSingleGender>
 		<hasSexNeed>true</hasSexNeed>
 		<hasFertility>true</hasFertility>
@@ -231,7 +232,7 @@
 		</anuses>
 		
 		<femaleBreasts>
-			<li>GenericBreasts</li>
+			<li>Breasts</li>
 		</femaleBreasts>
 
 		<femaleGenitals>
@@ -239,15 +240,102 @@
 		</femaleGenitals>
 
 		<maleBreasts>
-			<li>GenericBreasts</li>
+			<li>Breasts</li>
 		</maleBreasts>
 
 		<maleGenitals>
-			<li>GenericPenis</li>
+			<li>NeedlePenis</li>
 		</maleGenitals>
 
 		<tags>
 			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+	
+	<!-- Walf -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Mammal_Animal_Desiri</defName>
+
+		<raceNames>
+			<li>Animal_Desiri</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<!-- <femaleBreasts> -->
+			<!-- <li>Flat_FeaturelessChestBreasts</li> -->
+		<!-- </femaleBreasts> -->
+
+		<femaleGenitals>
+			<li>DogVagina</li>
+		</femaleGenitals>
+
+		<!-- <maleBreasts> -->
+			<!-- <li>FeaturelessChest</li> -->
+		<!-- </maleBreasts> -->
+
+		<maleGenitals>
+			<li>DogPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+	
+	<!-- Gryphin -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Mammal_Animal_Gryphon</defName>
+
+		<raceNames>
+			<li>Gryphon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<!-- <femaleBreasts> -->
+			<!-- <li>Flat_FeaturelessChestBreasts</li> -->
+		<!-- </femaleBreasts> -->
+
+		<femaleGenitals>
+			<li>CatVagina</li>
+		</femaleGenitals>
+
+		<!-- <maleBreasts> -->
+			<!-- <li>FeaturelessChest</li> -->
+		<!-- </maleBreasts> -->
+
+		<maleGenitals>
+			<li>CatPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+			<li>Feathers</li>
 		</tags>
 
 		<hasSingleGender>false</hasSingleGender>
