@@ -67,16 +67,19 @@
 	        <OrassanGrenadier>5</OrassanGrenadier>
 			<OrassanTownCouncilman>1</OrassanTownCouncilman>
 		  <HybridSoldier>3</HybridSoldier>
+		  <HumanSoldier>3</HumanSoldier>
         </options>
       </li>
 	  <li>
       <kindDef>Peaceful</kindDef>
         <options>
           <OrassanVillager>20</OrassanVillager>
+		  <HumanVillager>5</HumanVillager>
 		  <HybridVillager>5</HybridVillager>
           <OrassanTownGuard>10</OrassanTownGuard>
           <OrassanTownCouncilman>5</OrassanTownCouncilman>
 		  <HybridSoldier>3</HybridSoldier>
+		  <HumanSoldier>3</HumanSoldier>
         </options>
       </li>
 	  <li>
@@ -94,6 +97,7 @@
           <OrassanGunner>1</OrassanGunner>
           <OrassanSlasher>1</OrassanSlasher>
 		  <HybridSoldier>3</HybridSoldier>
+		  <HumanSoldier>3</HumanSoldier>
 	        <OrassanGrenadier>1</OrassanGrenadier>
         </guards>
       </li>
@@ -102,10 +106,12 @@
         <options>
           <OrassanVillager>5</OrassanVillager>
 		  <HybridVillager>1</HybridVillager>
+		  <HumanVillager>1</HumanVillager>
           <OrassanTownGuard>10</OrassanTownGuard>
           <OrassanTownCouncilman>1</OrassanTownCouncilman>
           <OrassanSoldier>10</OrassanSoldier>
 		  <HybridSoldier>3</HybridSoldier>
+		  <HumanSoldier>3</HumanSoldier>
           <OrassanSniper>10</OrassanSniper>
           <OrassanGunner>10</OrassanGunner>
           <OrassanSlasher>1</OrassanSlasher>

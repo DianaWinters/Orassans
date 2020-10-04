@@ -72,6 +72,10 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
+	<PawnKindDef ParentName="Villager">
+		<defName>HumanVillager</defName>
+		<race>Human</race>
+	</PawnKindDef>
 	<PawnKindDef>
 		<defName>OrassanSlave</defName>
 		<label>orassan slave</label>
@@ -615,6 +619,11 @@
 		<defName>HybridSoldier</defName>
 		<label>neko soldier</label>
 		<race>Alien_OrassanHumanHybrid</race>
+	</PawnKindDef>
+		<PawnKindDef ParentName="OrassanSoldier">
+		<defName>HumanSoldier</defName>
+		<label>human soldier</label>
+		<race>Human</race>
 	</PawnKindDef>
 	<PawnKindDef>
 		<defName>OrassanMercenarySoldier</defName>
