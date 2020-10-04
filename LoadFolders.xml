@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+	<default>
+		<li>/</li>
+		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+	</default>
+	<1.0>
+		<li>/</li>
+		<l1>1.0</l1>
+		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+	</1.0>
+	<1.1>
+		<li>/</li>
+		<l1>1.1</l1>
+		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+	</1.1>
+	<1.2>
+		<li>/</li>
+		<l1>1.2</l1>
+		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+	</1.2>
+</loadFolders>
