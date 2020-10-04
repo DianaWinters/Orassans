@@ -18,6 +18,12 @@
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
+						<li>
+							<kindDefs>
+								<li>HumanVillager</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
 					</pawnKindEntries>
 					<factionDefs>
 						<li>OrassanPlayerColony</li>
