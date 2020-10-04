@@ -4,15 +4,18 @@
 		<li>/</li>
 		<l1>1.0</l1>
 		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
 	</v1.0>
 	<v1.1>
 		<li>/</li>
 		<l1>1.1</l1>
 		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
 	</v1.1>
 	<v1.2>
 		<li>/</li>
 		<l1>1.2</l1>
 		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
 	</v1.2>
 </loadFolders>
