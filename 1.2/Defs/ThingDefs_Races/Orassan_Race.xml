@@ -5,6 +5,8 @@
 		<defName>Alien_Orassan</defName>
 		<label>orassan</label>
 		<description>A baseline orassan, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Orassia planets. A mammalian humanoid feline race. Evolving in cold caves and life on space ships make it so they don't mind the dark or being ineast for long periods of time.</description>
+		<comps>
+		</comps>
 		<alienRace>
 			<generalSettings>
 				<minAgeForAdulthood>16</minAgeForAdulthood>
@@ -75,7 +77,7 @@
 							<backstoryGraphics>
 								<Orassan_GeneWarrior>Things/Pawn/Humanlike/Tails/OTailG</Orassan_GeneWarrior>
 							</backstoryGraphics>
-							<inFrontOfBody>true</inFrontOfBody>
+							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>false</drawnInBed>
 							<offsets>
