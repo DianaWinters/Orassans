@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <loadFolders>
-	<default>
-		<li>/</li>
-		<li IfModActive="rim.job.world">ThatOneModSupport</li>
-	</default>
 	<v1.0>
 		<li>/</li>
 		<l1>1.0</l1>
