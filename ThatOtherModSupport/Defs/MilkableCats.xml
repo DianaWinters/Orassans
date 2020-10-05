@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffGiverSetDef>
+    <defName>OrassanMilk</defName>
+    <hediffGivers>
+  
+      <!-- Birthday long-term chronic-->
+
+      <li Class="HediffGiver_Birthday">
+        <hediff>Lactating_Permanent</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(11, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+</Defs>

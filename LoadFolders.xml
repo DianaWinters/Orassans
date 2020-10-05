@@ -17,5 +17,6 @@
 		<l1>1.2</l1>
 		<li IfModActive="rim.job.world">ThatOneModSupport</li>
 		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
+		<li IfModActive="Mlie.MilkableColonists">ThatOtherModSupport</li>
 	</v1.2>
 </loadFolders>
