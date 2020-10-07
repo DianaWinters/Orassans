@@ -134,7 +134,7 @@
       <damageAmountBase>35</damageAmountBase>
       <speed>65</speed>
       <stoppingPower>3</stoppingPower>
-	  <armorPenetrationBase>0.1</armorPenetrationBase>
+	  <armorPenetrationBase>0.2</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
@@ -216,6 +216,7 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>14</damageAmountBase>
 			<speed>120</speed>
+			<armorPenetrationBase>0.45</armorPenetrationBase>
 			
       <stoppingPower>1.5</stoppingPower>
 		</projectile>
@@ -301,6 +302,7 @@
       <damageAmountBase>50</damageAmountBase>
       <speed>150</speed>
       <stoppingPower>5</stoppingPower>
+	  <armorPenetrationBase>0.8</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
@@ -380,6 +382,7 @@
       <damageAmountBase>25</damageAmountBase>
       <speed>140</speed>
       <stoppingPower>4</stoppingPower>
+	  <armorPenetrationBase>0.65</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
@@ -459,7 +462,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <speed>90</speed>
-	  
+	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
@@ -542,7 +545,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>30</damageAmountBase>
       <speed>150</speed>
-	  
+	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
@@ -899,7 +902,7 @@
         </capacities>
         <power>25</power>
         <cooldownTime>1.75</cooldownTime>
-		<armorPenetration>0.7</armorPenetration>
+		<armorPenetration>0.8</armorPenetration>
       </li>
       <li>
         <label>edge</label>
@@ -908,7 +911,7 @@
         </capacities>
         <power>32</power>
         <cooldownTime>1.75</cooldownTime>
-        <armorPenetration>0.7</armorPenetration>
+        <armorPenetration>0.8</armorPenetration>
       </li>
     </tools>
     <recipeMaker>
