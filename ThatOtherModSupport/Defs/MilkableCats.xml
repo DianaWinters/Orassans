@@ -6,10 +6,11 @@
   
       <!-- Birthday long-term chronic-->
 
-      <li Class="GenderLimit.HediffGiver_BirthdayFemale">
+      <li Class="GenderLimit.HediffGiver_Birthday">
         <hediff>Lactating_Permanent</hediff>
         <ageFractionChanceCurve>
           <points>
+		    <li>(10, 0)</li>
             <li>(11, 1)</li>
           </points>
         </ageFractionChanceCurve>
