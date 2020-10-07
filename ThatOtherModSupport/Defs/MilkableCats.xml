@@ -10,8 +10,9 @@
         <hediff>Lactating_Permanent</hediff>
         <ageFractionChanceCurve>
           <points>
-		    <li>(10, 0)</li>
-            <li>(11, 1)</li>
+		    <li>(10, 0.1)</li>
+            <li>(11, 0.5)</li>
+            <li>(12, 1)</li>
           </points>
         </ageFractionChanceCurve>
       </li>
