@@ -33,6 +33,8 @@
         <defName>Alien_Orassan</defName>
         <label>orassan</label>
         <description>A baseline orassan, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Orassia planets. A mammalian humanoid feline race. Evolving in cold caves and life on space ships make it so they don't mind the dark or being ineast for long periods of time.</description>
+		<comps>
+		</comps>
 		<alienRace>
 			<generalSettings>
 			<minAgeForAdulthood>16</minAgeForAdulthood>
