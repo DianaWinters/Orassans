@@ -265,7 +265,7 @@
 			<thoughtSettings>
 				<cannotReceiveThoughts>
 					<li>EnvironmentDark</li>
-					<li>CabinFever</li>
+					<li>NeedOutdoors</li>
 					<li>SleptInCold</li>
 					<li>Naked</li>
 				</cannotReceiveThoughts>
