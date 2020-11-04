@@ -19,5 +19,6 @@
 		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
 		<li IfModActive="Mlie.MilkableColonists">ThatOtherModSupport</li>
 		<li IfModActive="mali.milk">ThatOtherModSupport</li>
+		<li IfModActive="tachyonite.pawnmorpher">ThatOtherOtherModSupport</li>
 	</v1.2>
 </loadFolders>
