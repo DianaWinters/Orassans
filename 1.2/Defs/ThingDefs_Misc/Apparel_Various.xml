@@ -89,10 +89,10 @@
 			<li>Apparel</li>
 		</thingCategories>
 		<costList>
-			<ComponentSpacer>4</ComponentSpacer>
-			<ComponentIndustrial>4</ComponentIndustrial>
-			<Plasteel>50</Plasteel>
-			<Steel>50</Steel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>25</Plasteel>
+			<Steel>25</Steel>
 		</costList>
 		<apparel>
 			<bodyPartGroups>

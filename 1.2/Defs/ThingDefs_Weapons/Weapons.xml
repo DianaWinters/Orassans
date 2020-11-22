@@ -153,7 +153,7 @@
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.7</AccuracyMedium>
       <AccuracyLong>0.5</AccuracyLong>
-      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>OChargedShot</researchPrerequisite>
@@ -193,7 +193,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_OrassanShotgun</defaultProjectile>
-        <warmupTime>0.8</warmupTime>
+        <warmupTime>0.7</warmupTime>
         <range>20</range>
         <soundCast>OShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -214,11 +214,10 @@
 		<projectile>
 		<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>14</damageAmountBase>
+			<damageAmountBase>17</damageAmountBase>
 			<speed>120</speed>
 			<armorPenetrationBase>0.45</armorPenetrationBase>
-			
-      <stoppingPower>1.5</stoppingPower>
+			<stoppingPower>1</stoppingPower>
 		</projectile>
 	</ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
@@ -233,11 +232,11 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.8</AccuracyShort>
-      <AccuracyMedium>0.85</AccuracyMedium>
-      <AccuracyLong>0.75</AccuracyLong>
-      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>OChargedShot</researchPrerequisite>
@@ -299,10 +298,10 @@
     </graphicData>
     <projectile><flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>50</damageAmountBase>
+      <damageAmountBase>45</damageAmountBase>
       <speed>150</speed>
-      <stoppingPower>5</stoppingPower>
-	  <armorPenetrationBase>0.8</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+	  <armorPenetrationBase>0.75</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
@@ -316,9 +315,9 @@
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>4</Mass>
-      <AccuracyTouch>0.5</AccuracyTouch>
-      <AccuracyShort>0.7</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.9</AccuracyMedium>
       <AccuracyLong>.9</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
@@ -377,12 +376,13 @@
       <texPath>Things/Item/Equipment/Weapons/Kitty_Bullet_DMR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <projectile><flyOverhead>false</flyOverhead>
+    <projectile>
+	  <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>25</damageAmountBase>
       <speed>140</speed>
       <stoppingPower>4</stoppingPower>
-	  <armorPenetrationBase>0.65</armorPenetrationBase>
+	  <armorPenetrationBase>0.50</armorPenetrationBase>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
@@ -421,7 +421,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_kittyDMR</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>1.5</warmupTime>
         <range>50</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>OTFalcon</soundCast>
@@ -463,7 +463,7 @@
       <damageAmountBase>12</damageAmountBase>
       <speed>90</speed>
 	  <armorPenetrationBase>0.3</armorPenetrationBase>
-      <stoppingPower>1</stoppingPower>
+      <stoppingPower>0.75</stoppingPower>
     </projectile>
   </ThingDef>
 
@@ -480,11 +480,11 @@
 			<WorkToMake>6000</WorkToMake>
 
       <Mass>1</Mass>
-      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyTouch>0.85</AccuracyTouch>
       <AccuracyShort>0.7</AccuracyShort>
       <AccuracyMedium>0.5</AccuracyMedium>
-      <AccuracyLong>.5</AccuracyLong>
-      <RangedWeapon_Cooldown>.4</RangedWeapon_Cooldown>
+      <AccuracyLong>.4</AccuracyLong>
+      <RangedWeapon_Cooldown>.5</RangedWeapon_Cooldown>
     </statBases>
 		<recipeMaker>
 			<researchPrerequisite>OChargedShot</researchPrerequisite>
@@ -502,8 +502,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_kittypistol</defaultProjectile>
-        <warmupTime>.2</warmupTime>
-        <range>25</range>
+        <warmupTime>.3</warmupTime>
+        <range>30</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>Opistol</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -543,10 +543,10 @@
     </graphicData>
     <projectile><flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageAmountBase>25</damageAmountBase>
       <speed>150</speed>
 	  <armorPenetrationBase>0.3</armorPenetrationBase>
-      <stoppingPower>3</stoppingPower>
+      <stoppingPower>2.5</stoppingPower>
     </projectile>
   </ThingDef>
 	
@@ -563,11 +563,11 @@
 			<WorkToMake>7500</WorkToMake>
 
       <Mass>2</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.5</AccuracyMedium>
       <AccuracyLong>.4</AccuracyLong>
-      <RangedWeapon_Cooldown>.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
 		<recipeMaker>
 			<researchPrerequisite>OChargedShot</researchPrerequisite>
@@ -585,7 +585,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_kittyAE</defaultProjectile>
-        <warmupTime>.75</warmupTime>
+        <warmupTime>.5</warmupTime>
         <range>28</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>OTFalcon</soundCast>
@@ -632,10 +632,10 @@
 
       <Mass>3.75</Mass>
       <AccuracyTouch>0.9</AccuracyTouch>
-      <AccuracyShort>0.72</AccuracyShort>
-      <AccuracyMedium>0.5</AccuracyMedium>
-      <AccuracyLong>.35</AccuracyLong>
-      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
     </statBases>
 		<recipeMaker>
 			<researchPrerequisite>OChargedShot</researchPrerequisite>
@@ -687,7 +687,22 @@
 	</ThingDef>
 	
   <!-- ==================== orassan LMG ========================== -->
-
+<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_OrassanLMG</defName>
+		<label>charge shot</label>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Weapons/Kitty_Bullet_Rifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+		<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<speed>120</speed>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+		</projectile>
+	</ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
     <defName>Gun_OrassanLMG</defName>
     <label>Orassan lmg</label>
@@ -701,9 +716,9 @@
       <WorkToMake>35000</WorkToMake>
       <Mass>10</Mass>
       <AccuracyTouch>0.5</AccuracyTouch>
-      <AccuracyShort>0.6</AccuracyShort>
-      <AccuracyMedium>0.6</AccuracyMedium>
-      <AccuracyLong>.4</AccuracyLong>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>.3</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
@@ -743,7 +758,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_OrassanRifle</defaultProjectile>
+        <defaultProjectile>Bullet_OrassanLMG</defaultProjectile>
         <warmupTime>1.3</warmupTime>
         <range>40</range>
         <burstShotCount>10</burstShotCount>
@@ -892,16 +907,16 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
-        <cooldownTime>1.75</cooldownTime>
+        <power>7</power>
+        <cooldownTime>1</cooldownTime>
       </li>
       <li>
         <label>point</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>25</power>
-        <cooldownTime>1.75</cooldownTime>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
 		<armorPenetration>0.8</armorPenetration>
       </li>
       <li>
@@ -909,8 +924,8 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>32</power>
-        <cooldownTime>1.75</cooldownTime>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
         <armorPenetration>0.8</armorPenetration>
       </li>
     </tools>

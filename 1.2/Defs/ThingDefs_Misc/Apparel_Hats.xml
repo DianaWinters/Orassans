@@ -36,7 +36,7 @@
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
-	  <ComponentIndustrial>4</ComponentIndustrial>
+	  <ComponentIndustrial>1</ComponentIndustrial>
       <Plasteel>10</Plasteel>
       <Steel>10</Steel>
     </costList>
