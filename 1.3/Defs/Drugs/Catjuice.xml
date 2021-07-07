@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="DrugJuiceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-4</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>400</stackLimit>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <joyKind>Chemical</joyKind>
+      <chairSearchRadius>8</chairSearchRadius>
+    </ingestible>
+    <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+  </ThingDef>
+  
+  <ThingDef ParentName="DrugJuiceBase">
+    <defName>Catberryjuice</defName>
+    <label>cat's eye berry juice</label>
+    <description>Cat's Eye berries pressed and concentrated into a delicious and energizing juice. One of the most popular drinks on Orassia.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/CatJuice</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<socialPropernessMatters>true</socialPropernessMatters>
+    <stackLimit>25</stackLimit>
+    <rotatable>false</rotatable>
+    <statBases>
+      <Mass>0.3</Mass>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>14</MarketValue>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+	  <joyKind>Chemical</joyKind>
+      <joy>0.15</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+	  <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Catberries</hediffDef>
+          <severity>0.6</severity>
+          <toleranceChemical>Catberry</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>CatberryTolerance</hediffDef>
+          <severity>0.050</severity>
+		  <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+	    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Catberry</chemical>
+        <addictiveness>0.01</addictiveness>
+        <minToleranceToAddict>0.35</minToleranceToAddict>
+        <existingAddictionSeverityOffset>1</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>21</listOrder>
+      </li>
+	        <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+	    <tools>
+      <li>
+	  <label>bottle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <RecipeDef>
+        <recipeUsers>
+        <li>Brewery</li>
+      </recipeUsers>
+		<defName>MakeCatJuice5</defName>
+		<label>make cat's eye berry juice (5)</label>
+		<description>Make juice from cat's eye berries.</description>
+		<jobString>Making berry juice.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CateyeBerries</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CateyeBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Catberryjuice>5</Catberryjuice>
+		</products>
+	</RecipeDef>
+	
+	  <RecipeDef>
+        <recipeUsers>
+        <li>Brewery</li>
+      </recipeUsers>
+		<defName>MakeCatJuice25</defName>
+		<label>make bulk cat's eye berry juice (25)</label>
+		<description>Make juice from cat's eye berries.</description>
+		<jobString>Making berry juice.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>4500</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CateyeBerries</li>
+					</thingDefs>
+				</filter>
+				<count>125</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CateyeBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Catberryjuice>25</Catberryjuice>
+		</products>
+	</RecipeDef>
+
+  <HediffDef>
+    <defName>Catberries</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>cat's eye berry</label>
+    <labelNoun>juiciness</labelNoun>
+	<description>Cat Eye berries, when injested, act as a stimulant.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <label>buzzed</label>
+          <becomeVisible>false</becomeVisible>
+        </li>
+        <li>
+          <minSeverity>0.1</minSeverity>
+          <label>buzzed</label>
+          <painFactor>0.9</painFactor>
+            <capMods>
+			              <li>
+                <capacity>Consciousness</capacity>
+                <offset>0.05</offset>
+              </li>
+              <li>
+                <capacity>Manipulation</capacity>
+                <offset>0.1</offset>
+              </li>
+			                <li>
+                <capacity>Moving</capacity>
+                <offset>0.05</offset>
+              </li>
+            </capMods>
+        </li>
+        <li>
+          <minSeverity>0.25</minSeverity>
+          <label>awake</label>
+          <painFactor>0.85</painFactor>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>0.10</offset>
+              </li>
+              <li>
+                <capacity>Moving</capacity>
+                <offset>0.15</offset>
+              </li>
+			                <li>
+                <capacity>Manipulation</capacity>
+                <offset>0.1</offset>
+              </li>
+            </capMods>
+        </li>
+        <li>
+          <minSeverity>0.4</minSeverity>
+          <label>juiced</label>
+          <painFactor>0.75</painFactor>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>0.2</offset>
+              </li>
+              <li>
+                <capacity>Moving</capacity>
+                <offset>0.30</offset>
+              </li>
+			  			                <li>
+                <capacity>Manipulation</capacity>
+                <offset>0.15</offset>
+              </li>
+            </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>JuicinessThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Catberries</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>buzzed-hidden</label>
+        <description>Should not appear.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Juiced (buzzed)</label>
+        <description>I just feel a bit more awake after that drink. That's good.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Juiced (awake)</label>
+        <description>I'm ready to go!</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>     
+      <li>
+        <label>Juiced</label>
+        <description>I feel like I can do anything!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CatberryTolerance</defName>
+    <label>Cat's eye berry tolerance</label>
+	<description>The more cat eye berries consumed, the less of an effect the same amount will have in the future.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.02</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>Catberry</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+  
+    <ChemicalDef>
+    <defName>Catberry</defName>
+    <label>cat's eye berry</label>
+    <toleranceHediff>CatberryTolerance</toleranceHediff>
+     <addictionHediff>CateyeAddiction</addictionHediff>
+  </ChemicalDef>
+
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_Cateye</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Cat's Eye berry</label>
+    <description>Because of a developed Cat's Eye berry dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>
+  
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CateyeTolerance</defName>
+    <label>Cat's Eye berry tolerance</label>
+	<description>The more cat eye berries consumed, the less of an effect the same amount will have in the future.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.02</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>Catberry</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>CateyeAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Cat's Eye berry dependence</label>
+    <causesNeed>Chemical_Cateye</causesNeed>
+	<description>Continued consumption of cat eye can lead to addiction.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.04</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>CateyeWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CateyeAddiction</hediff>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Headache</label>
+        <description>I really could use some berries.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

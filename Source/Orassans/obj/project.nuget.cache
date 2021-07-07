@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PVpXFmoa3u64IN3WDefwHtyp6quTqGYP/4iAy1EgDTCJQ3KlozPxPnK+3LnneREeJPKeebs+hFx9bs6HdQtNnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\Orassans\\Orassans.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wolfy\\.nuget\\packages\\lib.harmony\\2.1.0\\lib.harmony.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

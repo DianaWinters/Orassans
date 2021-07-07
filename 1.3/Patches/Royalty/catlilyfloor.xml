@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+              <TerrainDef ParentName="FloorBase">
+    <texturePath>Terrain/CatLavenderCarpet</texturePath>
+    <researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <costList>
+      <CatLavenderCloth>35</CatLavenderCloth>
+    </costList>
+    <designatorDropdown>Floor_Carpet_Fine</designatorDropdown>
+    <statBases>
+      <Beauty>5</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+    </statBases>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <resourcesFractionWhenDeconstructed>0.15</resourcesFractionWhenDeconstructed>
+        <defName>CarpetCatLily</defName>
+    <label>fine cat lily carpet</label>
+    <renderPrecedence>199</renderPrecedence>
+    <description>Soft and silky cat lavender carpet, for that extra sense of pomp.</description>
+  </TerrainDef>
+        </value>
+    </match>
+</Operation>
+</Patch>

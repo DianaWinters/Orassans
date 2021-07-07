@@ -44,14 +44,14 @@ namespace Orassan
             TargetInfo target = new TargetInfo(parms.spawnCenter, map, false);
 
             Thing portal = GenSpawn.Spawn(new ThingDef(), target.Cell, map);
-            MoteMaker.ThrowHeatGlow(target.Cell, map, 5f);
-            MoteMaker.ThrowHeatGlow(target.Cell, map, 5f);
-            MoteMaker.ThrowFireGlow(target.Cell, map, 5f);
-            MoteMaker.ThrowFireGlow(target.Cell, map, 5f);
-            MoteMaker.ThrowMetaPuffs(target);
-            MoteMaker.ThrowMetaPuffs(target);
+            FleckMaker.ThrowHeatGlow(target.Cell, map, 5f);
+            FleckMaker.ThrowHeatGlow(target.Cell, map, 5f);
+            FleckMaker.ThrowFireGlow(target.Cell.ToVector3(), map, 5f);
+            FleckMaker.ThrowFireGlow(target.Cell.ToVector3(), map, 5f);
+            FleckMaker.ThrowMetaPuffs(target);
+			FleckMaker.ThrowMetaPuffs(target);
 
-            foreach (Pawn current in list)
+			foreach (Pawn current in list)
             {
                 GenSpawn.Spawn(current, target.Cell, map);
                 target = current;

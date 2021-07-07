@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CommunityCoreLibrary.ModHelperDef>
+    <defName>Orassans</defName>
+    <ModName>Orassans</ModName>
+        <minCCLVersion>0.14.2</minCCLVersion>
+		<SpecialInjectors>
+			<li>Orassan.Detours.DetourInjector</li>
+			<li>Orassan.Detours.Detours</li>
+		</SpecialInjectors>
+	</CommunityCoreLibrary.ModHelperDef>
+</Defs>
