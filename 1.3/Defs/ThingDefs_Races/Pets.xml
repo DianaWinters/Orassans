@@ -413,6 +413,7 @@
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 			<MarketValue>500</MarketValue>
+			<CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
 
 		</statBases>
 
