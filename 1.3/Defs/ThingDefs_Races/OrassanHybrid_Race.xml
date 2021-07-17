@@ -79,9 +79,6 @@
 							<drawSize>.875</drawSize>
 							<path>Things/Pawn/Humanlike/Tails/OTail</path>
 							<bodyPart>tail</bodyPart>
-							<backstoryGraphics>
-								<Orassan_GeneWarrior>Things/Pawn/Humanlike/Tails/OTailG</Orassan_GeneWarrior>
-							</backstoryGraphics>
 							<defaultOffset>Tail</defaultOffset>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>hair</colorChannel>
@@ -123,6 +120,7 @@
 							</offsets>
 						</li>
 						<li>
+							<drawnDesiccated>false</drawnDesiccated>
 							<drawSize>.875</drawSize>
 							<path>EarLeft</path>
 							<bodyPart>left ear</bodyPart>
@@ -187,6 +185,8 @@
 							</hiddenUnderApparelFor>
 						</li>
 						<li>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+							<drawnDesiccated>false</drawnDesiccated>
 							<drawSize>.875</drawSize>
 							<path>EarRight</path>
 							<bodyPart>right ear</bodyPart>
