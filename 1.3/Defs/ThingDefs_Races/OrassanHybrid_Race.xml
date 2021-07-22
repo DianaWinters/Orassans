@@ -266,27 +266,27 @@
                     <key>HairDef</key>
                     <value>
                         <hasStyle>true</hasStyle>
-                        <styleTags>
+                        <!--<styleTags>
                             <li>Rural</li>
 							<li>Urban</li>
 							<li>Punk</li>
                             <li>Tribal</li>
 							<li>Minimal</li>
 							<li>Soldier</li>
-                        </styleTags>
+                        </styleTags>-->
                     </value>
                 </li>
 				                <li>
                     <key>TattooDef</key>
                     <value>
                         <hasStyle>true</hasStyle>
-                        <styleTags>
+                        <!--<styleTags>
                             <li>Rural</li>
 							<li>Urban</li>
 							<li>Punk</li>
                             <li>Tribal</li>
 							<li>Minimal</li>
-							<li>Soldier</li>
+							<li>Soldier</li>-->
                         </styleTags>
                     </value>
                 </li>
@@ -294,13 +294,13 @@
                     <key>BeardDef</key>
                     <value>
                         <hasStyle>true</hasStyle>
-                        <styleTags>
+                        <!--<styleTags>
                             <li>Rural</li>
 							<li>Urban</li>
 							<li>Punk</li>
                             <li>Tribal</li>
 							<li>Minimal</li>
-                        </styleTags>
+                        </styleTags>-->
                     </value>
                 </li>
             </styleSettings>
