@@ -63,6 +63,8 @@
 
 
 			</wildBiomes>
+			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
       <herdAnimal>true</herdAnimal>
       <petness>0.4</petness>
       <baseBodySize>0.55</baseBodySize>
@@ -278,6 +280,8 @@
 
 
 			</wildBiomes>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
