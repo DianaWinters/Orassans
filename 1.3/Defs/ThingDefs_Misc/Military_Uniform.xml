@@ -72,7 +72,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/shirtmilitary/OEPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
