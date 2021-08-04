@@ -271,7 +271,7 @@
 							<path>Things/Orassan/Eyes/LeftEye</path>
 							<bodyPart>left eye</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>eyes</colorChannel>
+							<colorChannel>skin</colorChannel>
 							<defaultOffset>Head</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<shaderType>CutoutComplex</shaderType>
@@ -322,7 +322,7 @@
 							<path>Things/Orassan/Eyes/RightEye</path>
 							<bodyPart>right eye</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>eyes</colorChannel>
+							<colorChannel>skin</colorChannel>
 							<defaultOffset>Head</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<shaderType>CutoutComplex</shaderType>
@@ -404,12 +404,16 @@
 							</first>
 						</li>
 						<li>
-							<name>eyes</name>
-							<first Class="ColorGenerator_Options">
+							<name>skin</name>
+							<second Class="ColorGenerator_Options">
 								<options>
 									<li>
 										<weight>10</weight>
 										<only>RGBA(0.0,0.0,0.4,1)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.0,0.0,0.6,1)</only>
 									</li>
 									<li>
 										<weight>10</weight>
@@ -425,6 +429,10 @@
 									</li>
 									<li>
 										<weight>5</weight>
+										<only>RGBA(0.8,0.2,0.2,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
 										<only>RGBA(0.6,0.3,0.0,1)</only>
 									</li>
 									<li>
@@ -436,7 +444,7 @@
 										<only>RGBA(0.502,0.071,0.145,1)</only>
 									</li>
 								</options>
-							</first>
+							</second>
 						</li>
 					</colorChannels>
 					<customDrawSize>(0.7, 0.7)</customDrawSize>
