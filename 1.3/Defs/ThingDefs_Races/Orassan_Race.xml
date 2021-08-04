@@ -264,9 +264,114 @@
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
 						</li>
+						<!--Closed Eyes-->
+						<li>
+							<drawnDesiccated>false</drawnDesiccated>
+							<drawnInBed>true</drawnInBed>
+							<drawSize>.65</drawSize>
+							<path>Things/Orassan/Eyes/closed/LeftEye</path>
+							<bodyPart>left eye</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Head</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(0.0064,-0.51)</Male>
+										<Female>(0.0064,-0.51)</Female>
+										<Thin>(0.0064,-0.51)</Thin>
+										<Hulk>(0.0064,-0.51)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.0064,-0.51)</Male>
+										<Female>(0.0064,-0.51)</Female>
+										<Thin>(0.0064,-0.51)</Thin>
+										<Hulk>(0.0064,-0.51)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<east>
+									<bodyTypes>
+										<Male>(0.05,-0.5)</Male>
+										<Female>(0.05,-0.5)</Female>
+										<Thin>(0.05,-0.5)</Thin>
+										<Hulk>(0.05,-0.5)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.05,-0.5)</Male>
+										<Female>(0.05,-0.5)</Female>
+										<Thin>(0.05,-0.5)</Thin>
+										<Hulk>(0.05,-0.5)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+							</offsets>
+							<hiddenUnderApparelFor>
+								<li>Eyes</li>
+							</hiddenUnderApparelFor>
+						</li>
+						<li>
+							<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
+							<drawnDesiccated>false</drawnDesiccated>
+							<drawnInBed>true</drawnInBed>
+							<drawSize>.65</drawSize>
+							<path>Things/Orassan/Eyes/closed/RightEye</path>
+							<bodyPart>right eye</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Head</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(0.00,-0.51)</Male>
+										<Female>(0.00,-0.51)</Female>
+										<Thin>(0.00,-0.51)</Thin>
+										<Hulk>(0.00,-0.51)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.00,-0.51)</Male>
+										<Female>(0.00,-0.51)</Female>
+										<Thin>(0.00,-0.51)</Thin>
+										<Hulk>(0.00,-0.51)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</south>
+								<east>
+									<bodyTypes>
+										<Male>(0.05,-0.5)</Male>
+										<Female>(0.05,-0.5)</Female>
+										<Thin>(0.05,-0.5)</Thin>
+										<Hulk>(0.05,-0.5)</Hulk>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.05,-0.5)</Male>
+										<Female>(0.05,-0.5)</Female>
+										<Thin>(0.05,-0.5)</Thin>
+										<Hulk>(0.05,-0.5)</Hulk>
+									</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+								</east>
+							</offsets>
+							<hiddenUnderApparelFor>
+								<li>Eyes</li>
+							</hiddenUnderApparelFor>
+						</li>
 						<!--Eyes-->
 						<li>
 							<drawnDesiccated>false</drawnDesiccated>
+							<drawnInBed>false</drawnInBed>
 							<drawSize>.65</drawSize>
 							<path>Things/Orassan/Eyes/LeftEye</path>
 							<bodyPart>left eye</bodyPart>
@@ -318,6 +423,7 @@
 						<li>
 							<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
 							<drawnDesiccated>false</drawnDesiccated>
+							<drawnInBed>false</drawnInBed>
 							<drawSize>.65</drawSize>
 							<path>Things/Orassan/Eyes/RightEye</path>
 							<bodyPart>right eye</bodyPart>
