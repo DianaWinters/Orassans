@@ -293,6 +293,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.275</layerOffset>
 								</south>
 								<east>
 									<bodyTypes>
@@ -310,6 +311,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.275</layerOffset>
 								</east>
 							</offsets>
 							<hiddenUnderApparelFor>
@@ -345,6 +347,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.275</layerOffset>
 								</south>
 								<east>
 									<bodyTypes>
@@ -362,6 +365,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.275</layerOffset>
 								</east>
 							</offsets>
 							<hiddenUnderApparelFor>
@@ -397,6 +401,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.274</layerOffset>
 								</south>
 								<east>
 									<bodyTypes>
@@ -414,6 +419,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.274</layerOffset>
 								</east>
 							</offsets>
 							<hiddenUnderApparelFor>
@@ -449,6 +455,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.274</layerOffset>
 								</south>
 								<east>
 									<bodyTypes>
@@ -466,6 +473,7 @@
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
 									</crownTypes>
+									<layerOffset>-0.274</layerOffset>
 								</east>
 							</offsets>
 							<hiddenUnderApparelFor>
