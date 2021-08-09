@@ -110,8 +110,8 @@
     <race>Ori</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>ori</labelMale>
-    <labelFemale>ori</labelFemale>
+    <labelMale>arctic ori</labelMale>
+    <labelFemale>arctic ori</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -208,8 +208,8 @@
     <race>Ori_Temperate</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>ori</labelMale>
-    <labelFemale>ori</labelFemale>
+    <labelMale>temperate ori</labelMale>
+    <labelFemale>temperate ori</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -306,8 +306,8 @@
     <race>Ori_Urban</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>ori</labelMale>
-    <labelFemale>ori</labelFemale>
+    <labelMale>urban ori</labelMale>
+    <labelFemale>urban ori</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -403,8 +403,8 @@
     <race>Ori_Desert</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>ori</labelMale>
-    <labelFemale>ori</labelFemale>
+    <labelMale>desert ori</labelMale>
+    <labelFemale>desert ori</labelFemale>
     <wildGroupSize>
       <min>2</min>
       <max>5</max>
