@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="AnimalThingBase" Name="OriBase">
     <defName>Ori</defName>
-    <label>ori</label>
+    <label>arctic ori</label>
     <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
@@ -70,6 +70,7 @@
       <baseHealthScale>0.45</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_Ori</leatherDef>
+	  <useMeatFrom>Ori</useMeatFrom>
       <trainability>Advanced</trainability>
       <wildness>0.40</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
@@ -106,7 +107,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori</defName>
-    <label>ori</label>
+    <label>arctic ori</label>
     <race>Ori</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
@@ -180,7 +181,7 @@
   
   <ThingDef ParentName="OriBase">
     <defName>Ori_Temperate</defName>
-    <label>ori</label>
+    <label>temperate ori</label>
     <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
@@ -203,7 +204,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Temperate</defName>
-    <label>ori</label>
+    <label>temperate ori</label>
     <race>Ori_Temperate</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
@@ -277,7 +278,7 @@
 
   <ThingDef ParentName="OriBase">
     <defName>Ori_Urban</defName>
-    <label>ori</label>
+    <label>urban ori</label>
     <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
@@ -300,7 +301,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Urban</defName>
-    <label>ori</label>
+    <label>urban ori</label>
     <race>Ori_Urban</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
@@ -374,7 +375,7 @@
   
   <ThingDef ParentName="OriBase">
     <defName>Ori_Desert</defName>
-    <label>ori</label>
+    <label>desert ori</label>
     <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
@@ -396,7 +397,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Desert</defName>
-    <label>ori</label>
+    <label>desert ori</label>
     <race>Ori_Desert</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
@@ -472,7 +473,7 @@
   
 <ThingDef Name="ThingBaseDesiri" ParentName="AnimalThingBase">
     <defName>Animal_Desiri</defName>
-    <label>desiri</label>
+    <label>arctic desiri</label>
     <description>A small predator native to Orassia. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey... and the giant spiders native to Orassia. They use their strong jaws to crush their prey's exoskeleton and/or bones, and are surprisingly durable for their size. A somewhat popular pet among orassans, due to their instinct to bond with a partner. They typically live in pairs because of this.</description>
 	    <tradeTags>
           <li>AnimalUncommon</li>
@@ -611,7 +612,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase" Name="DesiriBase">
     <defName>Animal_Desiri</defName>
-    <label>desiri</label>
+    <label>arctic desiri</label>
     <labelPlural>desiri</labelPlural>
     <race>Animal_Desiri</race>
 	<combatPower>45</combatPower>
@@ -662,6 +663,7 @@
   
 <ThingDef ParentName="ThingBaseDesiri">
     <defName>Animal_Desiri_TemperateOne</defName>
+	<label>temperate desiri</label>
 	<race>
 	  	<wildBiomes>
 			<BorealForest>0.05</BorealForest>
@@ -676,8 +678,8 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Animal_Desiri_TemperateOne</defName>
-	<label>desiri</label>
-    <labelPlural>desiri</labelPlural>
+	<label>temperate desiri</label>
+    <labelPlural>temperate desiri</labelPlural>
     <race>Animal_Desiri_TemperateOne</race>
 	<combatPower>45</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -727,6 +729,7 @@
 
 <ThingDef ParentName="ThingBaseDesiri">
     <defName>Animal_Desiri_TemperateTwo</defName>
+	<label>temperate desiri</label>
 	<race>
 	  	<wildBiomes>
 			<BorealForest>0.05</BorealForest>
@@ -741,8 +744,8 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Animal_Desiri_TemperateTwo</defName>
-	<label>desiri</label>
-    <labelPlural>desiri</labelPlural>
+	<label>temperate desiri</label>
+    <labelPlural>temperate desiri</labelPlural>
     <race>Animal_Desiri_TemperateTwo</race>
 	<combatPower>45</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -792,6 +795,7 @@
 
 <ThingDef ParentName="ThingBaseDesiri">
     <defName>Animal_Desiri_Urban</defName>
+	<label>urban desiri</label>
 	<race>
 	  	<wildBiomes>
 			<BorealForest>0.05</BorealForest>
@@ -806,8 +810,8 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Animal_Desiri_Urban</defName>
-	<label>desiri</label>
-    <labelPlural>desiri</labelPlural>
+	<label>urban desiri</label>
+    <labelPlural>urban desiri</labelPlural>
     <race>Animal_Desiri_Urban</race>
 	<combatPower>45</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
@@ -857,6 +861,7 @@
 
 <ThingDef ParentName="ThingBaseDesiri">
     <defName>Animal_Desiri_Desert</defName>
+	<label>desert desiri</label>
 	<race>
 	  	<wildBiomes>
 			<TemperateForest>0.1</TemperateForest>
@@ -872,8 +877,8 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Animal_Desiri_Desert</defName>
-	<label>desiri</label>
-    <labelPlural>desiri</labelPlural>
+	<label>desert desiri</label>
+    <labelPlural>desert desiri</labelPlural>
     <race>Animal_Desiri_Desert</race>
 	<combatPower>45</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
