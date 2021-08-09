@@ -70,7 +70,6 @@
       <baseHealthScale>0.45</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_Ori</leatherDef>
-	  <useMeatFrom>Ori</useMeatFrom>
       <trainability>Advanced</trainability>
       <wildness>0.40</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
