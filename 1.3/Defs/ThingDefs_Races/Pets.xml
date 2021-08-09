@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBase" Name="OriBase">
     <defName>Ori</defName>
     <label>ori</label>
     <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
@@ -51,17 +51,15 @@
     </tools>
     <race>
       <body>Monkey</body>
-			<wildBiomes>
-				<BorealForest>0.12</BorealForest>
-				<Tundra>0.07</Tundra>
-				<ColdBog>0.07</ColdBog>
-				<TemperateForest>0.12</TemperateForest>
-				<TemperateSwamp>0.12</TemperateSwamp>
-				<TropicalRainforest>0.12</TropicalRainforest>
-				<TropicalSwamp>0.12</TropicalSwamp>
+			<wildBiomes Inherit="False">
+				<BorealForest>0.21</BorealForest>
+				<Tundra>0.15</Tundra>
+				<ColdBog>0.15</ColdBog>
+				<TemperateForest>0.1</TemperateForest>
+				<TemperateSwamp>0.1</TemperateSwamp>
+				<TropicalRainforest>0.1</TropicalRainforest>
+				<TropicalSwamp>0.1</TropicalSwamp>
 				<AridShrubland>0.1</AridShrubland>
-
-
 			</wildBiomes>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
@@ -180,13 +178,311 @@
     </lifeStages>
   </PawnKindDef>
   
+  <ThingDef ParentName="OriBase">
+    <defName>Ori_Temperate</defName>
+    <label>ori</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <race>
+		<wildBiomes>
+			<BorealForest>0.12</BorealForest>
+			<Tundra>0.01</Tundra>
+			<ColdBog>0.01</ColdBog>
+			<TemperateForest>0.21</TemperateForest>
+			<TemperateSwamp>0.21</TemperateSwamp>
+			<TropicalRainforest>0.21</TropicalRainforest>
+			<TropicalSwamp>0.21</TropicalSwamp>
+			<AridShrubland>0.07</AridShrubland>
+		</wildBiomes>
+	</race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Ori_Temperate</defName>
+    <label>ori</label>
+    <race>Ori_Temperate</race>
+    <combatPower>40</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <labelMale>ori</labelMale>
+    <labelFemale>ori</labelFemale>
+    <wildGroupSize>
+      <min>3</min>
+      <max>7</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mt</texPath>
+          <drawSize>.5</drawSize>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Mt</texPath>
+          <drawSize>.5</drawSize>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mt</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Ft</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mt</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Ft</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="OriBase">
+    <defName>Ori_Urban</defName>
+    <label>ori</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <race>
+		<wildBiomes>
+			<BorealForest>0.12</BorealForest>
+			<Tundra>0.01</Tundra>
+			<ColdBog>0.01</ColdBog>
+			<TemperateForest>0.21</TemperateForest>
+			<TemperateSwamp>0.21</TemperateSwamp>
+			<TropicalRainforest>0.21</TropicalRainforest>
+			<TropicalSwamp>0.21</TropicalSwamp>
+			<AridShrubland>0.07</AridShrubland>
+		</wildBiomes>
+	</race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Ori_Urban</defName>
+    <label>ori</label>
+    <race>Ori_Urban</race>
+    <combatPower>40</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <labelMale>ori</labelMale>
+    <labelFemale>ori</labelFemale>
+    <wildGroupSize>
+      <min>3</min>
+      <max>7</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mu</texPath>
+          <drawSize>.5</drawSize>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Mu</texPath>
+          <drawSize>.5</drawSize>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mu</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Fu</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mu</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Fu</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>    
+  
+  <ThingDef ParentName="OriBase">
+    <defName>Ori_Desert</defName>
+    <label>ori</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <race>
+		<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.05</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.15</TropicalSwamp>
+			<AridShrubland>0.15</AridShrubland>
+			<Desert>0.21</Desert>
+			<ExtremeDesert>0.15</ExtremeDesert>
+		</wildBiomes>
+	</race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Ori_Desert</defName>
+    <label>ori</label>
+    <race>Ori_Desert</race>
+    <combatPower>40</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <labelMale>ori</labelMale>
+    <labelFemale>ori</labelFemale>
+    <wildGroupSize>
+      <min>2</min>
+      <max>5</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Md</texPath>
+          <drawSize>.5</drawSize>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Md</texPath>
+          <drawSize>.5</drawSize>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Md</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Fd</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Md</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Fd</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>  
   
   <!-- Desiri-->
   
-    <ThingDef Name="ThingBaseDesiri" ParentName="AnimalThingBase" Abstract="True">
+<ThingDef Name="ThingBaseDesiri" ParentName="AnimalThingBase">
+    <defName>Animal_Desiri</defName>
+    <label>desiri</label>
+    <description>A small predator native to Orassia. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey... and the giant spiders native to Orassia. They use their strong jaws to crush their prey's exoskeleton and/or bones, and are surprisingly durable for their size. A somewhat popular pet among orassans, due to their instinct to bond with a partner. They typically live in pairs because of this.</description>
+	    <tradeTags>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+		  <li>AnimalPet</li>
+    </tradeTags>
     <statBases>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MoveSpeed>4.6</MoveSpeed>
-      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
     </statBases>
     <tools>
@@ -255,20 +551,23 @@
       </li>
     </tools>
     <race>
+      <useMeatFrom>Fox_Fennec</useMeatFrom>
+	  <petness>0.3</petness>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Desiri</leatherDef>
+      <trainability>Advanced</trainability>
+      <wildness>0.40</wildness>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <lifeExpectancy>20</lifeExpectancy>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       <maxPreyBodySize>1.2</maxPreyBodySize>
       <baseBodySize>0.75</baseBodySize>
       <baseHungerRate>0.12</baseHungerRate>
-      <baseHealthScale>0.70</baseHealthScale>
-      <foodType>CarnivoreAnimal</foodType>
-      <leatherDef>Leather_Fox</leatherDef>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainability>Advanced</trainability>
-      <wildness>0.75</wildness>
-      <nuzzleMtbHours>60</nuzzleMtbHours>
-      <gestationPeriodDays>21</gestationPeriodDays>
-	  			<wildBiomes>
+	  		<wildBiomes Inherit="False">
 				<BorealForest>0.05</BorealForest>
 				<Tundra>0.03</Tundra>
 				<ColdBog>0.02</ColdBog>
@@ -277,8 +576,6 @@
 				<TropicalRainforest>0.07</TropicalRainforest>
 				<TropicalSwamp>0.07</TropicalSwamp>
 				<AridShrubland>0.05</AridShrubland>
-
-
 			</wildBiomes>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
@@ -291,7 +588,6 @@
           <li>(3, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>9</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -311,51 +607,16 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
-    <tradeTags>
-      <li>AnimalCommon</li>
-    </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase" Name="AnimalKindBaseDesiri" Abstract="True">
-    <combatPower>45</combatPower>
-    <ecoSystemWeight>0.50</ecoSystemWeight>
-  </PawnKindDef>
-  
-  
-    <ThingDef ParentName="ThingBaseDesiri">
-    <defName>Animal_Desiri</defName>
-    <label>desiri</label>
-    <description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey... and the giant spiders native to Orassia. They use their strong jaws to crush their prey's exoskeleton and/or bones, and are surprisingly durable for their size. A somewhat popular pet among orassans. They typically live in pairs.</description>
-    <race>
-      <useMeatFrom>Fox_Fennec</useMeatFrom>
-	        <petness>0.3</petness>
-      <baseBodySize>0.75</baseBodySize>
-      <baseHungerRate>0.3</baseHungerRate>
-      <baseHealthScale>1</baseHealthScale>
-      <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherDef>Leather_Desiri</leatherDef>
-      <trainability>Advanced</trainability>
-      <wildness>0.40</wildness>
-      <nuzzleMtbHours>24</nuzzleMtbHours>
-      <gestationPeriodDays>16</gestationPeriodDays>
-      <lifeExpectancy>20</lifeExpectancy>
-    </race>
-	    <tradeTags>
-          <li>AnimalUncommon</li>
-          <li>AnimalExotic</li>
-		  <li>AnimalPet</li>
-    </tradeTags>
-    <statBases>
-      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
-    </statBases>
-  </ThingDef>
-
-  <PawnKindDef ParentName="AnimalKindBaseDesiri">
+  <PawnKindDef ParentName="AnimalKindBase" Name="DesiriBase">
     <defName>Animal_Desiri</defName>
     <label>desiri</label>
     <labelPlural>desiri</labelPlural>
     <race>Animal_Desiri</race>
-	    <wildGroupSize>
+	<combatPower>45</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+	<wildGroupSize>
       <min>2</min>
       <max>2</max>
     </wildGroupSize>
@@ -399,6 +660,266 @@
     </lifeStages>
   </PawnKindDef>
   
+<ThingDef ParentName="ThingBaseDesiri">
+    <defName>Animal_Desiri_TemperateOne</defName>
+	<race>
+	  	<wildBiomes>
+			<BorealForest>0.05</BorealForest>
+			<TemperateForest>0.17</TemperateForest>
+			<TemperateSwamp>0.17</TemperateSwamp>
+			<TropicalRainforest>0.7</TropicalRainforest>
+			<TropicalSwamp>0.07</TropicalSwamp>
+			<AridShrubland>0.05</AridShrubland>
+		</wildBiomes>
+	</race>
+</ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Animal_Desiri_TemperateOne</defName>
+	<label>desiri</label>
+    <labelPlural>desiri</labelPlural>
+    <race>Animal_Desiri_TemperateOne</race>
+	<combatPower>45</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+	<wildGroupSize>
+      <min>2</min>
+      <max>2</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>desiri puppy</label>
+        <labelPlural>desiri puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desirit</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desirit</texPath>
+          <drawSize>1.35</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desirit</texPath>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+<ThingDef ParentName="ThingBaseDesiri">
+    <defName>Animal_Desiri_TemperateTwo</defName>
+	<race>
+	  	<wildBiomes>
+			<BorealForest>0.05</BorealForest>
+			<TemperateForest>0.17</TemperateForest>
+			<TemperateSwamp>0.17</TemperateSwamp>
+			<TropicalRainforest>0.7</TropicalRainforest>
+			<TropicalSwamp>0.07</TropicalSwamp>
+			<AridShrubland>0.05</AridShrubland>
+		</wildBiomes>
+	</race>
+</ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Animal_Desiri_TemperateTwo</defName>
+	<label>desiri</label>
+    <labelPlural>desiri</labelPlural>
+    <race>Animal_Desiri_TemperateTwo</race>
+	<combatPower>45</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+	<wildGroupSize>
+      <min>2</min>
+      <max>2</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>desiri puppy</label>
+        <labelPlural>desiri puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiritr</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiritr</texPath>
+          <drawSize>1.35</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiritr</texPath>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+<ThingDef ParentName="ThingBaseDesiri">
+    <defName>Animal_Desiri_Urban</defName>
+	<race>
+	  	<wildBiomes>
+			<BorealForest>0.05</BorealForest>
+			<TemperateForest>0.17</TemperateForest>
+			<TemperateSwamp>0.17</TemperateSwamp>
+			<TropicalRainforest>0.7</TropicalRainforest>
+			<TropicalSwamp>0.07</TropicalSwamp>
+			<AridShrubland>0.05</AridShrubland>
+		</wildBiomes>
+	</race>
+</ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Animal_Desiri_Urban</defName>
+	<label>desiri</label>
+    <labelPlural>desiri</labelPlural>
+    <race>Animal_Desiri_Urban</race>
+	<combatPower>45</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+	<wildGroupSize>
+      <min>2</min>
+      <max>2</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>desiri puppy</label>
+        <labelPlural>desiri puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiriu</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiriu</texPath>
+          <drawSize>1.35</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desiriu</texPath>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+<ThingDef ParentName="ThingBaseDesiri">
+    <defName>Animal_Desiri_Desert</defName>
+	<race>
+	  	<wildBiomes>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.05</TemperateSwamp>
+			<TropicalRainforest>0.1</TropicalRainforest>
+			<TropicalSwamp>0.15</TropicalSwamp>
+			<AridShrubland>0.15</AridShrubland>
+			<Desert>0.21</Desert>
+			<ExtremeDesert>0.15</ExtremeDesert>
+		</wildBiomes>
+	</race>
+</ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Animal_Desiri_Desert</defName>
+	<label>desiri</label>
+    <labelPlural>desiri</labelPlural>
+    <race>Animal_Desiri_Desert</race>
+	<combatPower>45</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+	<wildGroupSize>
+      <min>2</min>
+      <max>2</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>desiri puppy</label>
+        <labelPlural>desiri puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desirid</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desirid</texPath>
+          <drawSize>1.35</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>1.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Desiri/Desirid</texPath>
+          <drawSize>2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Arctic/Dessicated_Fox_Arctic</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>  
 	<!-- Gryphon -->
 	
 <ThingDef ParentName="AnimalThingBase">
@@ -557,9 +1078,9 @@
 
 			<predator>true</predator>
 
-			<maxPreyBodySize>1</maxPreyBodySize>
+			<maxPreyBodySize>2</maxPreyBodySize>
 
-			<baseBodySize>1.8</baseBodySize>
+			<baseBodySize>2.3</baseBodySize>
 
 			<baseHungerRate>0.32</baseHungerRate>
 
