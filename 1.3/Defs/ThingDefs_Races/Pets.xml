@@ -64,7 +64,7 @@
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
       <herdAnimal>true</herdAnimal>
-      <petness>0.4</petness>
+      <petness>1</petness>
       <baseBodySize>0.55</baseBodySize>
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>0.45</baseHealthScale>
@@ -555,7 +555,7 @@
     </tools>
     <race>
       <useMeatFrom>Fox_Fennec</useMeatFrom>
-	  <petness>0.3</petness>
+	  <petness>0.7</petness>
       <baseHealthScale>1.2</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_Desiri</leatherDef>
