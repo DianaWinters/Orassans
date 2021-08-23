@@ -179,6 +179,104 @@
   </PawnKindDef>
   
   <ThingDef ParentName="OriBase">
+    <defName>Ori_Calico</defName>
+    <label>calico ori</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <race>
+	<useMeatFrom>Ori</useMeatFrom>
+		<wildBiomes>
+			<BorealForest>0.12</BorealForest>
+			<Tundra>0.01</Tundra>
+			<ColdBog>0.01</ColdBog>
+			<TemperateForest>0.21</TemperateForest>
+			<TemperateSwamp>0.21</TemperateSwamp>
+			<TropicalRainforest>0.21</TropicalRainforest>
+			<TropicalSwamp>0.21</TropicalSwamp>
+			<AridShrubland>0.07</AridShrubland>
+		</wildBiomes>
+	</race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Ori_Calico</defName>
+    <label>calico ori</label>
+    <race>Ori_Calico</race>
+    <combatPower>40</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <labelMale>calico ori</labelMale>
+    <labelFemale>calico ori</labelFemale>
+    <wildGroupSize>
+      <min>3</min>
+      <max>7</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mc</texPath>
+          <drawSize>.5</drawSize>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Mc</texPath>
+          <drawSize>.5</drawSize>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mc</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Fc</texPath>
+          <drawSize>.75</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Ori/Mc</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Ori/Fc</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="OriBase">
     <defName>Ori_Temperate</defName>
     <label>temperate ori</label>
     <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
