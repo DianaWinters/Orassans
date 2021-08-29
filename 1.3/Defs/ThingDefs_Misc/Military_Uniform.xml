@@ -24,9 +24,9 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>.5</Mass>
       <Flammability>1</Flammability>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.10</ArmorRating_Heat>
+      <ArmorRating_Sharp>.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>.1</ArmorRating_Blunt>
+      <ArmorRating_Heat>.1</ArmorRating_Heat>
       <Insulation_Cold>8</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
@@ -88,9 +88,9 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>.5</Mass>
       <Flammability>1</Flammability>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.10</ArmorRating_Heat>
+      <ArmorRating_Sharp>.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>.1</ArmorRating_Blunt>
+      <ArmorRating_Heat>.1</ArmorRating_Heat>
       <Insulation_Cold>8</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>2</EquipDelay>

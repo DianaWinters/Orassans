@@ -80,6 +80,33 @@
 		<defName>HumanVillager</defName>
 		<race>Human</race>
 	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Villager">
+		<defName>Pilgrim_HumanVillager</defName>
+		<race>Human</race>
+	</PawnKindDef>
+	<PawnKindDef ParentName="Villager">
+		<defName>Pilgrim_OrassanVillager</defName>
+		<race>Alien_Orassan</race>
+	</PawnKindDef>
+	<PawnKindDef ParentName="Villager">
+		<defName>Pilgrim_OrassanHybridVillager</defName>
+		<race>Alien_OrassanHumanHybrid</race>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Villager">
+		<defName>Traveler_HumanVillager</defName>
+		<race>Human</race>
+	</PawnKindDef>
+	<PawnKindDef ParentName="Villager">
+		<defName>Traveler_OrassanVillager</defName>
+		<race>Alien_Orassan</race>
+	</PawnKindDef>
+	<PawnKindDef ParentName="Villager">
+		<defName>Traveler_OrassanHybridVillager</defName>
+		<race>Alien_OrassanHumanHybrid</race>
+	</PawnKindDef>
+	
 	<PawnKindDef>
 		<defName>OrassanSlave</defName>
 		<label>orassan slave</label>

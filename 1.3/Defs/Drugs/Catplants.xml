@@ -136,7 +136,7 @@
       <commonality>0.20</commonality>
       <color>(35, 71, 170)</color>
       <statFactors>
-        <Flammability>0.4</Flammability>
+        <Flammability>1.4</Flammability>
         <MaxHitPoints>1.3</MaxHitPoints>
         <Beauty>3.2</Beauty>
       </statFactors>

@@ -84,7 +84,7 @@
 							<defaultOffset>Tail</defaultOffset>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>hair</colorChannel>
-							<drawnInBed>false</drawnInBed>
+							<drawnInBed>true</drawnInBed>
 							<offsets>
 								<south>
 									<bodyTypes>

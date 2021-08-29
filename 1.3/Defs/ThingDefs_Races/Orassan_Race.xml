@@ -78,7 +78,7 @@
 							<defaultOffset>Tail</defaultOffset>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<drawnInBed>false</drawnInBed>
+							<drawnInBed>true</drawnInBed>
 							<offsets>
 								<south>
 									<bodyTypes>

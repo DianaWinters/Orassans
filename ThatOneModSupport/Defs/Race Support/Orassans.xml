@@ -471,6 +471,10 @@
 
 		<raceNames>
 			<li>Animal_Desiri</li>
+			<li>Animal_Desiri_TemperateOne</li>
+			<li>Animal_Desiri_TemperateTwo</li>
+			<li>Animal_Desiri_Urban</li>
+			<li>Animal_Desiri_Desert</li>
 		</raceNames>
 		
 		<pawnKindNames>
