@@ -34,6 +34,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1</partEfficiency>
+	  <betterThanNatural>True</betterThanNatural>
     </addedPartProps>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -91,6 +92,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
+	  <betterThanNatural>True</betterThanNatural>
     </addedPartProps>
     <stages>
       <li>
