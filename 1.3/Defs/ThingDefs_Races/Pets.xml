@@ -50,6 +50,7 @@
       </li>
     </tools>
     <race>
+	<animalType>Ori</animalType>
       <body>Monkey</body>
 			<wildBiomes Inherit="False">
 				<BorealForest>0.21</BorealForest>
@@ -652,6 +653,7 @@
       </li>
     </tools>
     <race>
+	<animalType>Canine</animalType>
       <useMeatFrom>Fox_Fennec</useMeatFrom>
 	  <petness>0.7</petness>
       <baseHealthScale>1.2</baseHealthScale>
