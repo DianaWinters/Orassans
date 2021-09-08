@@ -428,6 +428,10 @@
 
 		<raceNames>
 			<li>Ori</li>
+			<li>Ori_Calico</li>
+			<li>Ori_Temperate</li>
+			<li>Ori_Urban</li>
+			<li>Ori_Desert</li>
 		</raceNames>
 		
 		<pawnKindNames>
