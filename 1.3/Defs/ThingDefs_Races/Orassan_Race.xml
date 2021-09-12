@@ -267,7 +267,7 @@
 							</hiddenUnderApparelFor>
 						</li>
 						<!--Closed Eyes-->
-						<li>
+						<!--<li>
 							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>true</drawnInBed>
 							<drawSize>.65</drawSize>
@@ -373,9 +373,9 @@
 							<hiddenUnderApparelFor>
 								<li>Eyes</li>
 							</hiddenUnderApparelFor>
-						</li>
+						</li>-->
 						<!--Eyes-->
-						<li>
+						<!--<li>
 							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>false</drawnInBed>
 							<drawSize>.65</drawSize>
@@ -482,7 +482,7 @@
 								<li>Eyes</li>
 							</hiddenUnderApparelFor>
 						</li>
-					</bodyAddons>
+					</bodyAddons>-->
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -519,7 +519,7 @@
 								</options>
 							</first>
 						</li>
-						<li>
+						<!--<li>
 							<name>skin</name>
 							<second Class="ColorGenerator_Options">
 								<options>
@@ -561,7 +561,7 @@
 									</li>
 								</options>
 							</second>
-						</li>
+						</li>-->
 					</colorChannels>
 					<customDrawSize>(0.7, 0.7)</customDrawSize>
 					<customPortraitDrawSize>(.7, .7)</customPortraitDrawSize>
