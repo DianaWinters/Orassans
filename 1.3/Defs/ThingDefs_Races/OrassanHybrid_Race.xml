@@ -86,40 +86,34 @@
 							<colorChannel>hair</colorChannel>
 							<drawnInBed>true</drawnInBed>
 							<offsets>
-								<south>
-									<bodyTypes>
-										<Male>(-0.25,-0.2)</Male>
-										<Female>(-.1,-0.2)</Female>
-										<Thin>(-.1,-0.2)</Thin>
-										<Hulk>(-.1,-0.2)</Hulk>
-									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-								</south>
 								<north>
-									<bodyTypes>
-										<Male>(0,-0.1)</Male>
-										<Female>(0,-0.1)</Female>
-										<Thin>(0,-0.1)</Thin>
-										<Hulk>(0,-0.235)</Hulk>
-									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-								</north>
-								<east>
-									<bodyTypes>
-										<Male>(0.14,-0.28)</Male>
-										<Female>(0.21,-0.30)</Female>
-										<Thin>(0.14,-0.28)</Thin>
-										<Hulk>(0.29,-0.46)</Hulk>
-									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-								</east>
-							</offsets>
+							         <bodyTypes>
+							            <Female>(-0.0429, 0.0714)</Female>
+							            <Fat>(-0.0429, -0.0000)</Fat>
+							            <Thin>(-0.0429, -0.0429)</Thin>
+							            <Hulk>(-0.0429, -0.1571)</Hulk>
+							            <Male>(-0.0429, -0.0286)</Male>
+							         </bodyTypes>
+							      </north>
+							      <east>
+							         <bodyTypes>
+							            <Female>(0.1143, -0.1857)</Female>
+							            <Fat>(0.3571, -0.2571)</Fat>
+							            <Thin>(0.0857, -0.1857)</Thin>
+							            <Hulk>(0.2714, -0.3857)</Hulk>
+							            <Male>(0.1571, -0.2286)</Male>
+							         </bodyTypes>
+							      </east>
+							      <south>
+							         <bodyTypes>
+							            <Female>(0.0000, 0.0000)</Female>
+							            <Fat>(0.0000, 0.0000)</Fat>
+							            <Thin>(0.0000, 0.0000)</Thin>
+										<Hulk>(0.0000, 0.0000)</Hulk>
+							            <Male>(0.0000, 0.0000)</Male>
+							         </bodyTypes>
+							      </south>
+							   </offsets>
 						</li>
 						<li>
 							<drawnDesiccated>false</drawnDesiccated>

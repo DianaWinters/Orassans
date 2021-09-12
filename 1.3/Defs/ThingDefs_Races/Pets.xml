@@ -50,7 +50,7 @@
       </li>
     </tools>
     <race>
-	<animalType>Ori</animalType>
+	<!--<animalType>Ori</animalType>-->
       <body>Monkey</body>
 			<wildBiomes Inherit="False">
 				<BorealForest>0.21</BorealForest>

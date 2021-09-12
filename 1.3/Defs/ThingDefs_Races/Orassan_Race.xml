@@ -80,58 +80,34 @@
 							<colorChannel>skin</colorChannel>
 							<drawnInBed>true</drawnInBed>
 							<offsets>
-								<south>
-									<bodyTypes>
-										<Male>(-0.25,-0.2)</Male>
-										<Female>(-.1,-0.2)</Female>
-										<Thin>(-.1,-0.2)</Thin>
-										<Hulk>(-.1,-0.2)</Hulk>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Male>(-0.25,-0.2)</Male>
-										<Female>(-.1,-0.2)</Female>
-										<Thin>(-.1,-0.2)</Thin>
-										<Hulk>(-.1,-0.2)</Hulk>
-									</portraitBodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-								</south>
 								<north>
 									<bodyTypes>
-										<Male>(0,-0.05)</Male>
-										<Female>(0,-0.05)</Female>
-										<Thin>(0,-0.05)</Thin>
-										<Hulk>(0,-0.05)</Hulk>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Male>(0,-0.05)</Male>
-										<Female>(0,-0.05)</Female>
-										<Thin>(0,-0.05)</Thin>
-										<Hulk>(0,-0.05)</Hulk>
-									</portraitBodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-								</north>
-								<east>
-									<bodyTypes>
-										<Male>(0.1,-0.2)</Male>
-										<Female>(0.1,-0.2)</Female>
-										<Thin>(0.05,-0.2)</Thin>
-										<Hulk>(0.2,-0.25)</Hulk>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Male>(0.1,-0.2)</Male>
-										<Female>(0.1,-0.2)</Female>
-										<Thin>(0.05,-0.2)</Thin>
-										<Hulk>(0.2,-0.25)</Hulk>
-									</portraitBodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-								</east>
-							</offsets>
+							            <Male>(-0.0286, 0.0571)</Male>
+							            <Fat>(-0.0286, 0.0714)</Fat>
+ 							           <Female>(-0.0429, 0.1286)</Female>
+    							        <Thin>(-0.0286, 0.0571)</Thin>
+        							    <Hulk>(-0.0286, -0.0286)</Hulk>
+      						   	    </bodyTypes>
+   							    </north>
+							    <east>
+							        <bodyTypes>
+							            <Male>(0.0571, -0.1857)</Male>
+							            <Fat>(0.2286, -0.1857)</Fat>
+							            <Female>(0.0429, -0.1429)</Female>
+							            <Thin>(0.0143, -0.1429)</Thin>
+							            <Hulk>(0.1429, -0.2714)</Hulk>
+							        </bodyTypes>
+							    </east>
+ 							    <south>
+ 							        <bodyTypes>
+    							        <Male>(0.0000, 0.0000)</Male>
+   							            <Fat>(0.0000, 0.0000)</Fat>
+            							<Female>(0.0000, 0.0000)</Female>
+            							<Thin>(0.0000, 0.0000)</Thin>
+            							<Hulk>(0.0000, 0.0000)</Hulk>
+         							</bodyTypes>
+      							</south>
+   							</offsets>
 						</li>
 						<li>
 							<drawnDesiccated>false</drawnDesiccated>
