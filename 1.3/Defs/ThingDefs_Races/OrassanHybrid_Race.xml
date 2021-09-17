@@ -58,7 +58,7 @@
 				</forcedRaceTraitEntries>
 				<maxDamageForSocialfight>6</maxDamageForSocialfight>
 				<alienPartGenerator>
-					<atlasScale>2</atlasScale>
+					<!--<atlasScale>2</atlasScale>-->
 					<borderScale>1.4</borderScale>
 					<headOffset>(0.0, -0.03)</headOffset>
 					<aliencrowntypes>
@@ -78,6 +78,7 @@
 					<useGenderedHeads>true</useGenderedHeads>
 					<bodyAddons>
 						<li>
+							<drawnDesiccated>false</drawnDesiccated>
 							<drawSize>.875</drawSize>
 							<path>Things/Pawn/Humanlike/Tails/OTail</path>
 							<bodyPart>tail</bodyPart>
@@ -94,6 +95,16 @@
 							            <Hulk>(-0.0429, -0.1571)</Hulk>
 							            <Male>(-0.0429, -0.0286)</Male>
 							         </bodyTypes>
+							         <portraitBodyTypes>
+							            <Female>(-0.0429, 0.0714)</Female>
+							            <Fat>(-0.0429, -0.0000)</Fat>
+							            <Thin>(-0.0429, -0.0429)</Thin>
+							            <Hulk>(-0.0429, -0.1571)</Hulk>
+							            <Male>(-0.0429, -0.0286)</Male>
+							         </portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
 							      </north>
 							      <east>
 							         <bodyTypes>
@@ -103,6 +114,16 @@
 							            <Hulk>(0.2714, -0.3857)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
 							         </bodyTypes>
+							         <portraitBodyTypes>
+							            <Female>(0.1143, -0.1857)</Female>
+							            <Fat>(0.3571, -0.2571)</Fat>
+							            <Thin>(0.0857, -0.1857)</Thin>
+							            <Hulk>(0.2714, -0.3857)</Hulk>
+							            <Male>(0.1571, -0.2286)</Male>
+							         </portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
 							      </east>
 							      <south>
 							         <bodyTypes>
@@ -112,6 +133,16 @@
 										<Hulk>(0.0000, 0.0000)</Hulk>
 							            <Male>(0.0000, 0.0000)</Male>
 							         </bodyTypes>
+							         <portraitBodyTypes>
+							            <Female>(0.0000, 0.0000)</Female>
+							            <Fat>(0.0000, 0.0000)</Fat>
+							            <Thin>(0.0000, 0.0000)</Thin>
+										<Hulk>(0.0000, 0.0000)</Hulk>
+							            <Male>(0.0000, 0.0000)</Male>
+							         </portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
 							      </south>
 							   </offsets>
 						</li>
