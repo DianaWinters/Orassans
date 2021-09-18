@@ -59,7 +59,7 @@
 				<maxDamageForSocialfight>6</maxDamageForSocialfight>
 				<alienPartGenerator>
 					<!--<atlasScale>2</atlasScale>-->
-					<borderScale>1.4</borderScale>
+					<!--<borderScale>1.4</borderScale>-->
 					<headOffset>(0.0, -0.03)</headOffset>
 					<aliencrowntypes>
 						<li>Average_Normal</li>
