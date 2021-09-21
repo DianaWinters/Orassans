@@ -46,6 +46,7 @@
 					</pawnKindEntries>
 					<factionDefs>
 						<li>PlayerColony</li>
+						<li>OrassanPlayerColony</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -93,6 +94,7 @@
 					</pawnKindEntries>
 					<factionDefs>
 						<li>PlayerColony</li>
+						<li>OrassanPlayerColony</li>
 					</factionDefs>
 				</li>
 			</alienwandererkinds>
