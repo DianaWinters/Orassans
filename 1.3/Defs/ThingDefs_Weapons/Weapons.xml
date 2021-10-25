@@ -3,6 +3,9 @@
 
   <ThingDef Name="OrassanBaseGun" Abstract="True" ParentName="BaseWeapon">
 		<techLevel>Ultra</techLevel>
+	<weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
 		<smeltable>true</smeltable>
 		<thingCategories>
       <li>WeaponsRanged</li>
@@ -1023,6 +1026,9 @@
 	  <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <techLevel>Ultra</techLevel>
+	<weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
     <weaponTags>
       <li>OrassanCryo</li>
     </weaponTags>
@@ -1077,6 +1083,10 @@
       <li>NonNeolithicOnlyMelee</li>
       <li>OrassanMelee</li>
     </weaponTags>
+	<weaponClasses>
+      <li>MeleePiercer</li>
+      <li>Ultratech</li>
+    </weaponClasses>
     <costList>
     <Plasteel>150</Plasteel>
     <ComponentSpacer>4</ComponentSpacer>
@@ -1120,8 +1130,64 @@
 			<li>TableOrassanMachining</li>
 		</recipeUsers>
     </recipeMaker>
-
   </ThingDef>
-
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>OrassanCombatKnife</defName>
+	<label>orassan combat knife</label>
+	<description>Standard issue combat knife for orassan soldiers.</description> <!-- Vanilla Original Text plus nn -->
+	<graphicData>
+		<texPath>Things/Item/Equipment/Weapons/kittyyoungclaws</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>OrassanMeleeSidearm</li>
+    </weaponTags>
+    <costStuffCount>45</costStuffCount>
+	<statBases>
+		<WorkToMake>6400</WorkToMake>
+		<Mass>0.45</Mass>
+	</statBases>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+    <tools> <!-- adjust while balancing # Document 14 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+		<armorPenetration>0.3</armorPenetration>
+        <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+        <li>TableOrassanMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
   
 </Defs>
