@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="NECShipBase">
+    <defName>OrassanQuickResponseShuttle</defName>
+    <label>Orassan Quick Response Shuttle</label>
+    <description>A small troop transport shuttle for strategic insertions and exfiltration, capable of land to space travel at high speeds.
+
+Passenger cap: 1 - 7
+
+--Military--
+  Bombs: 0/20
+  Accuracy: Excellent
+  Build: Narrow
+----------------------------
+Speed: Excellent
+Fuel cap: 2,000 kg
+Fuel efficiency: Amazing
+----------------------------
+Cargo cap: 3,600kg
+Internal power plant: 4,600w</description>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(11,11)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+      <Flammability>0.3</Flammability>
+      <Mass>20</Mass>
+      <Beauty>75</Beauty>
+    </statBases>
+    <costList>
+      <Steel>900</Steel>
+      <Plasteel>1500</Plasteel>
+      <Gold>1000</Gold>
+      <ComponentIndustrial>36</ComponentIndustrial>
+      <ComponentSpacer>12</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Transporter">
+        <restEffectiveness>2</restEffectiveness>
+        <massCapacity>3600</massCapacity>
+      </li>
+      <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <travelSpeed>40</travelSpeed>
+        <fuelPerTile>0.25</fuelPerTile>
+        <minPassengers>1</minPassengers>
+        <maxPassengers>7</maxPassengers>
+		    <spaceFaring>true</spaceFaring>
+		    <shuttleBayLanding>true</shuttleBayLanding>
+      </li>
+      <li Class="SRTS.CompProperties_BombsAway">
+        <numberBombs>0</numberBombs>
+        <precisionBombingNumBombs>20</precisionBombingNumBombs>
+        <radiusOfDrop>5</radiusOfDrop>
+        <speed>2</speed>
+        <distanceBetweenDrops>2</distanceBetweenDrops>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>2000</fuelCapacity>
+        <fuelMultiplier>2</fuelMultiplier>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>2000</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <initialFuelPercent>0.25</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-4600</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>18</glowRadius>
+        <glowColor>(217,217,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Research_OrassanQuickResponseShuttle</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <uiIconScale>0.30</uiIconScale>
+    <killedLeavings>
+      <ChunkSlagSteel>12</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
+  
+</Defs>
