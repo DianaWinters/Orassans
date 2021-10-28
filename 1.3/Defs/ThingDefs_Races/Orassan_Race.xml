@@ -488,9 +488,12 @@
 					<li>(0.5, 0)</li>
 					<li>(1, .30)</li>
 					<li>(2, .40)</li>
-					<li>(3, .10)</li>
+					<li>(3, .05)</li>
 					<li>(4, .20)</li>
+					<li>(4.5, .05)</li>
 					<li>(5, 0)</li>
+					<li>(6, .05)</li>
+					<li>(6.1, 0)</li>
 				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
