@@ -557,7 +557,7 @@
 	<ThingDef ParentName="BaseOrassanMakeableGun">
 		<defName>Gun_OrassanPistol</defName>
 		<label>Orassan pistol</label>
-		<description>Railgun pistol, low calibar. Orassan design.</description>
+		<description>Railgun pistol, low caliber. Orassan design.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Weapons/kittypistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -640,7 +640,7 @@
 	<ThingDef ParentName="BaseOrassanMakeableGun">
 		<defName>Gun_OrassanAEPistol</defName>
 		<label>Orassan Tundra Falcon</label>
-		<description>High calibar railgun pistol. Orassan design. For when you need to shoot someone in your back yard... through your house. Less accurate, but packs a punch.</description>
+		<description>High caliber railgun pistol. Orassan design. For when you need to shoot someone in your back yard... through your house. Less accurate, but packs a punch.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Weapons/kittyheavypistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -723,7 +723,7 @@
 	<ThingDef ParentName="BaseOrassanMakeableGun">
 		<defName>Gun_OrassanSMG</defName>
 		<label>Orassan APSMG</label>
-		<description>High calibar, fully automatic, subsonic, armor piercing weapon system. Orassan design. Deadly in close range engagements, flanking maneuvers, and urban environments. It uses the same ammunition as the pistol. This model fires subsonic armor piercing rounds. Typically used in covert missions.</description>
+		<description>High caliber, fully automatic, subsonic, armor piercing weapon system. Orassan design. Deadly in close range engagements, flanking maneuvers, and urban environments. It uses the same ammunition as the pistol. This model fires subsonic armor piercing rounds. Typically used in covert missions.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Weapons/kittySMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -894,7 +894,7 @@
   <ThingDef ParentName="BaseOrassanMakeableGun">
     <defName>Gun_OrassanGMG</defName>
     <label>Orassan gmg</label>
-    <description>Railgun general purpose machine gun for area suppressive fire. Higher calibar. Orassan design.</description>
+    <description>Railgun general purpose machine gun for area suppressive fire. Higher caliber. Orassan design.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Weapons/kittygmg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
