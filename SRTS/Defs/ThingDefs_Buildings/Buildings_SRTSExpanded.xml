@@ -97,4 +97,92 @@ Internal power plant: 4,600w</description>
     </killedLeavings>
   </ThingDef>
   
+   <ThingDef ParentName="SkyfallerBase">
+    <defName>OrassanQuickResponseShuttle_Incoming</defName>
+    <label>Orassan Quick Response Shuttle incoming</label>
+    <thingClass>SRTS.SRTSIncoming</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Decelerate</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(6,6)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <anticipationSoundTicks>100</anticipationSoundTicks>
+      <motesPerCell>0</motesPerCell>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="BomberSkyfallerBase">
+    <defName>OrassanQuickResponseShuttle_BomberRun</defName>
+    <label>Orassan Quick Response Shuttle Bombing</label>
+    <thingClass>SRTS.SRTSBombing</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <speed>0.85</speed>
+      <movementType>ConstantSpeed</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(6,6)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <anticipationSoundTicks>100</anticipationSoundTicks>
+      <motesPerCell>0</motesPerCell>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>OrassanQuickResponseShuttle_Leaving</defName>
+    <label>Orassan Quick Response Shuttle leaving</label>
+    <thingClass>SRTS.SRTSLeaving</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Accelerate</movementType>
+      <reversed>true</reversed>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(6,6)</shadowSize>
+      <anticipationSound>Sound_Launch</anticipationSound>
+      <anticipationSoundTicks>-10</anticipationSoundTicks>
+      <ticksToImpactRange><min>-40</min><max>-15</max></ticksToImpactRange>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>OrassanQuickResponseShuttle_Active</defName>
+    <label>Orassan Quick Response Shuttle active</label>
+    <category>Item</category>
+    <thingClass>ActiveDropPod</thingClass>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(9,9)</drawSize>
+      <shadowData>
+        <volume>(0.8, 0.6, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>3500</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+  </ThingDef>
+
+  
 </Defs>
