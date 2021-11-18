@@ -88,6 +88,9 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<tradeTags>
+			<li>HiTechArmor</li>
+        </tradeTags>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
 			<ComponentIndustrial>2</ComponentIndustrial>
@@ -150,6 +153,9 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<tradeTags>
+			<li>HiTechArmor</li>
+		</tradeTags>
 		<costList>
 			<ComponentSpacer>5</ComponentSpacer>
 			<Plasteel>135</Plasteel>
@@ -210,6 +216,9 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<tradeTags>
+			<li>HiTechArmor</li>
+		</tradeTags>
 		<costList>
 			<ComponentSpacer>2</ComponentSpacer>
 			<Plasteel>50</Plasteel>
@@ -267,6 +276,9 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+	    <tradeTags>
+			<li>HiTechArmor</li>
+		</tradeTags>
 		<costList>
 			<ComponentSpacer>2</ComponentSpacer>
 			<Plasteel>30</Plasteel>
