@@ -29,7 +29,7 @@
       <Insulation_Heat>30</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
-	 <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+	 <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
          <AimingDelayFactor>-0.05</AimingDelayFactor>
          <ToxicSensitivity>-0.50</ToxicSensitivity>
          <PsychicSensitivity>-1</PsychicSensitivity>
@@ -82,11 +82,11 @@
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
       <ArmorRating_Heat>1</ArmorRating_Heat>
-      <Insulation_Cold>7</Insulation_Cold>
+      <Insulation_Cold>17</Insulation_Cold>
       <Insulation_Heat>7</Insulation_Heat>
     </statBases>
 	    <equippedStatOffsets>
-	 <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+	 <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
          <AimingDelayFactor>-0.1</AimingDelayFactor>
          <ToxicSensitivity>-0.10</ToxicSensitivity>
          <PsychicSensitivity>-0.10</PsychicSensitivity>
