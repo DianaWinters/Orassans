@@ -61,7 +61,7 @@
 	<ThingDef ParentName="OArmorMakeableBase">
 		<defName>Apparel_KittySacriSuit</defName>
 		<label>orassan S.A.C.R.I suit</label>
-		<description>This special protective suit is the most popular choice among the Orassan scientists and hazardous areas explorers. Made of special coating with high-tech fibers, it gives the wearer an exceptionally high protection against many negative impact excluding kinetic damage. Soldered inside the armor vest partly solves this problem. Its name was received because of the new system S.A.C.R.I. (System of abnormal, chemical, radiation isolation.).</description>
+		<description>This special protective suit is the most popular choice among the Orassan scientists, astronauts, and hazardous areas explorers. Made of special coating with high-tech fibers, it gives the wearer an exceptionally high protection against many negative impact excluding kinetic damage. Soldered inside the armor vest partly solves this problem. Its name was received because of the new system S.A.C.R.I. (System of abnormal, chemical, radiation isolation.).</description>
 		<techLevel>Ultra</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
