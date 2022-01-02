@@ -273,6 +273,77 @@
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
 						</li>
+						<!--<li>
+							<drawnDesiccated>false</drawnDesiccated>
+							<drawSize>.75</drawSize>
+							<path>Things/Pawn/Humanlike/Marks/OMark</path>
+							<bodyPart>Torso</bodyPart>
+							<defaultOffset>Tail</defaultOffset>
+							<colorChannel>skin</colorChannel>
+							<drawnInBed>false</drawnInBed>
+							<offsets>
+								<north>
+                                                                <layerOffset>-0.29</layerOffset>
+									<bodyTypes>
+    							        <Male>(0.0000,0.55)</Male>
+   							            <Fat>(0.0000,0.55)</Fat>
+            							<Female>(0.0000,0.55)</Female>
+            							<Thin>(0.0000,0.55)</Thin>
+            							<Hulk>(0.0000,0.55)</Hulk>
+         							</bodyTypes>
+ 							        <portraitBodyTypes>
+    							        <Male>(0.0000,0.55)</Male>
+   							            <Fat>(0.0000,0.55)</Fat>
+            							<Female>(0.0000,0.55)</Female>
+            							<Thin>(0.0000,0.55)</Thin>
+            							<Hulk>(0.0000,0.55)</Hulk>
+      						   	    </portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+   							    </north>
+							    <east>
+                                                                <layerOffset>-0.31</layerOffset>
+							        <bodyTypes>
+    							        <Male>(-0.42,0.21)</Male>
+   							            <Fat>(-0.42,0.21)</Fat>
+            							<Female>(-0.42,0.21)</Female>
+            							<Thin>(-0.42,0.21)</Thin>
+            							<Hulk>(-0.42,0.21)</Hulk>
+         							</bodyTypes>
+ 							        <portraitBodyTypes>
+    							        <Male>(-0.42,0.21)</Male>
+   							            <Fat>(-0.42,0.21)</Fat>
+            							<Female>(-0.42,0.21)</Female>
+            							<Thin>(-0.42,0.21)</Thin>
+            							<Hulk>(-0.42,0.21)</Hulk>
+							        </portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+							    </east>
+ 							    <south>
+                                                                <layerOffset>-0.31</layerOffset>
+ 							        <bodyTypes>
+    							        <Male>(-0.42,0.21)</Male>
+   							            <Fat>(-0.42,0.21)</Fat>
+            							<Female>(-0.42,0.21)</Female>
+            							<Thin>(-0.42,0.21)</Thin>
+            							<Hulk>(-0.42,0.21)</Hulk>
+         							</bodyTypes>
+ 							        <portraitBodyTypes>
+    							        <Male>(-0.42,0.21)</Male>
+   							            <Fat>(-0.42,0.21)</Fat>
+            							<Female>(-0.42,0.21)</Female>
+            							<Thin>(-0.42,0.21)</Thin>
+            							<Hulk>(-0.42,0.21)</Hulk>
+         							</portraitBodyTypes>
+									<crownTypes>
+										<Normal_Average>(0,0)</Normal_Average>
+									</crownTypes>
+      							</south>
+   							</offsets>
+						</li>-->
 					</bodyAddons>
 					<colorChannels>
 						<li>
@@ -488,12 +559,9 @@
 					<li>(0.5, 0)</li>
 					<li>(1, .30)</li>
 					<li>(2, .40)</li>
-					<li>(3, .05)</li>
+					<li>(3, .10)</li>
 					<li>(4, .20)</li>
-					<li>(4.5, .05)</li>
 					<li>(5, 0)</li>
-					<li>(6, .05)</li>
-					<li>(6.1, 0)</li>
 				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
