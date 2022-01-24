@@ -24,10 +24,10 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>.5</Mass>
       <Flammability>1</Flammability>
-      <ArmorRating_Sharp>.1</ArmorRating_Sharp>
-      <ArmorRating_Blunt>.1</ArmorRating_Blunt>
-      <ArmorRating_Heat>.1</ArmorRating_Heat>
-      <Insulation_Cold>30</Insulation_Cold>
+      <ArmorRating_Sharp>.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>.2</ArmorRating_Heat>
+      <Insulation_Cold>50</Insulation_Cold>
       <Insulation_Heat>3</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
@@ -36,6 +36,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
 		<li>Arms</li>
+		<li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/shirtmilitary/Shirtmilitary</wornGraphicPath>
       <layers>
@@ -64,57 +65,7 @@
     </comps>
   </ThingDef>
   
-  <!--This is neccesary for some compatability issues... don't judge me!-->
-    <ThingDef ParentName="ApparelMakeableBase" Name="VanillaPants">
-    <defName>Apparel_Pants</defName>
-    <label>pants</label>
-    <description>A simple set of pants.</description>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>40</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1600</WorkToMake>
-      <Mass>0.5</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <apparel>
-      <bodyPartGroups>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
-      <tags>
-        <li>IndustrialBasic</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
-  
-  
-  
-  <ThingDef ParentName="VanillaPants">
+  <!--<ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_OrassanMilitaryPants</defName>
     <label>Orassan Military Pants</label>
     <description>A uniform with smart fabric. It dynamically restricts blood flow to reduce the rate of bloodloss of the wearer.</description>
@@ -125,8 +76,6 @@
       <texPath>Things/Pawn/Humanlike/Apparel/shirtmilitary/OEPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	<costStuffCount inherit="False" />
-	<stuffCategories inherit="False" />
     <costList>
 		<ComponentSpacer>1</ComponentSpacer>
 		<CatLavenderCloth>20</CatLavenderCloth>
@@ -173,24 +122,24 @@
         <part>Body</part>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
   
   <HediffDef Name="HediffNoBleedArmor1">
     <defName>HediffNoBleedArmor1</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
     <isBad>false</isBad>
-    <label>Orassan Military Uniform Shirt</label>
+    <label>Orassan Military Uniform</label>
     <labelNoun>armor blood reduction</labelNoun>
     <description>Equipped specialized armor significantly reduces the rate of bloodloss.</description>
     <stages>
       <li>
-        <totalBleedFactor>0.75</totalBleedFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
       </li>
     </stages>
   </HediffDef>
   
-  <HediffDef Name="HediffNoBleedArmor2">
+  <!--<HediffDef Name="HediffNoBleedArmor2">
     <defName>HediffNoBleedArmor2</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
@@ -203,5 +152,5 @@
         <totalBleedFactor>0.75</totalBleedFactor>
       </li>
     </stages>
-  </HediffDef>
+  </HediffDef>-->
 </Defs>

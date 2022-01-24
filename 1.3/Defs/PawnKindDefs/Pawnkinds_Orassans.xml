@@ -316,7 +316,7 @@
 		<defName>OrassanMercenarySniper</defName>
 		<label>orassan sniper</label>
 		<race>Alien_Orassan</race>
-		<combatPower>140</combatPower>
+		<combatPower>300</combatPower>
 		<initialWillRange>4~8</initialWillRange>
 		<initialResistanceRange>15~20</initialResistanceRange>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
@@ -409,7 +409,7 @@
 	<PawnKindDef>
 		<defName>OrassanPirateSlasher</defName>
 		<label>orassan pirate</label>
-		<combatPower>150</combatPower>
+		<combatPower>300</combatPower>
 		<race>Alien_Orassan</race>
 		<initialWillRange>2~6</initialWillRange>
 		<initialResistanceRange>10~15</initialResistanceRange>
@@ -513,7 +513,7 @@
 		<defName>OrassanMercenaryGunner</defName>
 		<label>orassan gunner</label>
 		<race>Alien_Orassan</race>
-		<combatPower>200</combatPower>
+		<combatPower>400</combatPower>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
 		<initialWillRange>3~7</initialWillRange>
 		<initialResistanceRange>15~20</initialResistanceRange>
@@ -680,7 +680,7 @@
 		<defName>OrassanMercenarySoldier</defName>
 		<label>orassan mercenary</label>
 		<race>Alien_Orassan</race>
-		<combatPower>150</combatPower>
+		<combatPower>300</combatPower>
 		<initialWillRange>3~7</initialWillRange>
 		<initialResistanceRange>12~17</initialResistanceRange>
 		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
@@ -732,7 +732,7 @@
 		<defName>OrassanPirate</defName>
 		<label>orassan pirate</label>
 		<race>Alien_Orassan</race>
-		<combatPower>120</combatPower>
+		<combatPower>250</combatPower>
 		<initialWillRange>2~6</initialWillRange>
 		<initialResistanceRange>10~15</initialResistanceRange>
 		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>

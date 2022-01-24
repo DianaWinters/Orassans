@@ -94,8 +94,8 @@
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
 			<ComponentIndustrial>2</ComponentIndustrial>
-			<Plasteel>25</Plasteel>
-			<Steel>25</Steel>
+			<CatLavenderCloth>50</CatLavenderCloth>
+			<Neutroamine>10</Neutroamine>
 		</costList>
 		<apparel>
 			<bodyPartGroups>
@@ -290,6 +290,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/OrassanLightExoskeleton/OrassanExoskeleton</wornGraphicPath>
 			<layers>
@@ -352,6 +354,68 @@
 	  <gender>Female</gender>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+	
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_OrassanFlightSuit</defName>
+    <label>orassan flight suit</label>
+    <description>A stylish flight suit that covers the whole body from the neck down. Its smart fabric design protects from even the vacuum of space and dynamically constricts to prevent bloodloss. Comes with gloves and boots.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/OrassanFlightSuit/Kittyjumpsuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+     <costList>
+		<ComponentSpacer>1</ComponentSpacer>
+		<CatLavenderCloth>40</CatLavenderCloth>
+		<Cloth>35</Cloth>
+	</costList>
+	<tradeability>Sellable</tradeability>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>.5</Mass>
+      <Flammability>1</Flammability>
+      <ArmorRating_Sharp>.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>.2</ArmorRating_Heat>
+      <Insulation_Cold>80</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+			<li>Hands</li>
+			<li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/OrassanFlightSuit/Kittyjumpsuit</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+		<li>Spacer</li>
+		<li>EVA</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	  <gender>Female</gender>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>HediffNoBleedArmor1</hediff>
+        <part>Body</part>
+      </li>
+    </comps>
   </ThingDef>
 	
 </Defs>
