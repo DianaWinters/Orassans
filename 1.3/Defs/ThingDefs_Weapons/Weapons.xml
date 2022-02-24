@@ -1153,7 +1153,7 @@
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
-    <tools> <!-- adjust while balancing # Document 14 -->
+    <tools>
       <li>
         <label>handle</label>
         <capacities>
@@ -1178,6 +1178,65 @@
         <power>12</power>
 		<armorPenetration>0.3</armorPenetration>
         <cooldownTime>1.25</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+        <li>TableOrassanMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>OrassanWarHammer</defName>
+	<label>orassan telescoping warhammer</label>
+	<description>Combat against fully armored foes required an alternative to the combat knife that could credibly harm someone in power armor. This telescoping warhammer has a slim profile, yet can deliver quite a blow in the hands of a trained combatant.</description> <!-- Vanilla Original Text plus nn -->
+	<graphicData>
+		<texPath>Things/Item/Equipment/Weapons/kittytelewarhammer</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>OrassanMeleeSidearm</li>
+    </weaponTags>
+    <costStuffCount>45</costStuffCount>
+	<statBases>
+		<WorkToMake>6400</WorkToMake>
+		<Mass>0.45</Mass>
+	</statBases>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+<costList>
+    <Plasteel>60</Plasteel>
+    <ComponentIndustrial>1</ComponentIndustrial>
+</costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+		<armorPenetration>0.5</armorPenetration>
+        <cooldownTime>1.85</cooldownTime>
       </li>
     </tools>
 	<recipeMaker>
