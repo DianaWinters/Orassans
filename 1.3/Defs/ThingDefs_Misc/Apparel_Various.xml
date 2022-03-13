@@ -407,7 +407,6 @@
         <li>Worker</li>
         <li>Soldier</li>
       </defaultOutfitTags>
-	  <gender>Female</gender>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
 	<comps>
