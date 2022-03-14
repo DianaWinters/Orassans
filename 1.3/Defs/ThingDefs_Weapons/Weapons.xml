@@ -226,8 +226,8 @@
 	</ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
     <defName>Gun_OrassanRifle</defName>
-    <label>orassan rifle</label>
-    <description>Bullpup railgun assault rifle. Orassan design.</description>
+    <label>orassan assault rifle</label>
+    <description>Bullpup railgun assault rifle. Orassan design. Suited for close quarters.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Weapons/kittyrifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -309,8 +309,8 @@
 	</ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
     <defName>Gun_OrassanBattleRifle</defName>
-    <label>orassan rifle</label>
-    <description>Automatic railgun battle rifle. Orassan design.</description>
+    <label>orassan battle rifle</label>
+    <description>Automatic railgun battle rifle. Orassan design. Suited for medium range engagements.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Weapons/kittybattlerifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -893,8 +893,8 @@
 	</ThingDef>
   <ThingDef ParentName="BaseOrassanMakeableGun">
     <defName>Gun_OrassanGMG</defName>
-    <label>Orassan gmg</label>
-    <description>Railgun general purpose machine gun for area suppressive fire. Higher caliber. Orassan design.</description>
+    <label>Orassan mmg</label>
+    <description>Railgun medium machine gun for area suppressive fire. Higher caliber, more recoil. More effective in the hands of more experienced shooters. Orassan design.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Weapons/kittygmg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -949,7 +949,7 @@
         <defaultProjectile>Bullet_OrassanGMG</defaultProjectile>
         <warmupTime>1.3</warmupTime>
         <range>40</range>
-        <burstShotCount>10</burstShotCount>
+        <burstShotCount>8</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>OLMG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
