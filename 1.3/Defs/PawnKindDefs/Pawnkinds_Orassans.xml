@@ -640,7 +640,7 @@
 			<li>OrassanShotgun</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>Apparel_OrassanMilitaryPants</li>
+			<!--<li>Apparel_OrassanMilitaryPants</li>-->
 			<li>Apparel_OrassanMilitaryShirt</li>
 		</apparelRequired>
 		<techHediffsMoney>2000~3500</techHediffsMoney>
