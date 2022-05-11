@@ -20,7 +20,7 @@
 						<Animal_Desiri_TemperateTwo>0.04</Animal_Desiri_TemperateTwo>
 						<Animal_Desiri_Urban>0.03</Animal_Desiri_Urban>
 						<Animal_Desiri_Desert>0.04</Animal_Desiri_Desert>
-						<Gryphon>0.01</Gryphon>
+						<Animal_Gryphon>0.01</Animal_Gryphon>
 					</value>
 				</li>
 			</operations>

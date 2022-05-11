@@ -2,8 +2,8 @@
 <Defs>
   <ThingDef ParentName="AnimalThingBase" Name="OriBase">
     <defName>Ori</defName>
-    <label>arctic ori</label>
-    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <label>arctic caemur</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it was a popular pet. However, more contemporary living arngements promote the ability for wild caemur to live in harmy with urban environments. Due to its popularity, Orassan colonists have brought them along (or they stowed away) on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-75</ComfyTemperatureMin>
@@ -107,12 +107,12 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori</defName>
-    <label>arctic ori</label>
+    <label>arctic caemur</label>
     <race>Ori</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>arctic ori</labelMale>
-    <labelFemale>arctic ori</labelFemale>
+    <labelMale>arctic caemur</labelMale>
+    <labelFemale>arctic caemur</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -181,15 +181,15 @@
   
   <ThingDef ParentName="OriBase">
     <defName>Ori_Calico</defName>
-    <label>calico ori</label>
-    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <label>calico caemur</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it was a popular pet. However, more contemporary living arngements promote the ability for wild caemur to live in harmy with urban environments. Due to its popularity, Orassan colonists have brought them along (or they stowed away) on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Ori</useMeatFrom>
+	<useMeatFrom>Caemur</useMeatFrom>
 		<wildBiomes>
 			<BorealForest>0.12</BorealForest>
 			<Tundra>0.01</Tundra>
@@ -205,12 +205,12 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Calico</defName>
-    <label>calico ori</label>
+    <label>calico caemur</label>
     <race>Ori_Calico</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>calico ori</labelMale>
-    <labelFemale>calico ori</labelFemale>
+    <labelMale>calico caemur</labelMale>
+    <labelFemale>calico caemur</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -279,15 +279,15 @@
 
   <ThingDef ParentName="OriBase">
     <defName>Ori_Temperate</defName>
-    <label>temperate ori</label>
-    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <label>temperate caemur</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it was a popular pet. However, more contemporary living arngements promote the ability for wild caemur to live in harmy with urban environments. Due to its popularity, Orassan colonists have brought them along (or they stowed away) on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Ori</useMeatFrom>
+	<useMeatFrom>Caemur</useMeatFrom>
 		<wildBiomes>
 			<BorealForest>0.12</BorealForest>
 			<Tundra>0.01</Tundra>
@@ -303,12 +303,12 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Temperate</defName>
-    <label>temperate ori</label>
+    <label>temperate caemur</label>
     <race>Ori_Temperate</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>temperate ori</labelMale>
-    <labelFemale>temperate ori</labelFemale>
+    <labelMale>temperate caemur</labelMale>
+    <labelFemale>temperate caemur</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -377,15 +377,15 @@
 
   <ThingDef ParentName="OriBase">
     <defName>Ori_Urban</defName>
-    <label>urban ori</label>
-    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <label>urban caemur</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it was a popular pet. However, more contemporary living arngements promote the ability for wild caemur to live in harmy with urban environments. Due to its popularity, Orassan colonists have brought them along (or they stowed away) on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Ori</useMeatFrom>
+	<useMeatFrom>Caemur</useMeatFrom>
 		<wildBiomes>
 			<BorealForest>0.12</BorealForest>
 			<Tundra>0.01</Tundra>
@@ -401,12 +401,12 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Urban</defName>
-    <label>urban ori</label>
+    <label>urban caemur</label>
     <race>Ori_Urban</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>urban ori</labelMale>
-    <labelFemale>urban ori</labelFemale>
+    <labelMale>urban caemur</labelMale>
+    <labelFemale>urban caemur</labelFemale>
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -475,15 +475,15 @@
   
   <ThingDef ParentName="OriBase">
     <defName>Ori_Desert</defName>
-    <label>desert ori</label>
-    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it's a popular pet. Due to its popularity, Orassan colonists have brought them along on their journey, leading to many escaping on various planets across the galaxy.</description>
+    <label>desert caemur</label>
+    <description>Native to Orassia, this monkey-like creature can use its curly tail to grab on to branches, leaving its hands free to do other things. Its natural habitat is in the equatorial region of the arctic planet. Due to it's curious nature, long lifespan, and friendly demeanor, it was a popular pet. However, more contemporary living arngements promote the ability for wild caemur to live in harmy with urban environments. Due to its popularity, Orassan colonists have brought them along (or they stowed away) on their journey, leading to many escaping on various planets across the galaxy.</description>
     <statBases>
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Ori</useMeatFrom>
+	<useMeatFrom>Caemur</useMeatFrom>
 		<wildBiomes>
 			<TemperateForest>0.1</TemperateForest>
 			<TemperateSwamp>0.05</TemperateSwamp>
@@ -498,12 +498,12 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Ori_Desert</defName>
-    <label>desert ori</label>
+    <label>desert caemur</label>
     <race>Ori_Desert</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
-    <labelMale>desert ori</labelMale>
-    <labelFemale>desert ori</labelFemale>
+    <labelMale>desert caemur</labelMale>
+    <labelFemale>desert caemur</labelFemale>
     <wildGroupSize>
       <min>2</min>
       <max>5</max>
