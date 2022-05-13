@@ -189,7 +189,7 @@
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Caemur</useMeatFrom>
+	<useMeatFrom>Ori</useMeatFrom>
 		<wildBiomes>
 			<BorealForest>0.12</BorealForest>
 			<Tundra>0.01</Tundra>
@@ -287,7 +287,7 @@
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Caemur</useMeatFrom>
+	<useMeatFrom>Ori</useMeatFrom>
 		<wildBiomes>
 			<BorealForest>0.12</BorealForest>
 			<Tundra>0.01</Tundra>
@@ -385,7 +385,7 @@
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Caemur</useMeatFrom>
+	<useMeatFrom>Ori</useMeatFrom>
 		<wildBiomes>
 			<BorealForest>0.12</BorealForest>
 			<Tundra>0.01</Tundra>
@@ -483,7 +483,7 @@
       <MarketValue>550</MarketValue>
     </statBases>
     <race>
-	<useMeatFrom>Caemur</useMeatFrom>
+	<useMeatFrom>Ori</useMeatFrom>
 		<wildBiomes>
 			<TemperateForest>0.1</TemperateForest>
 			<TemperateSwamp>0.05</TemperateSwamp>
