@@ -4,7 +4,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Orassan</defName>
 		<label>orassan fur</label>
-		<description>A soft furry pelt harvested from an orassan. Most will find this ditestible, and it doesn't protect well from physical damage, but it will keep you warm in even the coldest enviroments.</description>
+		<description>A soft furry pelt harvested from an orassan. Most will find this detestable, and it doesn't protect well from physical damage, but it will keep you warm in even the coldest environments.</description>
 		<graphicData>
 			<color>(235,235,235)</color>
 			<colorTwo>(235,235,235)</colorTwo>
