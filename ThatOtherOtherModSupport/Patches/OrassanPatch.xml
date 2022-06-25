@@ -5,6 +5,12 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName='Alien_Orassan' or defName='Alien_OrassanHumanHybrid']/statBases/MoveSpeed</xpath>
+                    <value>
+                        <MoveSpeed>5.05</MoveSpeed>
+                    </value>
+                </li>
                 <li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]</xpath>
                     <value>

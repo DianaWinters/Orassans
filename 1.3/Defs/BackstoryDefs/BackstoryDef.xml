@@ -490,7 +490,7 @@
     <defName>Orassan_Cultist</defName>
     <title>Cultist</title>
     <titleShort>Cultist</titleShort>
-    <baseDescription>[PAWN_nameDef] was part of Dawn's Light, a religous cult that rebelled against the Orassan government near the begining of the Empire's space age with the help of newfound enemies of the Empire. The leader has since been killed, but the embers of the cult still flicker... awaiting to reignite.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was part of Dawn's Light, a religous cult that rebelled against the typically accepted way of life near the begining of the Empire's space age with the help of newfound enemies of the Empire. The leader has since been killed, but the embers of the cult still flicker... awaiting to reignite.</baseDescription>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>

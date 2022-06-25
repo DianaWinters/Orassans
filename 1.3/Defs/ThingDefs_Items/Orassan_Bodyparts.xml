@@ -20,7 +20,7 @@
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>OClothTail</defName>
     <label>cloth orassan tail</label>
-    <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
+    <description>A simple prosthesis made from fabric to replace a missing or severely mangled tail. While it lacks much of the functionality of a real tail, it still provides some benefit for balance and keeping at least some semblance of an image of having a tail. Cloth replacements are no longer as common among Orassans as they were in the early days of its history, prior to the technological advancements that eventually led to them becoming a space-faring race. However, they still find use in some of the more remote colonies, communities that don't have access to more advanced components, or communities outside of the Orassan Empire that still practice older methods of warfare, punishment, or commerce.</description>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.8</partEfficiency>
@@ -30,7 +30,7 @@
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>PlasteelClaws</defName>
     <label>orassan plasteel claws</label>
-    <description>Even sharper claws capable of murdering many more couches!</description>
+    <description>A pair of artificial claws made from plasteel and sharpened for deadly effect. More than capable of taking on even the sturdiest of couches! The use of artificial or otherwise modified claws dates back to a time far before the Orassan race unified. Various cultures across Orassa would utilize such enhancements to increase their combat prowess, fulfill certain cultural or religious requirements, or even - though rare - an aesthetic statement. These practices, however, had mostly fallen out of use by the time of the Reconstruction Era, only being revived with the birth of more advanced technologies. The newer claws not only serve as stronger and sharper variants of the older prostheses, but also retain their retractability - making them much more useful in everyday life and a tool for special operatives that require more subtlety.</description>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1</partEfficiency>
@@ -66,7 +66,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>OBionicTail</defName>
     <label>bionic orassan tail</label>
-    <description>A sophisticated prehensile tail replacement. It's like having another hand!</description>
+    <description>A more advanced replacement for a tail. The addition of computerized components, prehensile functionality, and stronger materials greatly increase its effectiveness over a normal organic tail. It also features an integrated gyroscope to help maintain balance. With Orassan unification augmentation to not only replace lost limbs and organs - but to supercede them - became more common. An increased technological drive combined with a focus on public welfare and the common good helped to spur on a period of innovation regarding bionics or gene tailoring and their subsequent proliferation through society - with much of the population of more core planets having some manner of alteration to enhance their natural physical abilities. </description>
     <graphicData>
       <texPath>Things/Item/Health/HealthItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -88,7 +88,7 @@
     <defName>OBionicTail</defName>
     <label>bionic orassan tail</label>
     <spawnThingOnRemoved>OBionicTail</spawnThingOnRemoved>
-	<description>Includes an integrated gyroscope to help maintain balance and imrpove manipulation.</description>
+	<description>A more advanced replacement for a tail. The addition of computerized components, prehensile functionality, and stronger materials greatly increase its effectiveness over a normal organic tail. It also features an integrated gyroscope to help maintain balance. With Orassan unification augmentation to not only replace lost limbs and organs - but to supercede them - became more common. An increased technological drive combined with a focus on public welfare and the common good helped to spur on a period of innovation regarding bionics or gene tailoring and their subsequent proliferation through society - with much of the population of more core planets having some manner of alteration to enhance their natural physical abilities. </description>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
