@@ -66,7 +66,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>OBionicTail</defName>
     <label>bionic orassan tail</label>
-    <description>A more advanced replacement for a tail. The addition of computerized components, prehensile functionality, and stronger materials greatly increase its effectiveness over a normal organic tail. It also features an integrated gyroscope to help maintain balance. With Orassan unification augmentation to not only replace lost limbs and organs - but to supercede them - became more common. An increased technological drive combined with a focus on public welfare and the common good helped to spur on a period of innovation regarding bionics or gene tailoring and their subsequent proliferation through society - with much of the population of more core planets having some manner of alteration to enhance their natural physical abilities. </description>
+    <description>A more advanced replacement for a tail. The addition of computerized components, prehensile functionality, and stronger materials greatly increase its effectiveness over a normal organic tail. It also features an integrated gyroscope to help maintain balance. With Orassan unification augmentation to not only replace lost limbs and organs - but to supercede them - became more common. An increased technological drive combined with a focus on public welfare and the common good helped to spur on a period of innovation regarding bionics or gene tailoring and their subsequent proliferation through society - with much of the population of more core planets having some manner of alteration to enhance their natural physical abilities.</description>
     <graphicData>
       <texPath>Things/Item/Health/HealthItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -88,7 +88,7 @@
     <defName>OBionicTail</defName>
     <label>bionic orassan tail</label>
     <spawnThingOnRemoved>OBionicTail</spawnThingOnRemoved>
-	<description>A more advanced replacement for a tail. The addition of computerized components, prehensile functionality, and stronger materials greatly increase its effectiveness over a normal organic tail. It also features an integrated gyroscope to help maintain balance. With Orassan unification augmentation to not only replace lost limbs and organs - but to supercede them - became more common. An increased technological drive combined with a focus on public welfare and the common good helped to spur on a period of innovation regarding bionics or gene tailoring and their subsequent proliferation through society - with much of the population of more core planets having some manner of alteration to enhance their natural physical abilities. </description>
+	<description>A more advanced replacement for a tail. The addition of computerized components, prehensile functionality, and stronger materials greatly increase its effectiveness over a normal organic tail. It also features an integrated gyroscope to help maintain balance. With Orassan unification augmentation to not only replace lost limbs and organs - but to supercede them - became more common. An increased technological drive combined with a focus on public welfare and the common good helped to spur on a period of innovation regarding bionics or gene tailoring and their subsequent proliferation through society - with much of the population of more core planets having some manner of alteration to enhance their natural physical abilities.</description>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
