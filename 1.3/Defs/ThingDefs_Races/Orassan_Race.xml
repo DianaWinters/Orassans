@@ -59,7 +59,7 @@
 				<maxDamageForSocialfight>6</maxDamageForSocialfight>
 				<alienPartGenerator>
 					<!--<atlasScale>2</atlasScale>-->
-					<headOffset>(0.0, -0.06)</headOffset>
+					<headOffset>(0.0, -0.094)</headOffset>
 					<aliencrowntypes>
 						<li>Average_Normal</li>
 					</aliencrowntypes>
@@ -85,7 +85,7 @@
 									<bodyTypes>
 							            <Male>(-0.0286,0.0571)</Male>
 							            <Fat>(-0.0286,0.0714)</Fat>
- 							            <Female>(-0.0429,0.1286)</Female>
+ 							            <Female>(-0.0429,0.042)</Female>
     							        <Thin>(-0.0286,0.0571)</Thin>
         							    <Hulk>(-0.0286,-0.0286)</Hulk>
       						   	    </bodyTypes>
@@ -152,16 +152,16 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Male>(-0.0385,-0.335)</Male>
-										<Female>(-0.0385,-0.335)</Female>
-										<Thin>(-0.0385,-0.335)</Thin>
-										<Hulk>(-0.0385,-0.335)</Hulk>
+										<Male>(-0.051,-0.335)</Male>
+										<Female>(-0.051,-0.335)</Female>
+										<Thin>(-0.051,-0.335)</Thin>
+										<Hulk>(-0.051,-0.335)</Hulk>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(-0.0385,-0.335)</Male>
-										<Female>(-0.0385,-0.335)</Female>
-										<Thin>(-0.0385,-0.335)</Thin>
-										<Hulk>(-0.0385,-0.335)</Hulk>
+										<Male>(-0.051,-0.335)</Male>
+										<Female>(-0.051,-0.335)</Female>
+										<Thin>(-0.051,-0.335)</Thin>
+										<Hulk>(-0.051,-0.335)</Hulk>
 									</portraitBodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -273,77 +273,6 @@
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
 						</li>
-						<!--<li>
-							<drawnDesiccated>false</drawnDesiccated>
-							<drawSize>.75</drawSize>
-							<path>Things/Pawn/Humanlike/Marks/OMark</path>
-							<bodyPart>Torso</bodyPart>
-							<defaultOffset>Tail</defaultOffset>
-							<colorChannel>skin</colorChannel>
-							<drawnInBed>false</drawnInBed>
-							<offsets>
-								<north>
-                                                                <layerOffset>-0.29</layerOffset>
-									<bodyTypes>
-    							        <Male>(0.0000,0.55)</Male>
-   							            <Fat>(0.0000,0.55)</Fat>
-            							<Female>(0.0000,0.55)</Female>
-            							<Thin>(0.0000,0.55)</Thin>
-            							<Hulk>(0.0000,0.55)</Hulk>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-    							        <Male>(0.0000,0.55)</Male>
-   							            <Fat>(0.0000,0.55)</Fat>
-            							<Female>(0.0000,0.55)</Female>
-            							<Thin>(0.0000,0.55)</Thin>
-            							<Hulk>(0.0000,0.55)</Hulk>
-      						   	    </portraitBodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-   							    </north>
-							    <east>
-                                                                <layerOffset>-0.31</layerOffset>
-							        <bodyTypes>
-    							        <Male>(-0.42,0.21)</Male>
-   							            <Fat>(-0.42,0.21)</Fat>
-            							<Female>(-0.42,0.21)</Female>
-            							<Thin>(-0.42,0.21)</Thin>
-            							<Hulk>(-0.42,0.21)</Hulk>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-    							        <Male>(-0.42,0.21)</Male>
-   							            <Fat>(-0.42,0.21)</Fat>
-            							<Female>(-0.42,0.21)</Female>
-            							<Thin>(-0.42,0.21)</Thin>
-            							<Hulk>(-0.42,0.21)</Hulk>
-							        </portraitBodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-							    </east>
- 							    <south>
-                                                                <layerOffset>-0.31</layerOffset>
- 							        <bodyTypes>
-    							        <Male>(-0.42,0.21)</Male>
-   							            <Fat>(-0.42,0.21)</Fat>
-            							<Female>(-0.42,0.21)</Female>
-            							<Thin>(-0.42,0.21)</Thin>
-            							<Hulk>(-0.42,0.21)</Hulk>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-    							        <Male>(-0.42,0.21)</Male>
-   							            <Fat>(-0.42,0.21)</Fat>
-            							<Female>(-0.42,0.21)</Female>
-            							<Thin>(-0.42,0.21)</Thin>
-            							<Hulk>(-0.42,0.21)</Hulk>
-         							</portraitBodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
-      							</south>
-   							</offsets>
-						</li>-->
 					</bodyAddons>
 					<colorChannels>
 						<li>
@@ -361,6 +290,10 @@
 									<li>
 										<weight>10</weight>
 										<only>RGBA(0.3,0.3,0.3,1)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(245,230,175,255)</only>
 									</li>
 									<li>
 										<weight>5</weight>
@@ -390,6 +323,7 @@
 			<graphicPaths>
 				<li>
 					<head>Things/Orassan/Heads/</head>
+					<body>Things/Orassan/Bodies/</body>
 					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 				</li>
 			</graphicPaths>
