@@ -1069,6 +1069,99 @@
       </li>
     </verbs>
   </ThingDef>
+
+  <!-- ==================== grenade launcher ========================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_OrassanGrenadeLauncher</defName>
+    <label>grenade</label>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Weapons/CryoCannonShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile><flyOverhead>false</flyOverhead>
+      <explosionRadius>1.9</explosionRadius>
+      <speed>52</speed>
+      <damageDef>Bomb</damageDef>
+          <!-- Use default damage from explosion def -->
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseOrassanMakeableGun">
+    <defName>Gun_OrassanGrenadeLauncher</defName>
+    <label>Orassan Grenade launcher</label>
+    <description>Grenade bolt launcher with revolving cylinder. While rather lacking in accuracy for shooting at moving targets, it doing good job at destroying structures. Standard issue for orassan demolisher squads.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Weapons/OrassanGrenadeLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3.4</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>OChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+	  <Uranium>8</Uranium>
+      <Plasteel>75</Plasteel>
+      <Steel>90</Steel>
+      <ComponentSpacer>2</ComponentSpacer>
+	  <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <techLevel>Ultra</techLevel>
+	<weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>OrassanGrenade</li>
+    </weaponTags>
+	    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+	  <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_OrassanGrenadeLauncher</defaultProjectile>
+        <warmupTime>3.1</warmupTime>
+        <range>28.9</range>
+        <burstShotCount>1</burstShotCount>
+        <forcedMissRadius>0.25</forcedMissRadius>
+        <soundCast>OLaunchers</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>MeleeWeapon_kittyclaws</defName>

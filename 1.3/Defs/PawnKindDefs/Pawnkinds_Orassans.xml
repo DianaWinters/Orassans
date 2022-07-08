@@ -584,6 +584,7 @@
 		<weaponMoney>5000~25000</weaponMoney>
 		<weaponTags>
 			<li>OrassanCryo</li>
+			<li>OrassanGrenade</li>
 			<li>OrassanMissile</li>
 		</weaponTags>
 		<techHediffsMoney>2000~3500</techHediffsMoney>
