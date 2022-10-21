@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Gulden Mod</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Add some orassan animals to the biome -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BiomeDef[defName="TemperateGuldenForest"]/wildAnimals</xpath>
+					<value>
+						<Ori_Calico>0.2</Ori_Calico>
+						<Ori_Temperate>0.21</Ori_Temperate>
+						<Ori_Desert>0.1</Ori_Desert>
+						<Ori_Urban>0.15</Ori_Urban>
+						<Animal_Desiri_TemperateOne>0.04</Animal_Desiri_TemperateOne>
+						<Animal_Desiri_TemperateTwo>0.04</Animal_Desiri_TemperateTwo>
+						<Animal_Desiri_Urban>0.03</Animal_Desiri_Urban>
+						<Animal_Desiri_Desert>0.04</Animal_Desiri_Desert>
+						<Animal_Gryphon>0.01</Animal_Gryphon>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

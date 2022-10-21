@@ -83,7 +83,7 @@ namespace Orassan
                 for (int i = 0; i < list.Count; i++)
                 {
                     Pawn pawn = list[i];
-                    if (pawn.apparel.WornApparel.Any((Apparel ap) => ap is ShieldBelt))
+                    if (pawn.apparel.WornApparel.Any(ap => ap.TryGetComp<CompShield>() != null))
                     {
                         LessonAutoActivator.TeachOpportunity(ConceptDefOf.ShieldBelts, OpportunityType.Critical);
                         break;

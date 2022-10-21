@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_KittyArmor"]/apparel/tags</xpath>
+        <value>
+			<li>RoyalCombatGear</li>
+        </value>
+    </match>
+</Operation>
+</Patch>

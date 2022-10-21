@@ -79,7 +79,7 @@ namespace Orassans
                         }
                     },
                     icon = ActiveProjectile.iconTexture,
-                    order = -100
+                    Order = -100
                 };
             }
         }

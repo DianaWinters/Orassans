@@ -37,24 +37,24 @@ namespace CommunityCoreLibrary
                 Debug.LogError("PawnBio with defName: " + this.defName + " has empty first or last name. It will not be added."+ "Backstories");
                 return;
             }
-            BackstoryDatabase.TryGetWithIdentifier(this.childhoodDef.defName, out Backstory childhood);
-            if (childhood != null)
+            
+            if (this.childhoodDef != null)
             {
-                bio.childhood = childhood;
+                bio.childhood             = this.childhoodDef;
                 bio.childhood.shuffleable = false;
-                bio.childhood.slot = BackstorySlot.Childhood;
+                bio.childhood.slot        = BackstorySlot.Childhood;
             }
             else
             {
                 Debug.LogError("PawnBio with defName: " + this.defName + " has null childhood. It will not be added." + "Backstories");
                 return;
             }
-            BackstoryDatabase.TryGetWithIdentifier(this.adulthoodDef.defName, out Backstory adulthood);
-            if (adulthood != null)
+            
+            if (this.adulthoodDef != null)
             {
-                bio.adulthood = adulthood;
+                bio.adulthood             = this.adulthoodDef;
                 bio.adulthood.shuffleable = false;
-                bio.adulthood.slot = BackstorySlot.Adulthood;
+                bio.adulthood.slot        = BackstorySlot.Adulthood;
             }
             else
             {
@@ -63,21 +63,6 @@ namespace CommunityCoreLibrary
             }
 
             bio.name.ResolveMissingPieces();
-
-            bool flag = false;
-            foreach (string error in bio.ConfigErrors())
-            {
-                if (!flag)
-                {
-                    flag = true;
-                    Debug.LogError("Config error(s) in PawnBioDef " + this.defName + ". Skipping..." + "Backstories");
-                }
-                Debug.LogError(error + "Backstories");
-            }
-            if (flag)
-            {
-                return;
-            }
 
             if (!SolidBioDatabase.allBios.Contains(bio))
                 SolidBioDatabase.allBios.Add(bio);

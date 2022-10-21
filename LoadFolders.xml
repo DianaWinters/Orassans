@@ -32,4 +32,17 @@
 		<li IfModActive="tachyonite.pawnmorpherpublic">ThatOtherOtherModSupport</li>
 		<li IfModActive="smashphil.neceros.srtsexpanded">SRTS</li>
 	</v1.3>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
+		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
+		<li IfModActive="rim.job.world">ThatOneModSupport</li>
+		<li IfModActive="Nals.FacialAnimation">FacialAnimation</li>
+		<li IfModActive="Mlie.MilkableColonists">ThatOtherModSupport</li>
+		<li IfModActive="mali.milk">ThatOtherModSupport</li>
+		<li IfModActive="rjw.milk.humanoid">ThatOtherModSupport</li>
+		<li IfModActive="tachyonite.pawnmorpherpublic">ThatOtherOtherModSupport</li>
+		<li IfModActive="smashphil.neceros.srtsexpanded">SRTS</li>
+	</v1.4>
 </loadFolders>

@@ -19,15 +19,15 @@ internal static class HarmonyPatches
 		Type typeFromHandle = typeof(Plant);
 		PropertyInfo propertyInfo = AccessTools.Property(typeFromHandle, "GrowthRateFactor_Temperature");
 		MethodInfo getMethod = propertyInfo.GetGetMethod();
-		HarmonyMethod prefix = new HarmonyMethod(typeof(HarmonyPatches), "Patch_Plant_GrowthRateFactor_Temperature_get");
+		HarmonyMethod prefix = new HarmonyMethod(typeof(HarmonyPatches), nameof(Patch_Plant_GrowthRateFactor_Temperature_get));
 		harmony.Patch(getMethod, prefix);
 		Type typeFromHandle2 = typeof(Zone_Growing);
 		MethodInfo method = typeFromHandle2.GetMethod("GetInspectString");
-		HarmonyMethod prefix2 = new HarmonyMethod(typeof(HarmonyPatches), "Patch_Zone_Growing_GetInspectString");
+		HarmonyMethod prefix2 = new HarmonyMethod(typeof(HarmonyPatches), nameof(Patch_Zone_Growing_GetInspectString));
 		harmony.Patch(method, prefix2);
 		Type typeFromHandle3 = typeof(PlantUtility);
 		MethodInfo method2 = typeFromHandle3.GetMethod("GrowthSeasonNow");
-		HarmonyMethod prefix3 = new HarmonyMethod(typeof(HarmonyPatches), "Patch_GrowthSeasonNow");
+		HarmonyMethod prefix3 = new HarmonyMethod(typeof(HarmonyPatches), nameof(Patch_GrowthSeasonNow));
 		harmony.Patch(method2, prefix3);
 	}
 
@@ -47,16 +47,10 @@ internal static class HarmonyPatches
 		MethodInfo growthSeason = AccessTools.Method(typeof(PlantUtility), "GrowthSeasonNow");
 		foreach (CodeInstruction instruction in instructions)
 		{
-			if (instruction.opcode == OpCodes.Call && instruction.operand == growthSeason)
-			{
-				instruction.operand = AccessTools.Method(typeof(HarmonyPatches), "FrostPlantSeason");
-				yield return instruction;
-			}
-			else
-			{
-				yield return instruction;
-			}
-		}
+            if (instruction.Calls(growthSeason))
+                instruction.operand = AccessTools.Method(typeof(HarmonyPatches), "FrostPlantSeason");
+            yield return instruction;
+        }
 	}
 
 	public static bool FrostPlantSeason(IntVec3 c, Map map)

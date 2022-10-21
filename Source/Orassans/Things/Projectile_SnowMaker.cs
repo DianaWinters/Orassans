@@ -5,7 +5,7 @@ namespace Orassan
 {
     class Projectile_SnowMaker : Projectile
     {
-        protected override void Impact(Thing hitThing)
+        protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             GenExplosion.DoExplosion(base.Position, this.Map, this.def.projectile.explosionRadius, this.def.projectile.damageDef, this.launcher, def.projectile.GetDamageAmount(1f),
                 -1, null, this.def, this.equipmentDef, null);
@@ -15,7 +15,7 @@ namespace Orassan
             for (int i = 0; i < Rand.RangeInclusive(3, 6); i++)
             {
                 IntVec3 randomCell = cellRect.RandomCell;
-                IceExplosion(randomCell, 2.9f, this.Map);
+                this.IceExplosion(randomCell, 2.9f, this.Map);
             }
 
             base.Impact(hitThing);

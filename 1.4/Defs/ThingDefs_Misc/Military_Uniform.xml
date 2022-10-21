@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_OrassanMilitaryShirt</defName>
+    <label>Orassan Military Uniform</label>
+    <description>A uniform with smart fabric. It dynamically restricts blood flow to reduce the rate of bloodloss of the wearer.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/shirtmilitary/Shirtmilitary</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+		<ComponentSpacer>1</ComponentSpacer>
+		<CatLavenderCloth>20</CatLavenderCloth>
+		<Cloth>25</Cloth>
+	</costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>.5</Mass>
+      <Flammability>1</Flammability>
+      <ArmorRating_Sharp>.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>.2</ArmorRating_Heat>
+      <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+		<li>Arms</li>
+		<li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/shirtmilitary/Shirtmilitary</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>OrassanMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <only>(0.5,0.5,0.5)</only>
+        </li>
+	  </options>
+    </colorGenerator>
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>HediffNoBleedArmor1</hediff>
+        <part>Body</part>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <!--<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_OrassanMilitaryPants</defName>
+    <label>Orassan Military Pants</label>
+    <description>A uniform with smart fabric. It dynamically restricts blood flow to reduce the rate of bloodloss of the wearer.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+	</recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/shirtmilitary/OEPants</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+		<ComponentSpacer>1</ComponentSpacer>
+		<CatLavenderCloth>20</CatLavenderCloth>
+		<Cloth>25</Cloth>
+	</costList>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>.5</Mass>
+      <Flammability>1</Flammability>
+      <ArmorRating_Sharp>.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>.1</ArmorRating_Blunt>
+      <ArmorRating_Heat>.1</ArmorRating_Heat>
+      <Insulation_Cold>30</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>OrassanMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <only>(0.2,0.2,0.2)</only>
+        </li>
+	  </options>
+    </colorGenerator>
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>HediffNoBleedArmor2</hediff>
+        <part>Body</part>
+      </li>
+    </comps>
+  </ThingDef>-->
+  
+  <HediffDef Name="HediffNoBleedArmor1">
+    <defName>HediffNoBleedArmor1</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Orassan Military Uniform</label>
+    <labelNoun>armor blood reduction</labelNoun>
+    <description>Equipped specialized armor significantly reduces the rate of bloodloss.</description>
+    <stages>
+      <li>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!--<HediffDef Name="HediffNoBleedArmor2">
+    <defName>HediffNoBleedArmor2</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Orassan Military Uniform Pants</label>
+    <labelNoun>armor blood reduction</labelNoun>
+    <description>Equipped specialized armor significantly reduces the rate of bloodloss.</description>
+    <stages>
+      <li>
+        <totalBleedFactor>0.75</totalBleedFactor>
+      </li>
+    </stages>
+  </HediffDef>-->
+</Defs>

@@ -203,7 +203,7 @@
 								</east>
 							</offsets>
 							<hiddenUnderApparelFor>
-								<li>FullHead</li>
+								<!--<li>FullHead</li>-->
 							</hiddenUnderApparelFor>
 						</li>
 						<li>
@@ -270,7 +270,7 @@
 								</east>
 							</offsets>
 							<hiddenUnderApparelFor>
-								<li>FullHead</li>
+								<!--<li>FullHead</li>-->
 							</hiddenUnderApparelFor>
 						</li>
 					</bodyAddons>

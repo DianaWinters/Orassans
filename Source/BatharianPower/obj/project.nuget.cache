@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eUEMehOCWE1JMwYx1GJbzg9tP/osRWaSnbuY8c2mfqeGnbzMoAtwdvYbcR+q0xrDj1ckdMKlF157xXXLioK87w==",
+  "dgSpecHash": "KWrQEKdIu2pgBusn/JjsyXPseYZA5FII8jHvXKPmQ0wywX36L70maFDEntVVmpBhQLjRvRrPrZqMHd+3dZbhYA==",
   "success": true,
-  "projectFilePath": "C:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\BetharianPower.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\BetharianPower.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\wolfy\\.nuget\\packages\\lib.harmony\\2.1.0\\lib.harmony.2.1.0.nupkg.sha512"
+    "C:\\Users\\simon\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
   ],
   "logs": []
 }
