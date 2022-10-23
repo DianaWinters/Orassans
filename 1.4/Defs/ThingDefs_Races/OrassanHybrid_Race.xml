@@ -125,7 +125,7 @@
 							            <Thin>(0.0857, -0.1857)</Thin>
 							            <Hulk>(0.2714, -0.3857)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
-										<Child>(0.1,-0.25)</Child>
+										<Child>(0.1,-0.15)</Child>
 										<Baby>(0,0)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
@@ -134,7 +134,7 @@
 							            <Thin>(0.0857, -0.1857)</Thin>
 							            <Hulk>(0.2714, -0.3857)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
-										<Child>(0.1,-0.25)</Child>
+										<Child>(0.1,-0.15)</Child>
 										<Baby>(0,0)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>

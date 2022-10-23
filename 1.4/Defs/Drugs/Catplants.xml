@@ -52,6 +52,7 @@
     <selectable>true</selectable>
     <pathCost>10</pathCost>
     <plant>
+	  <immatureGraphicPath>Things/Plant/CateyePlant/CateyePlant_Immature</immatureGraphicPath>
       <dieIfLeafless>false</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CateyeBerries</harvestedThingDef>
