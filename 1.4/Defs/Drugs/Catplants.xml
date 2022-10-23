@@ -37,8 +37,8 @@
   
   <ThingDef ParentName="PlantBase">
     <defName>PlantCateye</defName>
-    <label>cat's eye plant</label>
-    <description>A bush plant cultivated for its stimulating berries. Cat's eye berries can be brewed into a drink analagous to coffee... except it tastes much better. Can withstand even the harshest cold weather.</description>
+    <label>eyeberry plant</label>
+    <description>A bush plant cultivated for its stimulating berries. Eye berries can be brewed into a drink analagous to coffee... except it tastes much better. Can withstand even the harshest cold weather.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>5</Beauty>
