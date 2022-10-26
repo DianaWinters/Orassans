@@ -362,6 +362,11 @@
 					<customPortraitDrawSize>(.7, .7)</customPortraitDrawSize>
 				</alienPartGenerator>
 				<humanRecipeImport>true</humanRecipeImport>
+				<growthAges>
+					<li>5</li>
+					<li>8</li>
+					<li>11</li>
+				</growthAges>
 			</generalSettings>
 			<graphicPaths>
 					<head>Things/Orassan/Heads/</head>

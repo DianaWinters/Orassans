@@ -332,6 +332,11 @@
 					<customPortraitDrawSize>(.875, .875)</customPortraitDrawSize>
 				</alienPartGenerator>
 				<humanRecipeImport>true</humanRecipeImport>
+				<growthAges>
+					<li>6</li>
+					<li>9</li>
+					<li>12</li>
+				</growthAges>
 			</generalSettings>
 			<graphicPaths>
 					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
