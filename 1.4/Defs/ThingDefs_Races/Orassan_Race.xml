@@ -255,7 +255,7 @@
 										<Thin>(0.043,0.15)</Thin>
 										<Hulk>(0.043,0.15)</Hulk>
 										<Child>(0.075,0.0)</Child>
-										<Baby>(0.0575,0.148)</Baby>
+										<Baby>(0.0575,0.085)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(0.043,0.15)</Male>
@@ -263,7 +263,7 @@
 										<Thin>(0.043,0.15)</Thin>
 										<Hulk>(0.043,0.15)</Hulk>
 										<Child>(0.075,0.0)</Child>
-										<Baby>(0.0575,0.148)</Baby>
+										<Baby>(0.0575,0.085)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -370,7 +370,7 @@
 			</generalSettings>
 			<graphicPaths>
 					<head>Things/Orassan/Heads/</head>
-					<body>Things/Orassan/Bodies/</body>
+					<body>Things/Orassan/Body/</body>
 					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 					<skinShader>Cutout</skinShader>
 			</graphicPaths>

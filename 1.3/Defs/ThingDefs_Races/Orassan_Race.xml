@@ -323,7 +323,7 @@
 			<graphicPaths>
 				<li>
 					<head>Things/Orassan/Heads/</head>
-					<body>Things/Orassan/Bodies/</body>
+					<body>Things/Orassan/Body/</body>
 					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 				</li>
 			</graphicPaths>
