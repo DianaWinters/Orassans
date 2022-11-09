@@ -86,7 +86,7 @@
 					<bodyAddons>
 						<li>
 							<drawnDesiccated>false</drawnDesiccated>
-							<drawSize>.875</drawSize>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<path>Things/Pawn/Humanlike/Tails/OTail</path>
 							<bodyPart>OTail</bodyPart>
 							<bodyPartLabel>tail</bodyPartLabel>
@@ -97,21 +97,21 @@
 							<offsets>
 								<north>
 							         <bodyTypes>
-							            <Female>(-0.0429, 0.0714)</Female>
+							            <Female>(-0.0429, -0.03)</Female>
 							            <Fat>(-0.0429, -0.0000)</Fat>
-							            <Thin>(-0.0429, -0.0429)</Thin>
-							            <Hulk>(-0.0429, -0.1571)</Hulk>
-							            <Male>(-0.0429, -0.0286)</Male>
-										<Child>(-0.04,-0.045)</Child>
+							            <Thin>(-0.043, -0.075)</Thin>
+							            <Hulk>(-0.0429, -0.25)</Hulk>
+							            <Male>(-0.0429, -0.06)</Male>
+										<Child>(-0.03,0.23)</Child>
 										<Baby>(0,0)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
-							            <Female>(-0.0429, 0.0714)</Female>
+							            <Female>(-0.0429, -0.03)</Female>
 							            <Fat>(-0.0429, -0.0000)</Fat>
-							            <Thin>(-0.0429, -0.0429)</Thin>
-							            <Hulk>(-0.0429, -0.1571)</Hulk>
-							            <Male>(-0.0429, -0.0286)</Male>
-										<Child>(-0.04,-0.045)</Child>
+							            <Thin>(-0.043, -0.075)</Thin>
+							            <Hulk>(-0.0429, -0.25)</Hulk>
+							            <Male>(-0.0429, -0.06)</Male>
+										<Child>(-0.03,0.23)</Child>
 										<Baby>(0,0)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>
@@ -120,22 +120,22 @@
 							      </north>
 							      <east>
 							         <bodyTypes>
-							            <Female>(0.1143, -0.1857)</Female>
+							            <Female>(0.172, -0.21)</Female>
 							            <Fat>(0.3571, -0.2571)</Fat>
-							            <Thin>(0.0857, -0.1857)</Thin>
-							            <Hulk>(0.2714, -0.3857)</Hulk>
+							            <Thin>(0.145, -0.185)</Thin>
+							            <Hulk>(0.29, -0.32)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
-										<Child>(0.1,-0.15)</Child>
-										<Baby>(0,0)</Baby>
+									<Child>(-0.085,-0.002)</Child>
+									<Baby>(-0.175,0.05)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
-							            <Female>(0.1143, -0.1857)</Female>
+							            <Female>(0.172, -0.21)</Female>
 							            <Fat>(0.3571, -0.2571)</Fat>
-							            <Thin>(0.0857, -0.1857)</Thin>
-							            <Hulk>(0.2714, -0.3857)</Hulk>
+							            <Thin>(0.145, -0.185)</Thin>
+							            <Hulk>(0.29, -0.32)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
-										<Child>(0.1,-0.15)</Child>
-										<Baby>(0,0)</Baby>
+									<Child>(-0.085,-0.002)</Child>
+									<Baby>(-0.175,0.05)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -146,19 +146,19 @@
 							            <Female>(0.0000, 0.0000)</Female>
 							            <Fat>(0.0000, 0.0000)</Fat>
 							            <Thin>(0.0000, 0.0000)</Thin>
-										<Hulk>(0.0000, 0.0000)</Hulk>
+							            <Hulk>(0.0000, 0.0000)</Hulk>
 							            <Male>(0.0000, 0.0000)</Male>
-										<Child>(0,0)</Child>
-										<Baby>(0,0)</Baby>
+									<Child>(0,0)</Child>
+									<Baby>(0,0)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
 							            <Female>(0.0000, 0.0000)</Female>
 							            <Fat>(0.0000, 0.0000)</Fat>
 							            <Thin>(0.0000, 0.0000)</Thin>
-										<Hulk>(0.0000, 0.0000)</Hulk>
+							            <Hulk>(0.0000, 0.0000)</Hulk>
 							            <Male>(0.0000, 0.0000)</Male>
-										<Child>(0,0)</Child>
-										<Baby>(0,0)</Baby>
+									<Child>(0,0)</Child>
+									<Baby>(0,0)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -168,7 +168,7 @@
 						</li>
 						<li>
 							<drawnDesiccated>false</drawnDesiccated>
-							<drawSize>.875</drawSize>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<path>EarLeft</path>
 							<bodyPart>Ear</bodyPart>
 							<bodyPartLabel>left ear</bodyPartLabel>
@@ -180,20 +180,20 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Male>(-0.057,-0.305)</Male>
-										<Female>(-0.057,-0.305)</Female>
-										<Thin>(-0.057,-0.305)</Thin>
-										<Hulk>(-0.057,-0.305)</Hulk>
-										<Child>(-0.1,-0.455)</Child>
-										<Baby>(-0.155,-0.355)</Baby>
+										<Male>(-0.065,-0.305)</Male>
+										<Female>(-0.065,-0.305)</Female>
+										<Thin>(-0.065,-0.305)</Thin>
+										<Hulk>(-0.065,-0.305)</Hulk>
+										<Child>(-0.01,-0.37)</Child>
+										<Baby>(0.025,-0.39)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(-0.057,-0.305)</Male>
-										<Female>(-0.057,-0.305)</Female>
-										<Thin>(-0.057,-0.305)</Thin>
-										<Hulk>(-0.057,-0.305)</Hulk>
-										<Child>(-0.1,-0.455)</Child>
-										<Baby>(-0.155,-0.355)</Baby>
+										<Male>(-0.065,-0.305)</Male>
+										<Female>(-0.065,-0.305)</Female>
+										<Thin>(-0.065,-0.305)</Thin>
+										<Hulk>(-0.065,-0.305)</Hulk>
+										<Child>(-0.01,-0.37)</Child>
+										<Baby>(0.025,-0.39)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -201,19 +201,19 @@
 								</south>
 								<north>
 									<bodyTypes>
-										<Male>(0.05,-0.125)</Male>
-										<Female>(0.05,-0.125)</Female>
-										<Thin>(0.05,-0.125)</Thin>
-										<Hulk>(0.05,-0.125)</Hulk>
-										<Child>(0.1,-0.275)</Child>
+										<Male>(0.075,-0.125)</Male>
+										<Female>(0.075,-0.125)</Female>
+										<Thin>(0.075,-0.125)</Thin>
+										<Hulk>(0.075,-0.125)</Hulk>
+										<Child>(-0.003,-0.2)</Child>
 										<Baby>(0,0)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(0.05,-0.125)</Male>
-										<Female>(0.05,-0.125)</Female>
-										<Thin>(0.05,-0.125)</Thin>
-										<Hulk>(0.05,-0.125)</Hulk>
-										<Child>(0.1,-0.275)</Child>
+										<Male>(0.075,-0.125)</Male>
+										<Female>(0.075,-0.125)</Female>
+										<Thin>(0.075,-0.125)</Thin>
+										<Hulk>(0.075,-0.125)</Hulk>
+										<Child>(-0.003,-0.2)</Child>
 										<Baby>(0,0)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
@@ -223,18 +223,18 @@
 								<east>
 									<bodyTypes>
 										<Male>(0.135,-0.28)</Male>
-										<Female>(0.135,-0.28)</Female>
+										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.1,-0.4)</Child>
+										<Child>(0.085,-0.325)</Child>
 										<Baby>(0.07,-0.35)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(0.135,-0.28)</Male>
-										<Female>(0.135,-0.28)</Female>
+										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.1,-0.4)</Child>
+										<Child>(0.085,-0.325)</Child>
 										<Baby>(0.07,-0.35)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
@@ -249,7 +249,7 @@
 						<li>
 							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 							<drawnDesiccated>false</drawnDesiccated>
-							<drawSize>.875</drawSize>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<path>EarRight</path>
 							<bodyPart>Ear</bodyPart>
 							<bodyPartLabel>right ear</bodyPartLabel>
@@ -261,20 +261,20 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Male>(0.0495,-0.305)</Male>
-										<Female>(0.0495,-0.305)</Female>
-										<Thin>(0.0495,-0.305)</Thin>
-										<Hulk>(0.0495,-0.305)</Hulk>
-										<Child>(0.1,-0.45)</Child>
-										<Baby>(0.1,-0.355)</Baby>
+										<Male>(0.065,-0.305)</Male>
+										<Female>(0.065,-0.305)</Female>
+										<Thin>(0.065,-0.305)</Thin>
+										<Hulk>(0.065,-0.305)</Hulk>
+										<Child>(0.01,-0.37)</Child>
+										<Baby>(-0.025,-0.39)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(0.0495,-0.305)</Male>
-										<Female>(0.0495,-0.305)</Female>
-										<Thin>(0.0495,-0.305)</Thin>
-										<Hulk>(0.0495,-0.305)</Hulk>
-										<Child>(0.1,-0.45)</Child>
-										<Baby>(0.1,-0.355)</Baby>
+										<Male>(0.065,-0.305)</Male>
+										<Female>(0.065,-0.305)</Female>
+										<Thin>(0.065,-0.305)</Thin>
+										<Hulk>(0.065,-0.305)</Hulk>
+										<Child>(0.01,-0.37)</Child>
+										<Baby>(-0.025,-0.39)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -282,19 +282,19 @@
 								</south>
 								<north>
 									<bodyTypes>
-										<Male>(-0.0445,-0.145)</Male>
-										<Female>(-0.0445,-0.145)</Female>
-										<Thin>(-0.0445,-0.145)</Thin>
-										<Hulk>(-0.0445,-0.145)</Hulk>
-										<Child>(-0.1,-0.275)</Child>
+										<Male>(-0.075,-0.125)</Male>
+										<Female>(-0.075,-0.125)</Female>
+										<Thin>(-0.075,-0.125)</Thin>
+										<Hulk>(-0.075,-0.125)</Hulk>
+										<Child>(0.003,-0.2)</Child>
 										<Baby>(0,0)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(-0.0445,-0.145)</Male>
-										<Female>(-0.0445,-0.145)</Female>
-										<Thin>(-0.0445,-0.145)</Thin>
-										<Hulk>(-0.0445,-0.145)</Hulk>
-										<Child>(-0.1,-0.275)</Child>
+										<Male>(-0.075,-0.125)</Male>
+										<Female>(-0.075,-0.125)</Female>
+										<Thin>(-0.075,-0.125)</Thin>
+										<Hulk>(-0.075,-0.125)</Hulk>
+										<Child>(0.003,-0.2)</Child>
 										<Baby>(0,0)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
@@ -304,18 +304,18 @@
 								<east>
 									<bodyTypes>
 										<Male>(0.135,-0.28)</Male>
-										<Female>(0.135,-0.28)</Female>
+										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.1,-0.4)</Child>
+										<Child>(0.085,-0.325)</Child>
 										<Baby>(0.07,-0.35)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(0.0358,-0.216)</Male>
-										<Female>(0.0358,-0.216)</Female>
-										<Thin>(0.0358,-0.216)</Thin>
-										<Hulk>(0.0358,-0.216)</Hulk>
-										<Child>(0.1,-0.4)</Child>
+										<Male>(0.135,-0.28)</Male>
+										<Female>(0.06,-0.26)</Female>
+										<Thin>(0.135,-0.28)</Thin>
+										<Hulk>(0.135,-0.28)</Hulk>
+										<Child>(0.085,-0.325)</Child>
 										<Baby>(0.07,-0.35)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
@@ -328,6 +328,51 @@
 							</hiddenUnderApparelFor>
 						</li>
 					</bodyAddons>
+					<colorChannels>
+						<li>
+						<name>skin</name>
+						<second Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(224,122,122,255)</only>
+							</li>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(237,167,167,255)</only>
+							</li>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(190,77,77,255)</only>
+							</li>
+							<li>
+								<weight>7</weight>
+								<only>RGBA(188,121,106,255)</only>
+							</li>
+							<li>
+								<weight>20</weight>
+								<only>RGBA(103,103,105,255)</only>
+							</li>
+							<li>
+								<weight>7</weight>
+								<only>RGBA(140,113,103,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(102,81,74,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(68,68,152,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(111,147,194,255)</only>
+							</li>
+						</options>
+						</second>
+						</li>
+					</colorChannels>
 					<customDrawSize>(0.875, 0.875)</customDrawSize>
 					<customPortraitDrawSize>(.875, .875)</customPortraitDrawSize>
 				</alienPartGenerator>

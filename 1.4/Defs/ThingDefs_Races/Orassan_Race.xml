@@ -323,39 +323,99 @@
 							<first Class="ColorGenerator_Options">
 								<options>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(1.0,1.0,1.0,1)</only>
+										<weight>22</weight>
+										<only>RGBA(255,255,255,255)</only>
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(0.5,0.5,0.5,1)</only>
+										<only>RGBA(125,125,125,255)</only>
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(0.3,0.3,0.3,1)</only>
+										<only>RGBA(76,76,76,255)</only>
 									</li>
 									<li>
 										<weight>10</weight>
 										<only>RGBA(245,230,175,255)</only>
 									</li>
 									<li>
-										<weight>5</weight>
-										<only>RGBA(0.8,0.5,0.5,1)</only>
+										<weight>8</weight>
+										<only>RGBA(223,188,156,255)</only>
+									</li>
+									<li>
+										<weight>8</weight>
+										<only>RGBA(255,195,128,255)</only>
 									</li>
 									<li>
 										<weight>5</weight>
-										<only>RGBA(0.6,0.3,0.0,1)</only>
+										<only>RGBA(102,81,62,255)</only>
 									</li>
 									<li>
 										<weight>5</weight>
-										<only>RGBA(0.576,0.475,0.4,1)</only>
+										<only>RGBA(146,121,102,255)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(122,107,109,255)</only>
+									</li>
+									<li>
+										<weight>4</weight>
+										<only>RGBA(156,76,5,255)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(204,125,125,255)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(255,227,243,255)</only>
 									</li>
 									<li>
 										<weight>1</weight>
-										<only>RGBA(0.502,0.071,0.145,1)</only>
+										<only>RGBA(127,18,36,255)</only>
 									</li>
 								</options>
 							</first>
+						<second Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(224,122,122,255)</only>
+							</li>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(237,167,167,255)</only>
+							</li>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(190,77,77,255)</only>
+							</li>
+							<li>
+								<weight>7</weight>
+								<only>RGBA(188,121,106,255)</only>
+							</li>
+							<li>
+								<weight>20</weight>
+								<only>RGBA(103,103,105,255)</only>
+							</li>
+							<li>
+								<weight>7</weight>
+								<only>RGBA(140,113,103,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(102,81,74,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(68,68,152,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(111,147,194,255)</only>
+							</li>
+						</options>
+						</second>
 						</li>
 					</colorChannels>
 					<customDrawSize>(0.7, 0.7)</customDrawSize>
