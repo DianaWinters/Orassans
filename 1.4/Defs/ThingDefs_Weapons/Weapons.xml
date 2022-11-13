@@ -713,17 +713,17 @@
     </graphicData>
     <projectile><flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>25</damageAmountBase>
       <speed>60</speed>
 	  <armorPenetrationBase>0.9</armorPenetrationBase>
-      <stoppingPower>1.5</stoppingPower>
+      <stoppingPower>2.5</stoppingPower>
     </projectile>
   </ThingDef>
   
 	<ThingDef ParentName="BaseOrassanMakeableGun">
 		<defName>Gun_OrassanSMG</defName>
 		<label>Orassan APSMG</label>
-		<description>High caliber, fully automatic, subsonic, armor piercing weapon system. Orassan design. Deadly in close range engagements, flanking maneuvers, and urban environments. It uses the same ammunition as the pistol. This model fires subsonic armor piercing rounds. Typically used in covert missions.</description>
+		<description>High caliber, fully automatic, subsonic, armor piercing weapon system. Orassan design. Deadly in close range engagements, flanking maneuvers, and urban environments. Despite its small profile, it is a high caliber weapon with quite the kick. This model fires subsonic armor piercing rounds. Typically used in covert missions.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Weapons/kittySMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -743,10 +743,10 @@
 			<researchPrerequisite>OChargedShot</researchPrerequisite>
 		</recipeMaker>
 		<costList>
-			<Uranium>2</Uranium>
+			<Uranium>5</Uranium>
 			<Steel>40</Steel>
 			<Plasteel>20</Plasteel>
-			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<techLevel>Ultra</techLevel>
