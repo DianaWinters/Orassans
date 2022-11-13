@@ -8,19 +8,19 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>OrassanVillager</li>
+								<li>OrassanPlayerColonyOrassan</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>HybridVillager</li>
+								<li>OrassanPlayerColonyOrassanHybrid</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>HumanVillager</li>
+								<li>OrassanPlayerColonyHuman</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
@@ -33,13 +33,13 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>Orassan</li>
+								<li>OrassanPlayerColonyOrassan</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
 						<li>
 							<kindDefs>
-								<li>HybridVillager</li>
+								<li>OrassanPlayerColonyOrassanHybrid</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
@@ -53,13 +53,13 @@
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>OrassanSlave</li>
+						<li>OrassanPlayerColonyOrassan</li>
 					</kindDefs>
 					<chance>5.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>HybridVillager</li>
+						<li>OrassanPlayerColonyOrassanHybrid</li>
 						</kindDefs>
 					<chance>10.0</chance>
 				</li>
@@ -67,15 +67,15 @@
 			<alienrefugeekinds>
 				<li>
 					<kindDefs>
-						<li>OrassanRefugee</li>
+						<li>OrassanPlayerColonyOrassan</li>
 					</kindDefs>
 					<chance>15.0</chance>
 				</li>
 				<li>
 					<kindDefs>
-						<li>HybridVillager</li>
+						<li>OrassanPlayerColonyOrassanHybrid</li>
 					</kindDefs>
-					<chance>10.0</chance>
+					<chance>15.0</chance>
 				</li>
 			</alienrefugeekinds>
 			<alienwandererkinds>
@@ -83,11 +83,8 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>OrassanTownGuard</li>
-								<li>OrassanSniper</li>
-								<li>OrassanGunner</li>
-								<li>OrassanVillager</li>
-								<li>HybridVillager</li>
+								<li>OrassanPlayerColonyOrassan</li>
+								<li>OrassanPlayerColonyOrassanHybrid</li>
 							</kindDefs>
 							<chance>15.0</chance>
 						</li>

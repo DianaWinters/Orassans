@@ -24,6 +24,82 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 	</PawnKindDef>
+	
+		<PawnKindDef>
+		<defName>OrassanPlayerColonyOrassan</defName>
+		<label>orassan colonist</label>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<combatPower>25</combatPower>
+		<race>Alien_Orassan</race>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryCategories>
+			<li>Orassan</li>
+		</backstoryCategories>
+		<chemicalAddictionChance>0.06</chemicalAddictionChance>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.05</techHediffsChance>
+		<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	
+	<PawnKindDef>
+		<defName>OrassanPlayerColonyOrassanHybrid</defName>
+		<label>hybrid colonist</label>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<combatPower>25</combatPower>
+		<race>Alien_OrassanHumanHybrid</race>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryCategories>
+			<li>Orassan</li>
+		</backstoryCategories>
+		<chemicalAddictionChance>0.06</chemicalAddictionChance>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.05</techHediffsChance>
+		<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	
+	<PawnKindDef>
+		<defName>OrassanPlayerColonyHuman</defName>
+		<label>hybrid colonist</label>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<combatPower>25</combatPower>
+		<race>Human</race>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryCategories>
+			<li>Orassan</li>
+		</backstoryCategories>
+		<chemicalAddictionChance>0.06</chemicalAddictionChance>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.05</techHediffsChance>
+		<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	
 	<PawnKindDef Name="Villager">
 		<defName>OrassanVillager</defName>
 		<label>orassan colonist</label>
