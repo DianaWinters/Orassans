@@ -23,8 +23,8 @@
 
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Ori</defName>
-		<label>ori fur</label>
-		<description>A soft furry pelt harvested from an ori. It insulates moderately well.</description>
+		<label>caemur fur</label>
+		<description>A soft furry pelt harvested from a caemur. It insulates moderately well.</description>
 		<graphicData>
 			<color>(235,235,235)</color>
 			<colorTwo>(235,235,235)</colorTwo>
