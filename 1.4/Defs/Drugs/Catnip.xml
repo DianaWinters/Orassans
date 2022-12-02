@@ -80,6 +80,7 @@
         <listOrder>21</listOrder>
       </li>
     </comps>
+	<allowedArchonexusCount>200</allowedArchonexusCount>
   </ThingDef>
   
   <RecipeDef>
