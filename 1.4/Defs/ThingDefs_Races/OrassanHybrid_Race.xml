@@ -102,8 +102,8 @@
 							            <Thin>(-0.043, -0.075)</Thin>
 							            <Hulk>(-0.0429, -0.25)</Hulk>
 							            <Male>(-0.0429, -0.06)</Male>
-										<Child>(-0.03,0.23)</Child>
-										<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.23)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
 							            <Female>(-0.0429, -0.03)</Female>
@@ -111,8 +111,8 @@
 							            <Thin>(-0.043, -0.075)</Thin>
 							            <Hulk>(-0.0429, -0.25)</Hulk>
 							            <Male>(-0.0429, -0.06)</Male>
-										<Child>(-0.03,0.23)</Child>
-										<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.23)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -125,8 +125,8 @@
 							            <Thin>(0.145, -0.185)</Thin>
 							            <Hulk>(0.29, -0.32)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
-									<Child>(-0.085,-0.002)</Child>
-									<Baby>(-0.175,0.05)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.085,-0.002)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.175,0.05)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
 							            <Female>(0.172, -0.21)</Female>
@@ -134,8 +134,8 @@
 							            <Thin>(0.145, -0.185)</Thin>
 							            <Hulk>(0.29, -0.32)</Hulk>
 							            <Male>(0.1571, -0.2286)</Male>
-									<Child>(-0.085,-0.002)</Child>
-									<Baby>(-0.175,0.05)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.085,-0.002)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.175,0.05)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -148,8 +148,8 @@
 							            <Thin>(0.0000, 0.0000)</Thin>
 							            <Hulk>(0.0000, 0.0000)</Hulk>
 							            <Male>(0.0000, 0.0000)</Male>
-									<Child>(0,0)</Child>
-									<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 							         </bodyTypes>
 							         <portraitBodyTypes>
 							            <Female>(0.0000, 0.0000)</Female>
@@ -157,8 +157,8 @@
 							            <Thin>(0.0000, 0.0000)</Thin>
 							            <Hulk>(0.0000, 0.0000)</Hulk>
 							            <Male>(0.0000, 0.0000)</Male>
-									<Child>(0,0)</Child>
-									<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 							         </portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -184,16 +184,16 @@
 										<Female>(-0.065,-0.305)</Female>
 										<Thin>(-0.065,-0.305)</Thin>
 										<Hulk>(-0.065,-0.305)</Hulk>
-										<Child>(-0.01,-0.37)</Child>
-										<Baby>(0.025,-0.39)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,-0.39)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(-0.065,-0.305)</Male>
 										<Female>(-0.065,-0.305)</Female>
 										<Thin>(-0.065,-0.305)</Thin>
 										<Hulk>(-0.065,-0.305)</Hulk>
-										<Child>(-0.01,-0.37)</Child>
-										<Baby>(0.025,-0.39)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,-0.39)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -205,16 +205,16 @@
 										<Female>(0.075,-0.125)</Female>
 										<Thin>(0.075,-0.125)</Thin>
 										<Hulk>(0.075,-0.125)</Hulk>
-										<Child>(-0.003,-0.2)</Child>
-										<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(0.075,-0.125)</Male>
 										<Female>(0.075,-0.125)</Female>
 										<Thin>(0.075,-0.125)</Thin>
 										<Hulk>(0.075,-0.125)</Hulk>
-										<Child>(-0.003,-0.2)</Child>
-										<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -226,16 +226,16 @@
 										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.085,-0.325)</Child>
-										<Baby>(0.07,-0.35)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(0.135,-0.28)</Male>
 										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.085,-0.325)</Child>
-										<Baby>(0.07,-0.35)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -265,16 +265,16 @@
 										<Female>(0.065,-0.305)</Female>
 										<Thin>(0.065,-0.305)</Thin>
 										<Hulk>(0.065,-0.305)</Hulk>
-										<Child>(0.01,-0.37)</Child>
-										<Baby>(-0.025,-0.39)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.025,-0.39)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(0.065,-0.305)</Male>
 										<Female>(0.065,-0.305)</Female>
 										<Thin>(0.065,-0.305)</Thin>
 										<Hulk>(0.065,-0.305)</Hulk>
-										<Child>(0.01,-0.37)</Child>
-										<Baby>(-0.025,-0.39)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.025,-0.39)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -286,16 +286,16 @@
 										<Female>(-0.075,-0.125)</Female>
 										<Thin>(-0.075,-0.125)</Thin>
 										<Hulk>(-0.075,-0.125)</Hulk>
-										<Child>(0.003,-0.2)</Child>
-										<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(-0.075,-0.125)</Male>
 										<Female>(-0.075,-0.125)</Female>
 										<Thin>(-0.075,-0.125)</Thin>
 										<Hulk>(-0.075,-0.125)</Hulk>
-										<Child>(0.003,-0.2)</Child>
-										<Baby>(0,0)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
@@ -307,16 +307,16 @@
 										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.085,-0.325)</Child>
-										<Baby>(0.07,-0.35)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
 										<Male>(0.135,-0.28)</Male>
 										<Female>(0.06,-0.26)</Female>
 										<Thin>(0.135,-0.28)</Thin>
 										<Hulk>(0.135,-0.28)</Hulk>
-										<Child>(0.085,-0.325)</Child>
-										<Baby>(0.07,-0.35)</Baby>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
 									</portraitBodyTypes>
 									<headTypes>
 										<Male_AverageNormal>(0,0)</Male_AverageNormal>
