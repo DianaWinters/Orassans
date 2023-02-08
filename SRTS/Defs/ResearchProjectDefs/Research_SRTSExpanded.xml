@@ -18,5 +18,23 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
   </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <tab>SRTSE</tab>
+    <defName>Research_OrassanHTC</defName>
+    <label>Orassan Heavy troop carrier</label>
+    <description>Second steep in undarstanding of Orassan shipbuilding, an heavy yet pretty agile troop transporter.</description>
+    <baseCost>30000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>Research_OrassanQuickResponseShuttle</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
 
 </Defs>

@@ -43,6 +43,6 @@
 		<li IfModActive="mali.milk">ThatOtherModSupport</li>
 		<li IfModActive="rjw.milk.humanoid">ThatOtherModSupport</li>
 		<li IfModActive="tachyonite.pawnmorpherpublic">ThatOtherOtherModSupport</li>
-		<li IfModActive="smashphil.neceros.srtsexpanded">SRTS</li>
+		<li IfModActive="smashphil.srtsexpanded">SRTS</li>
 	</v1.4>
 </loadFolders>
