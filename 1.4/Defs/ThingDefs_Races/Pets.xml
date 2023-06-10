@@ -1229,11 +1229,10 @@
 <ThingDef ParentName="AnimalThingBase">
 		<defName>Temperate_Gryphon</defName>
 		<label>temperate gryphon</label>
-		<description>Native to Orassia, this slightly-bigger-than-cat carnivore survives off of eating small mammals and birds. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
+		<description>Native to Orassia, this slightly-bigger-than-cat carnivore prefer to live in cold forests where them hunt for small mammals and birds. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
 		<statBases>
 			<MoveSpeed>5.2</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
-			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<MarketValue>160</MarketValue>
@@ -1319,7 +1318,7 @@
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<lifeExpectancy>14</lifeExpectancy>
 						<wildBiomes>
-				<BorealForest>0.03</BorealForest>
+				<BorealForest>0.07</BorealForest>
 				<ColdBog>0.02</ColdBog>
 				<TemperateForest>0.09</TemperateForest>
 				<TemperateSwamp>0.09</TemperateSwamp>
@@ -1365,7 +1364,7 @@
 		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<lifeStages>
 			<li>
-				<label>gryphon kitten</label>
+				<label>temperate gryphon kitten</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Gryphon/Gryphon_t</texPath>
 					<drawSize>0.85</drawSize>
@@ -1414,9 +1413,9 @@
 <ThingDef ParentName="AnimalThingBase">
 		<defName>Urban_Gryphon</defName>
 		<label>urban gryphon</label>
-		<description>Native to Orassia, this slightly-bigger-than-cat carnivore survives off of eating small mammals and birds. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
+		<description>Native to Orassia, this slightly-bigger-than-cat omnivore lives in urban areas, feeding of thrown away or stolen food and other smaller than them scavengers. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
 		<statBases>
-			<MoveSpeed>5.2</MoveSpeed>
+			<MoveSpeed>5.0</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
@@ -1490,11 +1489,11 @@
 		<race>
 			<body>Orassan_Gryphon_Body</body>
 			<predator>true</predator>
-			<maxPreyBodySize>0.29</maxPreyBodySize>
+			<maxPreyBodySize>0.28</maxPreyBodySize>
 			<baseBodySize>0.4</baseBodySize>
 			<baseHungerRate>0.18</baseHungerRate>
 			<baseHealthScale>0.55</baseHealthScale>
-			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<leatherDef>Leather_Gryphon</leatherDef>
@@ -1550,7 +1549,7 @@
 		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<lifeStages>
 			<li>
-				<label>gryphon kitten</label>
+				<label>urban gryphon kitten</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Gryphon/Gryphon_u</texPath>
 					<drawSize>0.85</drawSize>
