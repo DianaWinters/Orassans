@@ -1035,186 +1035,100 @@
       </li>
     </lifeStages>
   </PawnKindDef>  
+
 	<!-- Gryphon -->
 	
 <ThingDef ParentName="AnimalThingBase">
-
 		<defName>Gryphon</defName>
-
 		<label>gryphon</label>
-
 		<description>Native to Orassia, this large carnivore survives off of eating small to medium sized mammals and birds. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
-
 		<statBases>
-
 			<MoveSpeed>6.0</MoveSpeed>
-
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 			<MarketValue>500</MarketValue>
 			<CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
-
 		</statBases>
-
 		<tools>
-
 			<li>
-
 				<label>left claw</label>
-
 				<capacities>
-
 					<li>Scratch</li>
-
 				</capacities>
-
 				<power>16</power>
-
 				<cooldownTime>1.5</cooldownTime>
-
 				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
-
 				<surpriseAttack>
-
 					<extraMeleeDamages>
-
 						<li>
-
 							<def>Stun</def>
-
 							<amount>14</amount>
-
 						</li>
-
 					</extraMeleeDamages>
-
 				</surpriseAttack>
-
 			</li>
-
 			<li>
-
 				<label>right claw</label>
-
 				<capacities>
-
 					<li>Scratch</li>
-
 				</capacities>
-
 				<power>16</power>
-	
 				<cooldownTime>1.5</cooldownTime>
-
 				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
-
 				<surpriseAttack>
-
 				<extraMeleeDamages>
-
 						<li>
-
 							<def>Stun</def>
-
 							<amount>14</amount>
-
 						</li>
-
 					</extraMeleeDamages>
-
 				</surpriseAttack>
-
 			</li>
-
 			<li>
-
 				<capacities>
-
 					<li>Bite</li>
-
 				</capacities>
-
 				<power>16</power>
-
 				<cooldownTime>2</cooldownTime>
-
 				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-
 				<chanceFactor>0.6</chanceFactor>
-
 				<surpriseAttack>
-
 					<extraMeleeDamages>
-
 						<li>
-
 							<def>Stun</def>
-
 							<amount>14</amount>
-
 						</li>
-
 					</extraMeleeDamages>
-
 				</surpriseAttack>
-
 			</li>
-
 			<li>
-
 				<label>head</label>
-
 				<capacities>
-
 					<li>Blunt</li>
-
 				</capacities>
-
 				<power>11</power>
-
 				<cooldownTime>2</cooldownTime>
-
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-
 				<chanceFactor>0.2</chanceFactor>
-
 			</li>
-
 		</tools>
-
 		<race>
-
 			<body>Orassan_Gryphon_Body</body>
-
 			<packAnimal>true</packAnimal>
-
 			<predator>true</predator>
-
 			<maxPreyBodySize>2</maxPreyBodySize>
-
 			<baseBodySize>2.3</baseBodySize>
-
 			<baseHungerRate>0.32</baseHungerRate>
-
 			<baseHealthScale>1.8</baseHealthScale>
-
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			
 			<trainability>Advanced</trainability>
-			
 			<leatherDef>Leather_Gryphon</leatherDef>
-
 			<wildness>0.65</wildness>
-
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
-
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
-
 			<gestationPeriodDays>30</gestationPeriodDays>
-
 			<lifeExpectancy>35</lifeExpectancy>
 						<wildBiomes>
 				<BorealForest>0.05</BorealForest>
@@ -1225,170 +1139,457 @@
 				<TropicalRainforest>0.07</TropicalRainforest>
 				<TropicalSwamp>0.07</TropicalSwamp>
 				<AridShrubland>0.05</AridShrubland>
-
-
 			</wildBiomes>
-
 			<lifeStageAges>
-
 				<li>
-
 					<def>AnimalBaby</def>
-
 					<minAge>0</minAge>
-
 					<soundWounded>Pawn_Chick_Call</soundWounded>
 					<soundDeath>Pawn_Chick_Call</soundDeath>
 					<soundCall>Pawn_Chick_Call</soundCall>
 					<soundAngry>Pawn_Chick_Call</soundAngry>
 				</li>
-
 				<li>
-
 					<def>AnimalJuvenile</def>
-
 					<minAge>0.35</minAge>
-
 				</li>
-
 				<li>
-
 					<def>AnimalAdult</def>
-
 					<minAge>1.0</minAge>
-
 					<soundWounded>Pawn_Cougar_Injured</soundWounded>
-
 					<soundDeath>Pawn_Cougar_Death</soundDeath>
-
 					<soundAngry>Pawn_Cougar_Angry</soundAngry>
-
 				</li>
-
 			</lifeStageAges>
-
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-
 		</race>
-
 		<tradeTags>
-
 			<li>AnimalUncommon</li>
-
 			<li>AnimalFighter</li>
-
 			<li>AnimalExotic</li>
-
 		</tradeTags>
-
 	</ThingDef>
-
-
 	<PawnKindDef ParentName="AnimalKindBase">
-
 		<defName>Animal_Gryphon</defName>
-
 		<label>gryphon</label>
-
 		<labelPlural>gryphon</labelPlural>
-
 		<race>Gryphon</race>
-
 		<combatPower>170</combatPower>
-
 		<ecoSystemWeight>0.60</ecoSystemWeight>
-
 		<lifeStages>
-
 			<li>
-
 				<label>gryphon kitten</label>
-
 				<bodyGraphicData>
-
 					<texPath>Things/Pawn/Gryphon/Gryphon</texPath>
-
 					<drawSize>0.9</drawSize>
-
 					<shaderType>CutoutComplex</shaderType>
-
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
-
 					<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
-
 					<drawSize>0.8</drawSize>
-
 				</dessicatedBodyGraphicData>
-
 			</li>
-
 			<li>
-
 				<bodyGraphicData>
-
 					<texPath>Things/Pawn/Gryphon/Gryphon</texPath>
-
 					<drawSize>1.9</drawSize>
-
 					<shaderType>CutoutComplex</shaderType>
-
 					<shadowData>
-
 						<volume>(0.3, 0.3, 0.3)</volume>
-
 						<offset>(0,0,-0.3)</offset>
-
 					</shadowData>
-
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
-	
 				<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
-
 					<drawSize>1.7</drawSize>
-
 				</dessicatedBodyGraphicData>
-
 			</li>
-
 			<li>
-
 				<bodyGraphicData>
-
 					<texPath>Things/Pawn/Gryphon/Gryphon</texPath>
-
 					<drawSize>2.7</drawSize>
-
 					<shaderType>CutoutComplex</shaderType>
-
 					<shadowData>
-
 						<volume>(0.3, 0.3, 0.3)</volume>
-
 						<offset>(0,0,-0.1)</offset>
-
 					</shadowData>
-
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
-	
 				<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
-
 					<drawSize>2.3</drawSize>
-
 				</dessicatedBodyGraphicData>
-
 			</li>
-
 		</lifeStages>
+	</PawnKindDef>
 
+	<!-- Gryphon temperate -->
+	
+<ThingDef ParentName="AnimalThingBase">
+		<defName>Temperate_Gryphon</defName>
+		<label>temperate gryphon</label>
+		<description>Native to Orassia, this slightly-bigger-than-cat carnivore prefer to live in cold forests where them hunt for small mammals and birds. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
+		<statBases>
+			<MoveSpeed>5.2</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+				<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>Orassan_Gryphon_Body</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.29</maxPreyBodySize>
+			<baseBodySize>0.4</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>0.55</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<trainability>Advanced</trainability>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<leatherDef>Leather_Gryphon</leatherDef>
+			<wildness>0.65</wildness>
+			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<lifeExpectancy>14</lifeExpectancy>
+						<wildBiomes>
+				<BorealForest>0.07</BorealForest>
+				<ColdBog>0.02</ColdBog>
+				<TemperateForest>0.09</TemperateForest>
+				<TemperateSwamp>0.09</TemperateSwamp>
+				<TropicalRainforest>0.05</TropicalRainforest>
+				<TropicalSwamp>0.05</TropicalSwamp>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Animal_Gryphon_Temperate</defName>
+		<label>temperate gryphon</label>
+		<labelPlural>temperate gryphon's</labelPlural>
+		<race>Temperate_Gryphon</race>
+		<combatPower>40</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>temperate gryphon kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Gryphon_t</texPath>
+					<drawSize>0.85</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Gryphon_t</texPath>
+					<drawSize>1.6</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Gryphon_t</texPath>
+					<drawSize>1.75</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
+					<drawSize>1.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<!-- Gryphon Urban -->
+	
+<ThingDef ParentName="AnimalThingBase">
+		<defName>Urban_Gryphon</defName>
+		<label>urban gryphon</label>
+		<description>Native to Orassia, this slightly-bigger-than-cat omnivore lives in urban areas, feeding of thrown away or stolen food and other smaller than them scavengers. Its ability to fly is severely hampered due to the atmosphere not being as dense on this planet as it is on Orassia.</description>
+		<statBases>
+			<MoveSpeed>5.0</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+				<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>Orassan_Gryphon_Body</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.28</maxPreyBodySize>
+			<baseBodySize>0.4</baseBodySize>
+			<baseHungerRate>0.18</baseHungerRate>
+			<baseHealthScale>0.55</baseHealthScale>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<trainability>Advanced</trainability>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<leatherDef>Leather_Gryphon</leatherDef>
+			<wildness>0.65</wildness>
+			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<lifeExpectancy>14</lifeExpectancy>
+						<wildBiomes>
+				<BorealForest>0.03</BorealForest>
+				<ColdBog>0.02</ColdBog>
+				<TemperateForest>0.09</TemperateForest>
+				<TemperateSwamp>0.09</TemperateSwamp>
+				<TropicalRainforest>0.05</TropicalRainforest>
+				<TropicalSwamp>0.05</TropicalSwamp>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+					<soundCall>Pawn_Chick_Call</soundCall>
+					<soundAngry>Pawn_Chick_Call</soundAngry>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Animal_Gryphon_Urban</defName>
+		<label>urban gryphon</label>
+		<labelPlural>urban gryphon's</labelPlural>
+		<race>Urban_Gryphon</race>
+		<combatPower>40</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>urban gryphon kitten</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Gryphon_u</texPath>
+					<drawSize>0.85</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Gryphon_u</texPath>
+					<drawSize>1.6</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Gryphon/Gryphon_u</texPath>
+					<drawSize>1.75</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Gryphon/Dessicated_Gryphon</texPath>
+					<drawSize>1.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
 	</PawnKindDef>
 </Defs>
