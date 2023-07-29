@@ -50,6 +50,7 @@
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
 		<nameMaker>NamerPersonOrassan</nameMaker>
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<canGenerateAsCombatant>false</canGenerateAsCombatant>
 		<genes>
 			<li>FoamSpray</li>
 			<li>Hemogenic</li>
@@ -102,6 +103,7 @@
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
 		<nameMaker>NamerPersonOrassan</nameMaker>
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<canGenerateAsCombatant>false</canGenerateAsCombatant>
 		<genes>
 			<li>ViolenceDisabled</li>
 			<li>KindInstinct</li>
