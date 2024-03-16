@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef>
+    <defName>OrassanSoil</defName>
+	<description>Intricately tilled ice. This provides some fertility and planting ability, however it compromises the surface's terrain affordance and is not easily reversable.</description>
+    <label>Orassan tilled ice</label>
+    <texturePath>Terrain/OrassanSoil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+	<placeWorkers>
+		<li>Orassans.Placeworker_Orassan</li>
+    </placeWorkers>
+		<costList>
+      <Steel>1</Steel>
+    </costList>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>600</WorkToBuild>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+	  <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	<constructEffect>ConstructDirt</constructEffect>
+	<designationCategory>Floors</designationCategory>
+	<filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+  </TerrainDef>
+  
+    <TerrainDef>
+    <defName>OrassanSoilRich</defName>
+	<description>Intricately processed soil. This increases fertility dramatically, however it compromises the surface's terrain affordance and is not easily reversable.</description>
+    <label>Orassan processed soil</label>
+    <texturePath>Terrain/OrassanAdvancedSoil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+	<placeWorkers>
+		<li>Orassans.Placeworker_Orassan</li>
+    </placeWorkers>
+	<costList>
+      <Steel>3</Steel>
+	  <Plasteel>1</Plasteel>
+    </costList>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>600</WorkToBuild>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+	  <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.5</fertility>
+    <takeFootprints>True</takeFootprints>
+	<constructEffect>ConstructDirt</constructEffect>
+	<designationCategory>Floors</designationCategory>
+	<filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+  </TerrainDef>
+  
+</Defs>

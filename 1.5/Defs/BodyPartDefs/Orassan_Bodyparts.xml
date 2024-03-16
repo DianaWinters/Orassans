@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+	<BodyPartGroupDef>
+		<defName>RightHandClawsGroup</defName>
+		<label>right hand claws</label>
+		<listOrder>80</listOrder>
+	</BodyPartGroupDef>
+
+
+	<BodyPartGroupDef>
+		<defName>LeftHandClawsGroup</defName>
+		<label>left hand claws</label>
+		<listOrder>80</listOrder>
+	</BodyPartGroupDef>
+  
+	<BodyPartDef>
+		<defName>OTail</defName>
+		<label>orassan tail</label>
+		<description>A long furry Feline Tail.</description>
+		<hitPoints>15</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<spawnThingOnRemoved>OTail</spawnThingOnRemoved>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+  
+	<BodyPartDef>
+		<defName>RightHandClaws</defName>
+		<label>right claws</label>
+		<description>Sharp claws capable of murdering many couches.</description>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<spawnThingOnRemoved>OClaws</spawnThingOnRemoved>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftHandClaws</defName>
+		<label>left claws</label>
+		<description>Sharp claws capable of murdering many couches.</description>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<spawnThingOnRemoved>OClaws</spawnThingOnRemoved>
+	</BodyPartDef>
+
+	<!-- Gryphon -->
+	<BodyPartDef>
+		<defName>Gryphon_Wing</defName>
+		<label>wing</label>
+		<description>Large feather covered wings.</description>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>false</skinCovered>
+		<!--<spawnThingOnRemoved>Gryphon_Wing</spawnThingOnRemoved>-->
+	</BodyPartDef>
+
+
+</Defs>

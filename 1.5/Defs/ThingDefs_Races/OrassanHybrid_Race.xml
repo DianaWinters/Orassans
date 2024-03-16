@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!-- ============================ Orassan ========================== -->
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+		<defName>Alien_OrassanHumanHybrid</defName>
+		<label>neko</label>
+		<description>A hybrid with DNA from a human and an orassan. Typically created through careful genetic engineering in a lab, or the "natural" way from individuals with closely regulated gene mods, these hybrids combine some of the best traits from their parent species. The particular traits and physical characteristics that are being inherited are typically chosen by the parents having the child, but they almost always have two feline ears and a feline tail, both with fur sharing the same color as the hair on their head.</description>
+		<comps>
+		</comps>
+		<alienRace>
+			<generalSettings>
+				<minAgeForAdulthood>17</minAgeForAdulthood>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>Orassan</li>
+						</factions>
+						<goodwill>
+							<min>100</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+				<maleGenderProbability>0.25</maleGenderProbability>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>Beauty</defName>
+						<degree>2</degree>
+						<chance>10</chance>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>1</degree>
+						<chance>25</chance>
+					</li>
+					<li>
+						<defName>Gay</defName>
+						<chance>100</chance>
+						<commonalityFemale>33</commonalityFemale>
+						<commonalityMale>5</commonalityMale>
+					</li>
+					<li>
+						<defName>Bisexual</defName>
+						<chance>100</chance>
+						<commonalityFemale>33</commonalityFemale>
+						<commonalityMale>20</commonalityMale>
+					</li>
+					<li>
+						<defName>Nudist</defName>
+						<chance>10</chance>
+					</li>
+					<li>
+						<defName Degree="1">Xenophobia</defName>
+						<chance>0</chance>
+					</li>
+					<li>
+						<defName Degree="-1">Xenophobia</defName>
+						<chance>10</chance>
+					</li>
+					<li>
+						<defName>Nimble</defName>
+						<chance>35</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				<maxDamageForSocialfight>6</maxDamageForSocialfight>
+				<alienPartGenerator>
+					<!--<atlasScale>2</atlasScale>-->
+					<!--<borderScale>1.4</borderScale>-->
+					<headOffset>(0.0, -0.03)</headOffset>
+					<headTypes>
+						<li>Male_AverageNormal</li>
+						<li>Male_AverageWide</li>
+						<li>Male_AveragePointy</li>
+						<li>Male_NarrowNormal</li>
+						<li>Male_NarrowPointy</li>
+						<li>Male_NarrowWide</li>
+						<li>Female_AverageNormal</li>
+						<li>Female_AverageWide</li>
+						<li>Female_AveragePointy</li>
+						<li>Female_NarrowNormal</li>
+						<li>Female_NarrowPointy</li>
+						<li>Female_NarrowWide</li>
+					</headTypes>
+					<bodyTypes>
+						<li>Hulk</li>
+						<li>Thin</li>
+						<li>Male</li>
+						<li>Female</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+					</bodyTypes>
+					<bodyAddons>
+						<li>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<path>Things/Pawn/Humanlike/Tails/OTail</path>
+							<bodyPart>OTail</bodyPart>
+							<bodyPartLabel>tail</bodyPartLabel>
+							<defaultOffset>Tail</defaultOffset>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<conditions>
+								<BodyPart>
+									<bodyPart>OTail</bodyPart>
+									<bodyPartLabel>tail</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+							</conditions>
+							<offsets>
+								<north>
+							         <bodyTypes>
+							            <Female>(-0.0429, -0.03)</Female>
+							            <Fat>(-0.0429, -0.0000)</Fat>
+							            <Thin>(-0.043, -0.075)</Thin>
+							            <Hulk>(-0.0429, -0.25)</Hulk>
+							            <Male>(-0.0429, -0.06)</Male>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.23)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+							         </bodyTypes>
+							         <portraitBodyTypes>
+							            <Female>(-0.0429, -0.03)</Female>
+							            <Fat>(-0.0429, -0.0000)</Fat>
+							            <Thin>(-0.043, -0.075)</Thin>
+							            <Hulk>(-0.0429, -0.25)</Hulk>
+							            <Male>(-0.0429, -0.06)</Male>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.03,0.23)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+							         </portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+							      </north>
+							      <east>
+							         <bodyTypes>
+							            <Female>(0.172, -0.21)</Female>
+							            <Fat>(0.3571, -0.2571)</Fat>
+							            <Thin>(0.145, -0.185)</Thin>
+							            <Hulk>(0.29, -0.32)</Hulk>
+							            <Male>(0.1571, -0.2286)</Male>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.085,-0.002)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.175,0.05)</Baby>
+							         </bodyTypes>
+							         <portraitBodyTypes>
+							            <Female>(0.172, -0.21)</Female>
+							            <Fat>(0.3571, -0.2571)</Fat>
+							            <Thin>(0.145, -0.185)</Thin>
+							            <Hulk>(0.29, -0.32)</Hulk>
+							            <Male>(0.1571, -0.2286)</Male>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.085,-0.002)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.175,0.05)</Baby>
+							         </portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+							      </east>
+							      <south>
+							         <bodyTypes>
+							            <Female>(0.0000, 0.0000)</Female>
+							            <Fat>(0.0000, 0.0000)</Fat>
+							            <Thin>(0.0000, 0.0000)</Thin>
+							            <Hulk>(0.0000, 0.0000)</Hulk>
+							            <Male>(0.0000, 0.0000)</Male>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+							         </bodyTypes>
+							         <portraitBodyTypes>
+							            <Female>(0.0000, 0.0000)</Female>
+							            <Fat>(0.0000, 0.0000)</Fat>
+							            <Thin>(0.0000, 0.0000)</Thin>
+							            <Hulk>(0.0000, 0.0000)</Hulk>
+							            <Male>(0.0000, 0.0000)</Male>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+							         </portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+							      </south>
+							   </offsets>
+						</li>
+						<li>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<path>EarLeft</path>
+							<bodyPart>Ear</bodyPart>
+							<bodyPartLabel>left ear</bodyPartLabel>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<layerInvert>False</layerInvert>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+							</conditions>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-0.065,-0.305)</Male>
+										<Female>(-0.065,-0.305)</Female>
+										<Thin>(-0.065,-0.305)</Thin>
+										<Hulk>(-0.065,-0.305)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,-0.39)</Baby>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(-0.065,-0.305)</Male>
+										<Female>(-0.065,-0.305)</Female>
+										<Thin>(-0.065,-0.305)</Thin>
+										<Hulk>(-0.065,-0.305)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,-0.39)</Baby>
+									</portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(0.075,-0.125)</Male>
+										<Female>(0.075,-0.125)</Female>
+										<Thin>(0.075,-0.125)</Thin>
+										<Hulk>(0.075,-0.125)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.075,-0.125)</Male>
+										<Female>(0.075,-0.125)</Female>
+										<Thin>(0.075,-0.125)</Thin>
+										<Hulk>(0.075,-0.125)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(-0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+									</portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(0.135,-0.28)</Male>
+										<Female>(0.06,-0.26)</Female>
+										<Thin>(0.135,-0.28)</Thin>
+										<Hulk>(0.135,-0.28)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.135,-0.28)</Male>
+										<Female>(0.06,-0.26)</Female>
+										<Thin>(0.135,-0.28)</Thin>
+										<Hulk>(0.135,-0.28)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
+									</portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+								</east>
+							</offsets>
+							<hiddenUnderApparelFor>
+								<!--<li>FullHead</li>-->
+							</hiddenUnderApparelFor>
+						</li>
+						<li>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<path>EarRight</path>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<layerInvert>False</layerInvert>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+							</conditions>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(0.065,-0.305)</Male>
+										<Female>(0.065,-0.305)</Female>
+										<Thin>(0.065,-0.305)</Thin>
+										<Hulk>(0.065,-0.305)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.025,-0.39)</Baby>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.065,-0.305)</Male>
+										<Female>(0.065,-0.305)</Female>
+										<Thin>(0.065,-0.305)</Thin>
+										<Hulk>(0.065,-0.305)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.01,-0.37)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(-0.025,-0.39)</Baby>
+									</portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(-0.075,-0.125)</Male>
+										<Female>(-0.075,-0.125)</Female>
+										<Thin>(-0.075,-0.125)</Thin>
+										<Hulk>(-0.075,-0.125)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(-0.075,-0.125)</Male>
+										<Female>(-0.075,-0.125)</Female>
+										<Thin>(-0.075,-0.125)</Thin>
+										<Hulk>(-0.075,-0.125)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.003,-0.2)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+									</portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(0.135,-0.28)</Male>
+										<Female>(0.06,-0.26)</Female>
+										<Thin>(0.135,-0.28)</Thin>
+										<Hulk>(0.135,-0.28)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Male>(0.135,-0.28)</Male>
+										<Female>(0.06,-0.26)</Female>
+										<Thin>(0.135,-0.28)</Thin>
+										<Hulk>(0.135,-0.28)</Hulk>
+								    <Child MayRequire="ludeon.rimworld.biotech">(0.085,-0.325)</Child>
+								    <Baby MayRequire="ludeon.rimworld.biotech">(0.07,-0.35)</Baby>
+									</portraitBodyTypes>
+									<headTypes>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+									</headTypes>
+								</east>
+							</offsets>
+							<hiddenUnderApparelFor>
+								<!--<li>FullHead</li>-->
+							</hiddenUnderApparelFor>
+						</li>
+					</bodyAddons>
+					<colorChannels>
+						<li>
+						<name>skin</name>
+						<second Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(224,122,122,255)</only>
+							</li>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(237,167,167,255)</only>
+							</li>
+							<li>
+								<weight>17</weight>
+								<only>RGBA(190,77,77,255)</only>
+							</li>
+							<li>
+								<weight>7</weight>
+								<only>RGBA(188,121,106,255)</only>
+							</li>
+							<li>
+								<weight>20</weight>
+								<only>RGBA(103,103,105,255)</only>
+							</li>
+							<li>
+								<weight>7</weight>
+								<only>RGBA(140,113,103,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(102,81,74,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(68,68,152,255)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(111,147,194,255)</only>
+							</li>
+						</options>
+						</second>
+						</li>
+					</colorChannels>
+					<customDrawSize>(0.875, 0.875)</customDrawSize>
+					<customPortraitDrawSize>(.875, .875)</customPortraitDrawSize>
+				</alienPartGenerator>
+				<humanRecipeImport>true</humanRecipeImport>
+				<growthAges>
+					<li>6</li>
+					<li>9</li>
+					<li>12</li>
+				</growthAges>
+			</generalSettings>
+			<graphicPaths>
+					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+			</graphicPaths>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <!--<styleTags>
+                            <li>Rural</li>
+							<li>Urban</li>
+							<li>Punk</li>
+                            <li>Tribal</li>
+							<li>Minimal</li>
+							<li>Soldier</li>
+                        </styleTags>-->
+                    </value>
+                </li>
+				                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <!--<styleTags>
+                            <li>Rural</li>
+							<li>Urban</li>
+							<li>Punk</li>
+                            <li>Tribal</li>
+							<li>Minimal</li>
+							<li>Soldier</li>
+                        </styleTags>-->
+                    </value>
+                </li>
+				<li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <!--<styleTags>
+                            <li>Rural</li>
+							<li>Urban</li>
+							<li>Punk</li>
+                            <li>Tribal</li>
+							<li>Minimal</li>
+                        </styleTags>-->
+                    </value>
+                </li>
+            </styleSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>EnvironmentDark</li>
+					<li>NeedOutdoors</li>
+					<li>SleptInCold</li>
+					<li>Naked</li>
+					<li>WrongApparelGender</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+		</alienRace>
+		<!--<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>-->
+		<statBases>
+			<MarketValue>1900</MarketValue>
+			<MoveSpeed>6.225</MoveSpeed>
+			<!--Nyooooooooom-->
+			<Flammability>1.0</Flammability>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>26</ComfyTemperatureMax>
+			<LeatherAmount>35</LeatherAmount>
+			<ResearchSpeed>1.10</ResearchSpeed>
+			<MiningSpeed>0.975</MiningSpeed>
+			<SocialImpact>1.25</SocialImpact>
+			<MeleeDodgeChance>1.175</MeleeDodgeChance>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>LeftHandClawsGroup</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>RightHandClawsGroup</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<renderTree>Humanlike</renderTree>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>80</lifeExpectancy>
+			<leatherDef>Leather_Orassan</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>Orassan</body>
+			<baseBodySize>.875</baseBodySize>
+			<baseHealthScale>.95</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<nuzzleMtbHours>3</nuzzleMtbHours>
+			<gestationPeriodDays>37</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, .30)</li>
+					<li>(2, .40)</li>
+					<li>(3, .10)</li>
+					<li>(4, .20)</li>
+					<li>(5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>3</minAge>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>8</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>11</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>16</minAge>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>6</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>9</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>6</BasicWorker>
+				<Warden>9</Warden>
+				<Handling>6</Handling>
+				<Cooking>6</Cooking>
+				<Hunting>6</Hunting>
+				<Construction>9</Construction>
+				<Growing>6</Growing>
+				<Mining>6</Mining>
+				<PlantCutting>6</PlantCutting>
+				<Smithing>12</Smithing>
+				<Tailoring>6</Tailoring>
+				<Art>9</Art>
+				<Crafting>6</Crafting>
+				<Hauling>3</Hauling>
+				<Cleaning>3</Cleaning>
+				<Research>12</Research>
+			</lifeStageWorkSettings>
+			<ageGenerationCurve>
+				<points>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+					<li>(14,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+					<li>(16,100)</li>
+					<li>(50,100)</li>
+					<li>(60,30)</li>
+					<li>(70,18)</li>
+					<li>(80,10)</li>
+					<li>(90,3)</li>
+					<li>(100,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>InstallArchotechEye</li>
+			<li>InstallArchotechArm</li>
+			<li>InstallArchotechLeg</li>
+			<li>InstallPowerClaw</li>
+			<li>InstallBionicEye</li>
+			<li>InstallBionicArm</li>
+			<li>InstallBionicLeg</li>
+			<li>InstallBionicSpine</li>
+			<li>InstallBionicHeart</li>
+			<li>InstallBionicStomach</li>
+			<li>InstallBionicEar</li>
+			<li>InstallSimpleProstheticArm</li>
+			<li>InstallSimpleProstheticLeg</li>
+			<li>InstallSimpleProstheticHeart</li>
+			<li>InstallCochlearImplant</li>
+			<li>InstallPegLeg</li>
+			<li>InstallWoodenFoot</li>
+			<li>InstallDenture</li>
+			<li>InstallJoywire</li>
+			<li>InstallPainstopper</li>
+			<li>InstallNaturalHeart</li>
+			<li>InstallNaturalLung</li>
+			<li>InstallNaturalKidney</li>
+			<li>InstallNaturalLiver</li>
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+			<li>InstallOrassanTail</li>
+			<li>InstallBionicTail</li>
+			<li>InstallClothTail</li>
+			<li>InstallPlasteelClaws</li>
+		</recipes>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>

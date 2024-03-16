@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase" Abstract="True" Name="OrassanFactionBase">
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef ParentName="FactionBase">
+    <defName>OrassanPlayerColony</defName>
+    <label>Orassan Enclave</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Orassan</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Baseliner MayRequire="Ludeon.Rimworld.Biotech">0.75</Baseliner>
+        <SuperSoldier_Orassan MayRequire="Ludeon.Rimworld.Biotech">0.0</SuperSoldier_Orassan>
+        <Paramedic_Orassan MayRequire="Ludeon.Rimworld.Biotech">0.05</Paramedic_Orassan>
+        <Student_Orassan MayRequire="Ludeon.Rimworld.Biotech">0.05</Student_Orassan>
+        <Engineer_Orassan MayRequire="Ludeon.Rimworld.Biotech">0.05</Engineer_Orassan>
+        <Diplomat_Orassan MayRequire="Ludeon.Rimworld.Biotech">0.025</Diplomat_Orassan>
+        <Psion_Orassan MayRequire="Ludeon.Rimworld.Biotech">0.025</Psion_Orassan>
+      </xenotypeChances>
+    </xenotypeSet>
+    <techLevel>Ultra</techLevel>
+	<allowedCultures><li>OrassanCulture</li></allowedCultures>
+    <backstoryCategories><li>Orassan</li></backstoryCategories>
+    <factionIconPath>World/OrassanBaseIcon</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+		<li>CatLavenderCloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
+
+</Defs>

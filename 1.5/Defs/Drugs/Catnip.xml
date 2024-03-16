@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>CatnipJoint</defName>
+    <label>catnip joint</label>
+    <description>Catnip leaves prepared in small rolls for smoking. Much like smokeleaf, the drug improves mood, but also increases appetite, reduces focus and slows movement. Catnip use can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/CatJoint</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <rotatable>false</rotatable>
+    <statBases>
+      <Mass>0.005</Mass>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>14</MarketValue>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Plant, Processed</foodType>
+	  <joyKind>Chemical</joyKind>
+      <joy>0.80</joy>
+      <baseIngestTicks>720</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Smoke</ingestSound>
+      <ingestEffect>Smoke_Joint</ingestEffect>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.27,0,0.08)</offset>
+          <behind>true</behind>
+        </northDefault>
+        <east>
+          <offset>(0.45,0,0.08)</offset>
+        </east>
+        <south>
+          <offset>(0.27,0,0.08)</offset>
+        </south>
+        <west>
+          <offset>(-0.50,0,0.08)</offset>
+          <flip>true</flip>
+        </west>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Smoking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>CatnipHigh</hediffDef>
+          <severity>0.6</severity>
+          <toleranceChemical>Catnip</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>-0.2</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>CatnipTolerance</hediffDef>
+          <severity>0.050</severity>
+		  <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <CatnipLeaves>8</CatnipLeaves>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Catnip</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.15</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.06</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>21</listOrder>
+      </li>
+    </comps>
+	<allowedArchonexusCount>200</allowedArchonexusCount>
+  </ThingDef>
+  
+  <RecipeDef>
+        <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+		<defName>MakeCatnipJoint5</defName>
+		<label>make catnip joints (5)</label>
+		<description>Make catnip joints from catnip leaves.</description>
+		<jobString>Making catnip joints.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Tailor</effectWorking>
+		<soundWorking></soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatnipLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CatnipLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CatnipJoint>5</CatnipJoint>
+		</products>
+	</RecipeDef>
+	
+	  <RecipeDef>
+        <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+		<defName>MakeCatnipJoint15</defName>
+		<label>make bulk catnip joints (15)</label>
+		<description>Make catnip joints from catnip leaves.</description>
+		<jobString>Making catnip joints.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Tailor</effectWorking>
+		<soundWorking></soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatnipLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CatnipLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CatnipJoint>15</CatnipJoint>
+		</products>
+	</RecipeDef>
+
+  <HediffDef>
+    <defName>CatnipHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>stoned on catnip</label>
+	<description>When smoked, the chemical nepetalactone acts as a potent sedative.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+	<comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <hungerRateFactor>1.5</hungerRateFactor>
+          <painOffset>-0.4</painOffset>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>-0.3</offset>
+            </li>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>-0.3</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>CatnipHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CatnipHigh</hediff>
+	<validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>high on catnip</label>
+        <description>This cat stuff is great...</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Catnip addiction -->
+
+  <ChemicalDef>
+    <defName>Catnip</defName>
+    <label>Catnip</label>
+    <addictionHediff>CatnipAddiction</addictionHediff>
+    <toleranceHediff>CatnipTolerance</toleranceHediff>
+  </ChemicalDef>
+
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_Catnip</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Catnip</label>
+    <description>Because of a developed Catnip dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>
+  
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CatnipTolerance</defName>
+    <label>Catnip tolerance</label>
+	<description>The more catnip is smoked, the less effect tehe same amount will have.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.02</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>Catnip</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>CatnipAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Catnip dependence</label>
+    <causesNeed>Chemical_Catnip</causesNeed>
+	<description>A psychological dependance can be developed due to continued use of catnip.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.04</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>Binging_Food</mentalState>
+						<mtbDays>30</mtbDays>
+					</li>
+					<li>
+						<mentalState>Binging_DrugMajor</mentalState>
+						<mtbDays>50</mtbDays>
+					</li>
+				</mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>CatnipWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CatnipAddiction</hediff>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Catnip withdrawal</label>
+        <description>I really wish I could have some catnip...</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

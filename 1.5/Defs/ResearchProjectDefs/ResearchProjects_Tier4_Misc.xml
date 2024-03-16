@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--========================= Tier 4: Hi-tech research bench with multi-analyzer ===================================-->
+
+	<ResearchProjectDef>
+		<defName>BetharianScanning</defName>
+		<label>betharian scanning</label>
+		<tab>OrassanResearch</tab>
+		<description>Unlocks betharian stone scanning capabilities in the deep scanner.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>GroundPenetratingScanner</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>DeepDrillBoring</defName>
+		<label>deep drill boring</label>
+		<tab>OrassanResearch</tab>
+		<description>Unlocks the betherian borer, which unearths betherian stone that can be exploited for power.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>DeepDrilling</li>
+			<li>BetharianScanning</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	
+	<ResearchProjectDef>
+		<defName>BetherianPower</defName>
+		<label>betherian stone exploitation</label>
+		<tab>OrassanResearch</tab>
+		<description>Unlocks the betherian power plant.</description>
+		<baseCost>5000</baseCost>
+		<prerequisites>
+			<li>DeepDrilling</li>
+			<li>BetharianScanning</li>
+			<li>DeepDrillBoring</li>
+		</prerequisites>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ShieldAssembly</defName>
+		<label>shield generator</label>
+		<description>Allows you to build the Shield Generator, which prevents orbital bombardment.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<tab>OrassanResearch</tab>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+		<ResearchProjectDef>
+		<defName>OMachining</defName>
+		<label>advanced machining</label>
+		<description>Advances in the machining process allow for the construciton of a production table for orassan weapons and armor.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<tab>OrassanResearch</tab>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
+			<li>Machining</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OPoweredArmor</defName>
+		<label>orassan exoskeleton</label>
+		<description>Advanced exoskeletal frames allow you to build orassan exoskeletons and helmets.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<tab>OrassanResearch</tab>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
+			<li>PoweredArmor</li>
+			<li>OMachining</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OChargedShot</defName>
+		<label>orassan weaponry</label>
+		<description>Advances in charged projectiles allows for the production of orassan weaponry.</description>
+		<baseCost>2500</baseCost>
+		<tab>OrassanResearch</tab>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
+			<li>ChargedShot</li>
+			<li>OMachining</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>4</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+	
+	  <ResearchProjectDef>
+    <defName>SynchronisityRefining</defName>
+    <label>synchronite refining</label>
+    <description>Refine raw synchronite into synchronisity powder.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.40</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
