@@ -1,61 +1,76 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {
+    ".NETFramework,Version=v4.8": {
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         }
       }
     },
-    ".NETFramework,Version=v4.7.2/win": {
+    ".NETFramework,Version=v4.8/win": {
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         }
       }
     },
-    ".NETFramework,Version=v4.7.2/win-x64": {
+    ".NETFramework,Version=v4.8/win-arm64": {
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         }
       }
     },
-    ".NETFramework,Version=v4.7.2/win-x86": {
+    ".NETFramework,Version=v4.8/win-x64": {
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net472/0Harmony.dll": {
+          "lib/net48/0Harmony.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Lib.Harmony/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net48/0Harmony.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/0Harmony.dll": {
             "related": ".xml"
           }
         }
@@ -94,42 +109,52 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.2": [
+    ".NETFramework,Version=v4.8": [
       "Lib.Harmony >= 2.2.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simon\\.nuget\\packages\\": {}
+    "C:\\Users\\Jeremy\\.nuget\\packages\\": {},
+    "F:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\Orassans\\Orassans.csproj",
+      "projectUniqueName": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Orassans.csproj",
       "projectName": "Orassans",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\Orassans\\Orassans.csproj",
-      "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\Orassans\\obj\\",
+      "projectPath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Orassans.csproj",
+      "packagesPath": "C:\\Users\\Jeremy\\.nuget\\packages\\",
+      "outputPath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "F:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net472"
+        "net48"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net472": {
+        "net48": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net472": {
+      "net48": {
         "dependencies": {
           "Lib.Harmony": {
             "target": "Package",
@@ -140,6 +165,9 @@
     },
     "runtimes": {
       "win": {
+        "#import": []
+      },
+      "win-arm64": {
         "#import": []
       },
       "win-x64": {

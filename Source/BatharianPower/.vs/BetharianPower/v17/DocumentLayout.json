@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|f:\\microsoft visual studio\\repos\\!priority\\orassans\\orassans\\batharianpower\\gensteps\\genstep_bethariandeposits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:gensteps\\genstep_bethariandeposits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\mapcomponents\\bethariandeposits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:mapcomponents\\bethariandeposits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\thingcomponents\\comppowerplantbetharian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:thingcomponents\\comppowerplantbetharian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\things\\building_betharianborer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:things\\building_betharianborer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\things\\building_betharianborehole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:things\\building_betharianborehole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\utility\\glowutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:utility\\glowutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\workers\\placeworker_showbetharianstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:workers\\placeworker_showbetharianstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\workers\\placeworker_betharianborehole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:workers\\placeworker_betharianborehole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\workers\\placeworker_betharianstonedepositcoverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:workers\\placeworker_betharianstonedepositcoverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\bethariandefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:bethariandefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\bethariangrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B184D618-B3B2-49EC-B5BC-DA94C5C811D4}|BetharianPower.csproj|solutionrelative:bethariangrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenStep_BetharianDeposits.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\GenSteps\\GenStep_BetharianDeposits.cs",
+              "RelativeDocumentMoniker": "GenSteps\\GenStep_BetharianDeposits.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\GenSteps\\GenStep_BetharianDeposits.cs",
+              "RelativeToolTip": "GenSteps\\GenStep_BetharianDeposits.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:55.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BetharianDeposits.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\MapComponents\\BetharianDeposits.cs",
+              "RelativeDocumentMoniker": "MapComponents\\BetharianDeposits.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\MapComponents\\BetharianDeposits.cs",
+              "RelativeToolTip": "MapComponents\\BetharianDeposits.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:50.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompPowerPlantBetharian.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\ThingComponents\\CompPowerPlantBetharian.cs",
+              "RelativeDocumentMoniker": "ThingComponents\\CompPowerPlantBetharian.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\ThingComponents\\CompPowerPlantBetharian.cs",
+              "RelativeToolTip": "ThingComponents\\CompPowerPlantBetharian.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:45.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Building_BetharianBorer.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Things\\Building_BetharianBorer.cs",
+              "RelativeDocumentMoniker": "Things\\Building_BetharianBorer.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Things\\Building_BetharianBorer.cs",
+              "RelativeToolTip": "Things\\Building_BetharianBorer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:39.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Building_BetharianBoreHole.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Things\\Building_BetharianBoreHole.cs",
+              "RelativeDocumentMoniker": "Things\\Building_BetharianBoreHole.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Things\\Building_BetharianBoreHole.cs",
+              "RelativeToolTip": "Things\\Building_BetharianBoreHole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:34.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlowUtility.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Utility\\GlowUtility.cs",
+              "RelativeDocumentMoniker": "Utility\\GlowUtility.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Utility\\GlowUtility.cs",
+              "RelativeToolTip": "Utility\\GlowUtility.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:24.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlaceWorker_ShowBetharianStone.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Workers\\PlaceWorker_ShowBetharianStone.cs",
+              "RelativeDocumentMoniker": "Workers\\PlaceWorker_ShowBetharianStone.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Workers\\PlaceWorker_ShowBetharianStone.cs",
+              "RelativeToolTip": "Workers\\PlaceWorker_ShowBetharianStone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:17.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlaceWorker_BetharianStoneDepositCoverage.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Workers\\PlaceWorker_BetharianStoneDepositCoverage.cs",
+              "RelativeDocumentMoniker": "Workers\\PlaceWorker_BetharianStoneDepositCoverage.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Workers\\PlaceWorker_BetharianStoneDepositCoverage.cs",
+              "RelativeToolTip": "Workers\\PlaceWorker_BetharianStoneDepositCoverage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:09.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlaceWorker_BetharianBoreHole.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Workers\\PlaceWorker_BetharianBoreHole.cs",
+              "RelativeDocumentMoniker": "Workers\\PlaceWorker_BetharianBoreHole.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\Workers\\PlaceWorker_BetharianBoreHole.cs",
+              "RelativeToolTip": "Workers\\PlaceWorker_BetharianBoreHole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:53:06.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BetharianDefOf.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianDefOf.cs",
+              "RelativeDocumentMoniker": "BetharianDefOf.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianDefOf.cs",
+              "RelativeToolTip": "BetharianDefOf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:52:56.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BetharianGrid.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianGrid.cs",
+              "RelativeDocumentMoniker": "BetharianGrid.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianGrid.cs",
+              "RelativeToolTip": "BetharianGrid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:52:51.281Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

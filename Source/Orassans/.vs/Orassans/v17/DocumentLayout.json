@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|f:\\microsoft visual studio\\repos\\!priority\\orassans\\orassans\\orassans\\things\\frostplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:things\\frostplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\symbolresolver_orassanbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:symbolresolver_orassanbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\incidentworker_portalraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:incidentworker_portalraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\things\\projectile_snowmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:things\\projectile_snowmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\thingcomponents\\projectileswitchercomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:thingcomponents\\projectileswitchercomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\thingcomponents\\comporassanshield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:thingcomponents\\comporassanshield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\placeworkers\\placeworker_orassan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:placeworkers\\placeworker_orassan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\thingcomponents\\comp_foodorassan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:thingcomponents\\comp_foodorassan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\thingcomponents\\comporassanpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:thingcomponents\\comporassanpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\defs\\pawnbiodef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:defs\\pawnbiodef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\defofs\\orassandefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:defofs\\orassandefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\data\\projectileswitcherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:data\\projectileswitcherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\customfactionbases\\symbolresolveradder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:customfactionbases\\symbolresolveradder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\customfactionbases\\symbolresolver_customtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:customfactionbases\\symbolresolver_customtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\customfactionbases\\resolverstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:customfactionbases\\resolverstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\customfactionbases\\custombaseutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:customfactionbases\\custombaseutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ai\\thinknode_conditionalisorassan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:ai\\thinknode_conditionalisorassan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ai\\jobgiver_orassannuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBC2C47-C955-4034-A212-C06B18BCBCAE}|Orassans.csproj|solutionrelative:ai\\jobgiver_orassannuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projectile_SnowMaker.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Things\\Projectile_SnowMaker.cs",
+              "RelativeDocumentMoniker": "Things\\Projectile_SnowMaker.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Things\\Projectile_SnowMaker.cs",
+              "RelativeToolTip": "Things\\Projectile_SnowMaker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:45:13.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrostPlant.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Things\\FrostPlant.cs",
+              "RelativeDocumentMoniker": "Things\\FrostPlant.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Things\\FrostPlant.cs",
+              "RelativeToolTip": "Things\\FrostPlant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:44:52.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HarmonyPatches.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\HarmonyPatches.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\HarmonyPatches.cs",
+              "RelativeToolTip": "HarmonyPatches.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:41:31.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IncidentWorker_PortalRaid.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\IncidentWorker_PortalRaid.cs",
+              "RelativeDocumentMoniker": "IncidentWorker_PortalRaid.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\IncidentWorker_PortalRaid.cs",
+              "RelativeToolTip": "IncidentWorker_PortalRaid.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:41:51.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SymbolResolver_OrassanBase.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\SymbolResolver_OrassanBase.cs",
+              "RelativeDocumentMoniker": "SymbolResolver_OrassanBase.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\SymbolResolver_OrassanBase.cs",
+              "RelativeToolTip": "SymbolResolver_OrassanBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:01.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectileSwitcherComp.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\ProjectileSwitcherComp.cs",
+              "RelativeDocumentMoniker": "ThingComponents\\ProjectileSwitcherComp.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\ProjectileSwitcherComp.cs",
+              "RelativeToolTip": "ThingComponents\\ProjectileSwitcherComp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:44:29.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompOrassanShield.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\CompOrassanShield.cs",
+              "RelativeDocumentMoniker": "ThingComponents\\CompOrassanShield.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\CompOrassanShield.cs",
+              "RelativeToolTip": "ThingComponents\\CompOrassanShield.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:44:27.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompOrassanPower.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\CompOrassanPower.cs",
+              "RelativeDocumentMoniker": "ThingComponents\\CompOrassanPower.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\CompOrassanPower.cs",
+              "RelativeToolTip": "ThingComponents\\CompOrassanPower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:44:25.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comp_FoodOrassan.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\Comp_FoodOrassan.cs",
+              "RelativeDocumentMoniker": "ThingComponents\\Comp_FoodOrassan.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\ThingComponents\\Comp_FoodOrassan.cs",
+              "RelativeToolTip": "ThingComponents\\Comp_FoodOrassan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:44:22.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Placeworker_Orassan.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Placeworkers\\Placeworker_Orassan.cs",
+              "RelativeDocumentMoniker": "Placeworkers\\Placeworker_Orassan.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Placeworkers\\Placeworker_Orassan.cs",
+              "RelativeToolTip": "Placeworkers\\Placeworker_Orassan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:44:16.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PawnBioDef.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Defs\\PawnBioDef.cs",
+              "RelativeDocumentMoniker": "Defs\\PawnBioDef.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Defs\\PawnBioDef.cs",
+              "RelativeToolTip": "Defs\\PawnBioDef.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:43:34.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrassanDefOf.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\DefOfs\\OrassanDefOf.cs",
+              "RelativeDocumentMoniker": "DefOfs\\OrassanDefOf.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\DefOfs\\OrassanDefOf.cs",
+              "RelativeToolTip": "DefOfs\\OrassanDefOf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:43:30.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectileSwitcherInfo.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Data\\ProjectileSwitcherInfo.cs",
+              "RelativeDocumentMoniker": "Data\\ProjectileSwitcherInfo.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Data\\ProjectileSwitcherInfo.cs",
+              "RelativeToolTip": "Data\\ProjectileSwitcherInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:43:21.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SymbolResolverAdder.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\SymbolResolverAdder.cs",
+              "RelativeDocumentMoniker": "CustomFactionBases\\SymbolResolverAdder.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\SymbolResolverAdder.cs",
+              "RelativeToolTip": "CustomFactionBases\\SymbolResolverAdder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:57.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SymbolResolver_CustomTest.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\SymbolResolver_CustomTest.cs",
+              "RelativeDocumentMoniker": "CustomFactionBases\\SymbolResolver_CustomTest.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\SymbolResolver_CustomTest.cs",
+              "RelativeToolTip": "CustomFactionBases\\SymbolResolver_CustomTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:53.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResolverStruct.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\ResolverStruct.cs",
+              "RelativeDocumentMoniker": "CustomFactionBases\\ResolverStruct.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\ResolverStruct.cs",
+              "RelativeToolTip": "CustomFactionBases\\ResolverStruct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:48.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomBaseUtility.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\CustomBaseUtility.cs",
+              "RelativeDocumentMoniker": "CustomFactionBases\\CustomBaseUtility.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\CustomFactionBases\\CustomBaseUtility.cs",
+              "RelativeToolTip": "CustomFactionBases\\CustomBaseUtility.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:39.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThinkNode_ConditionalIsOrassan.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\AI\\ThinkNode_ConditionalIsOrassan.cs",
+              "RelativeDocumentMoniker": "AI\\ThinkNode_ConditionalIsOrassan.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\AI\\ThinkNode_ConditionalIsOrassan.cs",
+              "RelativeToolTip": "AI\\ThinkNode_ConditionalIsOrassan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:33.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JobGiver_OrassanNuzzle.cs",
+              "DocumentMoniker": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\AI\\JobGiver_OrassanNuzzle.cs",
+              "RelativeDocumentMoniker": "AI\\JobGiver_OrassanNuzzle.cs",
+              "ToolTip": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\AI\\JobGiver_OrassanNuzzle.cs",
+              "RelativeToolTip": "AI\\JobGiver_OrassanNuzzle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:42:22.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

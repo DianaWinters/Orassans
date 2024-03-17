@@ -1,8 +1,4 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 using Verse;
 
@@ -34,7 +30,7 @@ namespace Orassans
                     }
                     if (this.DyingBecauseExposedToLight)
                     {
-                        float lerpPct = base.Map.glowGrid.GameGlowAt(base.Position, true);
+                        float lerpPct = base.Map.glowGrid.GroundGlowAt(base.Position, true);
                         num = Mathf.Max(num, DyingDamagePerTickBecauseExposedToLight.LerpThroughRange(lerpPct));
                     }
                     result = num;

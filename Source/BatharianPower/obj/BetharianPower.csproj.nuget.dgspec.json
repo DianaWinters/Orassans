@@ -1,38 +1,47 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\BetharianPower.csproj": {}
+    "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianPower.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\BetharianPower.csproj": {
+    "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianPower.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\BetharianPower.csproj",
+        "projectUniqueName": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianPower.csproj",
         "projectName": "BetharianPower",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\BetharianPower.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\BatharianPower\\obj\\",
+        "projectPath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\BetharianPower.csproj",
+        "packagesPath": "C:\\Users\\Jeremy\\.nuget\\packages\\",
+        "outputPath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\BatharianPower\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "F:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net472"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net472": {
+          "net48": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net472": {
+        "net48": {
           "dependencies": {
             "Lib.Harmony": {
               "target": "Package",
@@ -43,6 +52,9 @@
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

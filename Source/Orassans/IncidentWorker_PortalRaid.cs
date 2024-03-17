@@ -3,8 +3,6 @@ using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
-using Verse.AI;
-using Verse.AI.Group;
 
 namespace Orassan
 {

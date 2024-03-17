@@ -1,10 +1,5 @@
-﻿using RimWorld;
-using RimWorld.BaseGen;
-using System;
+﻿using RimWorld.BaseGen;
 using System.Collections.Generic;
-using System.Reflection;
-using Verse;
-using Verse.AI.Group;
 using static CustomFactionBase.CustomBaseUtility;
 
 namespace CustomFactionBase

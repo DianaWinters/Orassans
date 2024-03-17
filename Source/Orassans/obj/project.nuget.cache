@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PJniZkFCVMIFvjrbHqUmB6OnbEwWLvK2pWyIFxA0n3RFUAC/bEIvzIsIy0v9MY5lNjG8LxuefEbZkZnFg85+OA==",
+  "dgSpecHash": "DgKCEles5z4lOdt1uSy5TiR/y+8q1VtQNJg5Ek6Zvv7Z6eyG/asGWw3GRIB+KZiz9DCmH7sW/2hIgCCd7tdFgw==",
   "success": true,
-  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Orassans\\Source\\Orassans\\Orassans.csproj",
+  "projectFilePath": "F:\\Microsoft Visual Studio\\Repos\\!Priority\\Orassans\\Orassans\\Orassans\\Orassans.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\simon\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+    "C:\\Users\\Jeremy\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
   ],
   "logs": []
 }
