@@ -187,7 +187,7 @@
 							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<defaultOffset>Center</defaultOffset>
+							<defaultOffset>Head</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<layerInvert>False</layerInvert>
 							<conditions>
@@ -275,7 +275,7 @@
 							<path>EarRight</path>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<defaultOffset>Center</defaultOffset>
+							<defaultOffset>Head</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<layerInvert>False</layerInvert>
 							<conditions>
