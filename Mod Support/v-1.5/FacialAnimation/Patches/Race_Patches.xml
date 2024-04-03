@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
+			</li>
+			<li>
+				<compClass>FacialAnimation.HeadControllerComp</compClass>
+			</li>
+			<li>
+				<compClass>FacialAnimation.EyeballControllerComp</compClass>
+			</li>
+      <li>
+        <compClass>FacialAnimation.LidControllerComp</compClass>
+      </li>
+      <li>
+				<compClass>FacialAnimation.BrowControllerComp</compClass>
+			</li>
+			<li>
+				<compClass>FacialAnimation.MouthControllerComp</compClass>
+			</li>
+      <!--<li>
+        <compClass>FacialAnimation.EmotionControllerComp</compClass>
+      </li>-->
+      <li>
+				<compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
+			</li>
+
+		</value>
+	</Operation>
+</Patch>

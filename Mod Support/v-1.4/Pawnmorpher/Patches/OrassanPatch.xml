@@ -1,0 +1,51 @@
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Orassans</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName='Alien_Orassan' or defName='Alien_OrassanHumanHybrid']/statBases/MoveSpeed</xpath>
+                    <value>
+                        <MoveSpeed>5.05</MoveSpeed>
+                    </value>
+                </li>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.RaceMutationSettingsExtension">
+                            <mutationRetrievers>
+                                <li Class="Pawnmorph.Hediffs.MutationRetrievers.AnimalClassRetriever">
+                                    <animalClass>CatMorph</animalClass>
+                                </li>
+                            </mutationRetrievers>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_OrassanHumanHybrid"]</xpath>
+                    <value>
+                        <li Class="Pawnmorph.RaceMutationSettingsExtension">
+                            <mutationRetrievers>
+                                <li Class="Pawnmorph.Hediffs.MutationRetrievers.Mutations">
+                                    <mutations>
+                                        <li>EtherCatEye</li>
+                                        <li>EtherCatTail</li>
+                                        <li>EtherCatEar</li>
+                                    </mutations>
+                                </li>
+                            </mutationRetrievers>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationInsert">
+                    <xpath>/Defs/Pawnmorph.Hediffs.MutationDef/parts/li[text()="Tail"]</xpath>
+                    <value>
+                        <li>OTail</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

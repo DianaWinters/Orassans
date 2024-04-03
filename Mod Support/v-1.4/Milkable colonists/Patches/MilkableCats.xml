@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Orassan"]/race/hediffGiverSets</xpath>
+		<value>
+				<li>OrassanMilk</li>
+		</value>
+	</Operation>
+</Patch>

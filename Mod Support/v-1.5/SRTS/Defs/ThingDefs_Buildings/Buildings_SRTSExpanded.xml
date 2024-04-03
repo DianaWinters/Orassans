@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="NECShipBase">
+    <defName>OrassanQuickResponseShuttle</defName>
+    <label>Orassan Quick Response Shuttle</label>
+    <description>A small troop transport shuttle for strategic insertions and exfiltration, capable of land to space travel at high speeds.
+
+Passenger cap: 1 - 7
+
+--Military--
+  Bombs: 0/20
+  Accuracy: Excellent
+  Build: Narrow
+----------------------------
+Speed: Excellent
+Fuel cap: 2,000 kg
+Fuel efficiency: Amazing
+----------------------------
+Cargo cap: 3,600kg
+Internal power plant: 4,600w</description>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(11,11)</drawSize>
+    </graphicData>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+      <Flammability>0.3</Flammability>
+      <Mass>20</Mass>
+      <Beauty>75</Beauty>
+    </statBases>
+    <costList>
+      <Steel>900</Steel>
+      <Plasteel>1500</Plasteel>
+      <Gold>1000</Gold>
+      <ComponentIndustrial>36</ComponentIndustrial>
+      <ComponentSpacer>12</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Transporter">
+        <restEffectiveness>2</restEffectiveness>
+        <massCapacity>3600</massCapacity>
+      </li>
+      <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <travelSpeed>40</travelSpeed>
+        <fuelPerTile>0.25</fuelPerTile>
+        <minPassengers>1</minPassengers>
+        <maxPassengers>7</maxPassengers>
+		    <spaceFaring>true</spaceFaring>
+		    <shuttleBayLanding>true</shuttleBayLanding>
+      </li>
+      <li Class="SRTS.CompProperties_BombsAway">
+        <numberBombs>0</numberBombs>
+        <precisionBombingNumBombs>20</precisionBombingNumBombs>
+        <radiusOfDrop>5</radiusOfDrop>
+        <speed>2</speed>
+        <distanceBetweenDrops>2</distanceBetweenDrops>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>2000</fuelCapacity>
+        <fuelMultiplier>2</fuelMultiplier>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>2000</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <initialFuelPercent>0.25</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-4600</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>18</glowRadius>
+        <glowColor>(217,217,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Research_OrassanQuickResponseShuttle</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <uiIconScale>0.30</uiIconScale>
+    <killedLeavings>
+      <ChunkSlagSteel>12</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
+  
+   <ThingDef ParentName="SkyfallerBase">
+    <defName>OrassanQuickResponseShuttle_Incoming</defName>
+    <label>Orassan Quick Response Shuttle incoming</label>
+    <thingClass>SRTS.SRTSIncoming</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Decelerate</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(6,6)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <anticipationSoundTicks>100</anticipationSoundTicks>
+      <motesPerCell>0</motesPerCell>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="BomberSkyfallerBase">
+    <defName>OrassanQuickResponseShuttle_BomberRun</defName>
+    <label>Orassan Quick Response Shuttle Bombing</label>
+    <thingClass>SRTS.SRTSBombing</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <speed>0.85</speed>
+      <movementType>ConstantSpeed</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(6,6)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <anticipationSoundTicks>100</anticipationSoundTicks>
+      <motesPerCell>0</motesPerCell>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>OrassanQuickResponseShuttle_Leaving</defName>
+    <label>Orassan Quick Response Shuttle leaving</label>
+    <thingClass>SRTS.SRTSLeaving</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Accelerate</movementType>
+      <reversed>true</reversed>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(6,6)</shadowSize>
+      <anticipationSound>Sound_Launch</anticipationSound>
+      <anticipationSoundTicks>-10</anticipationSoundTicks>
+      <ticksToImpactRange><min>-40</min><max>-15</max></ticksToImpactRange>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>OrassanQuickResponseShuttle_Active</defName>
+    <label>Orassan Quick Response Shuttle active</label>
+    <category>Item</category>
+    <thingClass>ActiveDropPod</thingClass>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Buildings/QuickResponseShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(9,9)</drawSize>
+      <shadowData>
+        <volume>(0.8, 0.6, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>3500</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+  </ThingDef>
+  
+  
+  
+   <ThingDef ParentName="NECShipBase">
+    <defName>OrassanHTC</defName>
+    <label>Orassan Heavy troop carrier</label>
+    <description>An heavy nuclear powered aerial troop transporter designed by Orassan navy for deploying army from spaceships to ground in numbers, may not be fastest in its field but it still do the job.
+
+Passenger cap: 1 - 74
+----------------------------
+Speed: Excellent
+Fuel cap: 5,250L
+Fuel efficiency: Amazing
+----------------------------
+Cargo cap: 32,000kg
+Internal power plant: 6,200w</description>
+    <graphicData>
+      <texPath>Things/Buildings/HeavyShuttle</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(25,25)</drawSize>
+    </graphicData>
+    <size>(11,9)</size>
+    <statBases>
+      <MaxHitPoints>4250</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <Mass>20</Mass>
+      <Beauty>75</Beauty>
+    </statBases>
+    <costList>
+      <Steel>3250</Steel>
+      <Plasteel>1450</Plasteel>
+      <Gold>1050</Gold>
+      <Silver>6500</Silver>
+      <ComponentIndustrial>46</ComponentIndustrial>
+      <ComponentSpacer>24</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Transporter">
+        <restEffectiveness>3</restEffectiveness>
+        <massCapacity>32000</massCapacity>
+      </li>
+      <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <travelSpeed>28</travelSpeed>
+        <fuelPerTile>0.2</fuelPerTile>
+        <minPassengers>1</minPassengers>
+        <maxPassengers>74</maxPassengers>
+        <spaceFaring>true</spaceFaring>
+        <shuttleBayLanding>false</shuttleBayLanding>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>5250</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>5250</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <initialFuelPercent>0.2</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-6200</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>18</glowRadius>
+        <glowColor>(217,217,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Research_OrassanHTC</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <uiIconScale>0.50</uiIconScale>
+    <killedLeavings>
+      <ChunkSlagSteel>24</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
+
+
+   <ThingDef ParentName="SkyfallerBase">
+    <defName>OrassanHTC_Incoming</defName>
+    <label>Orassan Heavy troop carrier incoming</label>
+    <thingClass>SRTS.SRTSIncoming</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/HeavyShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(25,25)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Decelerate</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(12,12)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <anticipationSoundTicks>100</anticipationSoundTicks>
+      <motesPerCell>0</motesPerCell>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>OrassanHTC_Leaving</defName>
+    <label>Orassan Heavy troop carrier leaving</label>
+    <thingClass>SRTS.SRTSLeaving</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/HeavyShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>(25,25)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Accelerate</movementType>
+      <reversed>true</reversed>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(12,12)</shadowSize>
+      <anticipationSound>Sound_Launch</anticipationSound>
+      <anticipationSoundTicks>-10</anticipationSoundTicks>
+      <ticksToImpactRange><min>-40</min><max>-15</max></ticksToImpactRange>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>OrassanHTC_Active</defName>
+    <label>Orassan Heavy troop carrier active</label>
+    <category>Item</category>
+    <thingClass>ActiveDropPod</thingClass>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Buildings/HeavyShuttle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(25,25)</drawSize>
+      <shadowData>
+        <volume>(0.8, 0.6, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>3500</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+  </ThingDef>
+  
+  
+</Defs>

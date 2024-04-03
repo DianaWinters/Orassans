@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Orassans -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RJW - RaceSupport</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/rjw.RaceGroupDef[defName = "Orassan_Mammal_Ori"]/femaleBreasts/li[text()="Breasts"]</xpath>
+					<value>
+						<li>Flat_Breasts</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/rjw.RaceGroupDef[defName = "Orassan_Mammal_Ori"]/maleBreasts/li[text()="Breasts"]</xpath>
+					<value>
+						<li>Flat_Breasts</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

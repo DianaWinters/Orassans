@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffGiverSetDef>
+    <defName>OrassanMilk</defName>
+    <hediffGivers>
+  
+      <!-- Birthday long-term chronic-->
+
+      <li Class="HediffGiver_Birthday">
+        <hediff>Orassan_Lactating_Permanent</hediff>
+        <ageFractionChanceCurve>
+          <points>
+		    <li>(10, 0.1)</li>
+            <li>(11, 0.5)</li>
+            <li>(12, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+    <HediffDef>
+		<defName>Orassan_Lactating_Permanent</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>Orassans naturally lactate past a certain age. While this increases the need for food, it is hypothesized that it somehow improves cognitive function.</description>
+		<defaultLabelColor>(0.81, 0.41, 1)</defaultLabelColor>
+		<isBad>false</isBad>
+		<label>lactating (permanent, natural)</label>
+		<stages>
+			<li>
+				<hungerRateFactorOffset>0.2</hungerRateFactorOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

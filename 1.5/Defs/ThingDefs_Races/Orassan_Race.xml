@@ -50,11 +50,11 @@
 						<chance>10</chance>
 					</li>
 					<li>
-						<defName Degree="1">Xenophobia</defName>
+						<defName Degree="1">HAR_Xenophobia</defName>
 						<chance>0</chance>
 					</li>
 					<li>
-						<defName Degree="-1">Xenophobia</defName>
+						<defName Degree="-1">HAR_Xenophobia</defName>
 						<chance>10</chance>
 					</li>
 					<li>

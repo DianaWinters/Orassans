@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Creama da le NyaNya -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Petite_Cat_Furries</defName>
+		
+		<raceNames>
+			<li>Alien_Orassan</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<!-- list multiple times for higher chance to pick  -->
+		<anuses>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>HydraulicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>ArchotechAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>HydraulicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>ArchotechBreasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>HydraulicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>ArchotechVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>HydraulicPenis</li>
+			<li>BionicPenis</li>
+			<li>BionicPenis</li>
+			<li>BionicPenis</li>
+			<li>BionicPenis</li>
+			<li>ArchotechPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+		
+		<hybridRaceParents>
+			<li>Human</li>
+			<li>Alien_Orassan</li>
+		</hybridRaceParents>
+
+		<hybridChildKindDef>
+			<li>HybridVillager</li>
+		</hybridChildKindDef>
+
+		<raceSexDrive>1.15</raceSexDrive>
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+		<!-- Hybrid -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Petite_Cat_HalfHuman</defName>
+		
+		<raceNames>
+			<li>Alien_OrassanHumanHybrid</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+
+		<anuses>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>Anus</li>
+			<li>HydraulicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>BionicAnus</li>
+			<li>ArchotechAnus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>Breasts</li>
+			<li>HydraulicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>BionicBreasts</li>
+			<li>ArchotechBreasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>Vagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>CatVagina</li>
+			<li>HydraulicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>BionicVagina</li>
+			<li>ArchotechVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>Penis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>CatPenis</li>
+			<li>HydraulicPenis</li>
+			<li>BionicPenis</li>
+			<li>BionicPenis</li>
+			<li>BionicPenis</li>
+			<li>BionicPenis</li>
+			<li>ArchotechPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Skin</li>
+			<li>Fur</li>
+		</tags>
+
+		<raceSexDrive>1.25</raceSexDrive>
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+	
+	<!-- Ori -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Mammal_Ori</defName>
+
+		<raceNames>
+			<li>Ori</li>
+			<li>Ori_Calico</li>
+			<li>Ori_Temperate</li>
+			<li>Ori_Urban</li>
+			<li>Ori_Desert</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>NarrowVagina</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>GenericPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+	
+	<!-- Walf -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Mammal_Animal_Desiri</defName>
+
+		<raceNames>
+			<li>Animal_Desiri</li>
+			<li>Animal_Desiri_TemperateOne</li>
+			<li>Animal_Desiri_TemperateTwo</li>
+			<li>Animal_Desiri_Urban</li>
+			<li>Animal_Desiri_Desert</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<!-- <femaleBreasts> -->
+			<!-- <li>Flat_FeaturelessChestBreasts</li> -->
+		<!-- </femaleBreasts> -->
+
+		<femaleGenitals>
+			<li>DogVagina</li>
+		</femaleGenitals>
+
+		<!-- <maleBreasts> -->
+			<!-- <li>FeaturelessChest</li> -->
+		<!-- </maleBreasts> -->
+
+		<maleGenitals>
+			<li>DogPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+	
+	<!-- Gryphin -->
+	<rjw.RaceGroupDef>
+		<defName>Orassan_Mammal_Animal_Gryphon</defName>
+
+		<raceNames>
+			<li>Gryphon</li>
+		</raceNames>
+		
+		<pawnKindNames>
+		</pawnKindNames>
+		
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+		
+		<!-- <femaleBreasts> -->
+			<!-- <li>Flat_FeaturelessChestBreasts</li> -->
+		<!-- </femaleBreasts> -->
+
+		<femaleGenitals>
+			<li>CatVagina</li>
+		</femaleGenitals>
+
+		<!-- <maleBreasts> -->
+			<!-- <li>FeaturelessChest</li> -->
+		<!-- </maleBreasts> -->
+
+		<maleGenitals>
+			<li>CatPenis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Fur</li>
+			<li>Feathers</li>
+		</tags>
+
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+	</rjw.RaceGroupDef>
+</Defs>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <tab>SRTSE</tab>
+    <defName>Research_OrassanQuickResponseShuttle</defName>
+    <label>Orassan Quick Response Shuttle</label>
+    <description>Desciphering orassan schematics, we can discover a serious step up from chemfuel powered ships to ones powered by uranium.</description>
+    <baseCost>27500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>Research_SRTSMkIII</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <tab>SRTSE</tab>
+    <defName>Research_OrassanHTC</defName>
+    <label>Orassan Heavy troop carrier</label>
+    <description>Second steep in understanding of Orassan shipbuilding, an heavy yet pretty agile troop transporter.</description>
+    <baseCost>30000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>Research_OrassanQuickResponseShuttle</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+</Defs>
