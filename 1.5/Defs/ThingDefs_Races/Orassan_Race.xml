@@ -902,6 +902,8 @@
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
 			<leatherDef>Leather_Orassan</leatherDef>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>Orassan</body>
 			<baseBodySize>.75</baseBodySize>
