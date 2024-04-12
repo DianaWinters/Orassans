@@ -24,13 +24,11 @@
 				<maleGenderProbability>0.25</maleGenderProbability>
 				<forcedRaceTraitEntries>
 					<li>
-						<defName>Beauty</defName>
-						<degree>2</degree>
+						<defName Degree="2">Beauty</defName>
 						<chance>10</chance>
 					</li>
 					<li>
-						<defName>Beauty</defName>
-						<degree>1</degree>
+						<defName Degree="1">Beauty</defName>
 						<chance>25</chance>
 					</li>
 					<li>
@@ -93,8 +91,6 @@
 						<li>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<path>Things/Pawn/Humanlike/Tails/OTail</path>
-							<bodyPart>OTail</bodyPart>
-							<bodyPartLabel>tail</bodyPartLabel>
 							<defaultOffset>Tail</defaultOffset>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
@@ -105,6 +101,8 @@
 								</BodyPart>
 								<Posture>
 									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
 								</Posture>
 								<RotStage>Fresh,Rotting</RotStage>
 							</conditions>
@@ -183,8 +181,6 @@
 						<li>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<path>EarLeft</path>
-							<bodyPart>Ear</bodyPart>
-							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<defaultOffset>Head</defaultOffset>
@@ -197,6 +193,8 @@
 								</BodyPart>
 								<Posture>
 									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
 								</Posture>
 								<RotStage>Fresh,Rotting</RotStage>
 							</conditions>
@@ -265,9 +263,6 @@
 									</headTypes>
 								</east>
 							</offsets>
-							<hiddenUnderApparelFor>
-								<!--<li>FullHead</li>-->
-							</hiddenUnderApparelFor>
 						</li>
 						<li>
 							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -285,6 +280,8 @@
 								</BodyPart>
 								<Posture>
 									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
 								</Posture>
 								<RotStage>Fresh,Rotting</RotStage>
 							</conditions>
@@ -353,9 +350,6 @@
 									</headTypes>
 								</east>
 							</offsets>
-							<hiddenUnderApparelFor>
-								<!--<li>FullHead</li>-->
-							</hiddenUnderApparelFor>
 						</li>
 					</bodyAddons>
 					<colorChannels>

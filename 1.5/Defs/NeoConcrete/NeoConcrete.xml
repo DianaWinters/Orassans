@@ -85,7 +85,8 @@
         <li>Stony</li>
       </categories>
       <color>(235,235,255)</color>
-      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+	  <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <stuffAdjective>neo-concrete</stuffAdjective>
