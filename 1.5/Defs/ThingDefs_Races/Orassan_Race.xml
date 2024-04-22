@@ -759,7 +759,7 @@
 			<baseHealthScale>.9</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<nuzzleMtbHours>3</nuzzleMtbHours>
-			<gestationPeriodDays>32.5</gestationPeriodDays>
+			<gestationPeriodDays>13.5</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
