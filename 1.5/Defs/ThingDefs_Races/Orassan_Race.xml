@@ -232,18 +232,18 @@
 								</north>
 								<east>
 									<bodyTypes>
-										<Male>(0.08,0.25)</Male>
-										<Female>(0.08,0.25)</Female>
-										<Thin>(0.08,0.25)</Thin>
-										<Hulk>(0.08,0.2)</Hulk>
+										<Male>(0.016,0.21)</Male>
+										<Female>(0.016,0.21)</Female>
+										<Thin>(0.016,0.21)</Thin>
+										<Hulk>(0.016,0.21)</Hulk>
 								    <Child MayRequire="ludeon.rimworld.biotech">(0.016,0.17)</Child>
 								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,0.146)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(0.08,0.25)</Male>
-										<Female>(0.08,0.25)</Female>
-										<Thin>(0.08,0.25)</Thin>
-										<Hulk>(0.08,0.2)</Hulk>
+										<Male>(0.016,0.21)</Male>
+										<Female>(0.016,0.21)</Female>
+										<Thin>(0.016,0.21)</Thin>
+										<Hulk>(0.016,0.21)</Hulk>
 								    <Child MayRequire="ludeon.rimworld.biotech">(0.016,0.17)</Child>
 								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,0.146)</Baby>
 									</portraitBodyTypes>
@@ -319,18 +319,18 @@
 								</north>
 								<east>
 									<bodyTypes>
-										<Male>(0.08,0.25)</Male>
-										<Female>(0.08,0.25)</Female>
-										<Thin>(0.08,0.25)</Thin>
-										<Hulk>(0.08,0.2)</Hulk>
+										<Male>(0.016,0.21)</Male>
+										<Female>(0.016,0.21)</Female>
+										<Thin>(0.016,0.21)</Thin>
+										<Hulk>(0.016,0.21)</Hulk>
 								    <Child MayRequire="ludeon.rimworld.biotech">(0.016,0.17)</Child>
 								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,0.146)</Baby>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Male>(0.08,0.25)</Male>
-										<Female>(0.08,0.25)</Female>
-										<Thin>(0.08,0.25)</Thin>
-										<Hulk>(0.08,0.2)</Hulk>
+										<Male>(0.016,0.21)</Male>
+										<Female>(0.016,0.21)</Female>
+										<Thin>(0.016,0.21)</Thin>
+										<Hulk>(0.016,0.21)</Hulk>
 								    <Child MayRequire="ludeon.rimworld.biotech">(0.016,0.17)</Child>
 								    <Baby MayRequire="ludeon.rimworld.biotech">(0.025,0.146)</Baby>
 									</portraitBodyTypes>
@@ -356,7 +356,7 @@
 									<drawnStanding>true</drawnStanding>
 									<drawnLaying>true</drawnLaying>
 								</Posture>
-									<RotStage>Fresh,Rotting</RotStage>
+								<RotStage>Fresh,Rotting</RotStage>
 							</conditions>
 							<offsets>
 								<north>
@@ -372,7 +372,7 @@
 									</headTypes>
    							    </north>
 							    <east>
-                                    <layerOffset>-0.325</layerOffset>
+                                    <layerOffset>-0.321</layerOffset>
 							        <bodyTypes>
             							<Thin>(0.0000,0.0000)</Thin>
          							</bodyTypes>
@@ -384,7 +384,7 @@
 									</headTypes>
 							    </east>
  							    <south>
-                                    <layerOffset>-0.325</layerOffset>
+                                    <layerOffset>-0.321</layerOffset>
  							        <bodyTypes>
             							<Thin>(0.0000,0.0000)</Thin>
          							</bodyTypes>
@@ -400,7 +400,7 @@
 						<li>
 							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<path>Things/Pawn/Humanlike/Marks/MarksThin/OMark</path>
+							<path>Things/Pawn/Humanlike/Marks/MarksNone/OMark</path>
 							<defaultOffset>Center</defaultOffset>
 							<colorChannel>base</colorChannel>
 							<shaderType>Transparent</shaderType>
@@ -413,190 +413,27 @@
 									<drawnStanding>true</drawnStanding>
 									<drawnLaying>true</drawnLaying>
 								</Posture>
-								<BodyType>Thin</BodyType>
 								<RotStage>Fresh,Rotting</RotStage>
 							</conditions>
+							<extendedGraphics>
+								<BodyType For="Thin">Things/Pawn/Humanlike/Marks/MarksThin/OMark</BodyType>
+								<BodyType For="Female">Things/Pawn/Humanlike/Marks/MarksFemale/OMark</BodyType>
+								<BodyType For="Male">Things/Pawn/Humanlike/Marks/MarksMale/OMark</BodyType>
+								<BodyType For="Hulk">Things/Pawn/Humanlike/Marks/MarksHulk/OMark</BodyType>
+							</extendedGraphics>
 							<offsets>
 								<north>
-                                    <layerOffset>-0.29</layerOffset>
+                                    <layerOffset>-0.296</layerOffset>
 									<bodyTypes>
-            							<Thin>(0.0000,0.0000)</Thin>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Thin>(0.0000,0.0000)</Thin>
-      						   	    </portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-   							    </north>
-							    <east>
-                                    <layerOffset>-0.31</layerOffset>
-							        <bodyTypes>
-            							<Thin>(0.0000,0.0000)</Thin>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Thin>(0.0000,0.0000)</Thin>
-							        </portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-							    </east>
- 							    <south>
-                                    <layerOffset>-0.31</layerOffset>
- 							        <bodyTypes>
-            							<Thin>(0.0000,0.0000)</Thin>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Thin>(0.0000,0.0000)</Thin>
-         							</portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-      							</south>
-   							</offsets>
-						</li>
-						<li>
-							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<path>Things/Pawn/Humanlike/Marks/MarksFemale/OMark</path>
-							<defaultOffset>Center</defaultOffset>
-							<colorChannel>base</colorChannel>
-                            <shaderType>Transparent</shaderType>
-							<conditions>
-								<BodyPart>
-									<bodyPart>Torso</bodyPart>
-								</BodyPart>
-								<Posture>
-									<drawnInBed>false</drawnInBed>
-									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
-								</Posture>
-								<BodyType>Female</BodyType>
-								<RotStage>Fresh,Rotting</RotStage>
-							</conditions>
-							<offsets>
-								<north>
-                                    <layerOffset>-0.29</layerOffset>
-									<bodyTypes>
+    							        <Male>(0.0000,0.0000)</Male>
             							<Female>(0.0000,0.0000)</Female>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Female>(0.0000,0.0000)</Female>
-      						   	    </portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-   							    </north>
-							    <east>
-                                    <layerOffset>-0.31</layerOffset>
-							        <bodyTypes>
-            							<Female>(0.0000,0.0000)</Female>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Female>(0.0000,0.0000)</Female>
-							        </portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-							    </east>
- 							    <south>
-                                    <layerOffset>-0.31</layerOffset>
- 							        <bodyTypes>
-            							<Female>(0.0000,0.0000)</Female>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Female>(0.0000,0.0000)</Female>
-         							</portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-      							</south>
-   							</offsets>
-						</li>
-						<li>
-							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<path>Things/Pawn/Humanlike/Marks/MarksMale/OMark</path>
-							<defaultOffset>Center</defaultOffset>
-							<colorChannel>base</colorChannel>
-                            <shaderType>Transparent</shaderType>
-							<conditions>
-								<BodyPart>
-									<bodyPart>Torso</bodyPart>
-								</BodyPart>
-								<Posture>
-									<drawnInBed>false</drawnInBed>
-									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
-								</Posture>
-								<BodyType>Male</BodyType>
-								<RotStage>Fresh,Rotting</RotStage>
-							</conditions>
-							<offsets>
-								<north>
-                                    <layerOffset>-0.29</layerOffset>
-									<bodyTypes>
-            							<Male>(0.0000,0.0000)</Male>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Male>(0.0000,0.0000)</Male>
-      						   	    </portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-   							    </north>
-							    <east>
-                                    <layerOffset>-0.31</layerOffset>
-							        <bodyTypes>
-            							<Male>(0.0000,0.0000)</Male>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Male>(0.0000,0.0000)</Male>
-							        </portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-							    </east>
- 							    <south>
-                                    <layerOffset>-0.31</layerOffset>
- 							        <bodyTypes>
-            							<Male>(0.0000,0.0000)</Male>
-         							</bodyTypes>
- 							        <portraitBodyTypes>
-            							<Male>(0.0000,0.0000)</Male>
-         							</portraitBodyTypes>
-									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
-									</headTypes>
-      							</south>
-   							</offsets>
-						</li>
-						<li>
-							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<path>Things/Pawn/Humanlike/Marks/MarksHulk/OMark</path>
-							<defaultOffset>Center</defaultOffset>
-							<colorChannel>base</colorChannel>
-                            <shaderType>Transparent</shaderType>
-							<conditions>
-								<BodyPart>
-									<bodyPart>Torso</bodyPart>
-								</BodyPart>
-								<Posture>
-									<drawnInBed>false</drawnInBed>
-									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
-								</Posture>
-								<BodyType>Hulk</BodyType>
-								<RotStage>Fresh,Rotting</RotStage>
-							</conditions>
-							<offsets>
-								<north>
-                                    <layerOffset>-0.29</layerOffset>
-									<bodyTypes>
+            							<Thin>(0.0000,0.0000)</Thin>
             							<Hulk>(0.0000,0.0000)</Hulk>
          							</bodyTypes>
  							        <portraitBodyTypes>
+     							        <Male>(0.0000,0.0000)</Male>
+            							<Female>(0.0000,0.0000)</Female>
+            							<Thin>(0.0000,0.0000)</Thin>
             							<Hulk>(0.0000,0.0000)</Hulk>
       						   	    </portraitBodyTypes>
 									<headTypes>
@@ -604,11 +441,17 @@
 									</headTypes>
    							    </north>
 							    <east>
-                                    <layerOffset>-0.31</layerOffset>
+                                    <layerOffset>-0.302</layerOffset>
 							        <bodyTypes>
+    							        <Male>(0.0000,0.0000)</Male>
+            							<Female>(0.0000,0.0000)</Female>
+            							<Thin>(0.0000,0.0000)</Thin>
             							<Hulk>(0.0000,0.0000)</Hulk>
          							</bodyTypes>
  							        <portraitBodyTypes>
+    							        <Male>(0.0000,0.0000)</Male>
+            							<Female>(0.0000,0.0000)</Female>
+            							<Thin>(0.0000,0.0000)</Thin>
             							<Hulk>(0.0000,0.0000)</Hulk>
 							        </portraitBodyTypes>
 									<headTypes>
@@ -616,11 +459,17 @@
 									</headTypes>
 							    </east>
  							    <south>
-                                    <layerOffset>-0.31</layerOffset>
+                                    <layerOffset>-0.302</layerOffset>
  							        <bodyTypes>
+    							        <Male>(0.0000,0.0000)</Male>
+            							<Female>(0.0000,0.0000)</Female>
+            							<Thin>(0.0000,0.0000)</Thin>
             							<Hulk>(0.0000,0.0000)</Hulk>
          							</bodyTypes>
  							        <portraitBodyTypes>
+    							        <Male>(0.0000,0.0000)</Male>
+            							<Female>(0.0000,0.0000)</Female>
+            							<Thin>(0.0000,0.0000)</Thin>
             							<Hulk>(0.0000,0.0000)</Hulk>
          							</portraitBodyTypes>
 									<headTypes>
