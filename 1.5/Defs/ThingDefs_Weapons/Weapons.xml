@@ -101,7 +101,7 @@
           <li>Blunt</li>
         </capacities>
         <power>10</power>
-        <cooldownTime>1.9</cooldownTime>
+        <cooldownTime>1.4</cooldownTime>
       </li>
     </tools>
     <verbs>
@@ -109,8 +109,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_OrassanRocket</defaultProjectile>
-        <forcedMissRadius>3</forcedMissRadius>
-        <warmupTime>4.5</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <warmupTime>2</warmupTime>
         <range>40</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>OLaunchers</soundCast>
@@ -135,9 +135,9 @@
     <projectile>
 	<flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>35</damageAmountBase>
+      <damageAmountBase>45</damageAmountBase>
       <speed>65</speed>
-      <stoppingPower>3</stoppingPower>
+      <stoppingPower>4</stoppingPower>
 	  <armorPenetrationBase>0.2</armorPenetrationBase>
     </projectile>
   </ThingDef>
@@ -154,8 +154,8 @@
       <WorkToMake>15000</WorkToMake>
       <Mass>3.4</Mass>
       <AccuracyTouch>0.95</AccuracyTouch>
-      <AccuracyShort>0.8</AccuracyShort>
-      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
       <AccuracyLong>0.5</AccuracyLong>
       <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
     </statBases>
@@ -179,8 +179,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>14</power>
+        <cooldownTime>1.4</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -188,8 +188,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>17</power>
+        <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
     <verbs>
@@ -198,7 +198,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_OrassanShotgun</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>20</range>
+        <range>24</range>
         <soundCast>OShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
@@ -466,7 +466,7 @@
     <projectile>
 	  <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>30</damageAmountBase>
       <speed>140</speed>
       <stoppingPower>4</stoppingPower>
 	  <armorPenetrationBase>0.50</armorPenetrationBase>
@@ -486,8 +486,8 @@
       <AccuracyTouch>0.5</AccuracyTouch>
       <AccuracyShort>0.65</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>.85</AccuracyLong>
-      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>OChargedShot</researchPrerequisite>
@@ -508,7 +508,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_kittyDMR</defaultProjectile>
-        <warmupTime>1.5</warmupTime>
+        <warmupTime>1.2</warmupTime>
         <range>50</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>OTFalcon</soundCast>
@@ -632,7 +632,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>25</damageAmountBase>
       <speed>150</speed>
-	  <armorPenetrationBase>0.3</armorPenetrationBase>
+	  <armorPenetrationBase>0.6</armorPenetrationBase>
       <stoppingPower>2.5</stoppingPower>
     </projectile>
   </ThingDef>
@@ -672,7 +672,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_kittyAE</defaultProjectile>
-        <warmupTime>.5</warmupTime>
+        <warmupTime>.75</warmupTime>
         <range>28</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>OTFalcon</soundCast>
@@ -713,10 +713,10 @@
     </graphicData>
     <projectile><flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
+      <damageAmountBase>15</damageAmountBase>
       <speed>60</speed>
-	  <armorPenetrationBase>0.9</armorPenetrationBase>
-      <stoppingPower>2.5</stoppingPower>
+	  <armorPenetrationBase>0.5</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
     </projectile>
   </ThingDef>
   
