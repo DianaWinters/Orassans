@@ -109,7 +109,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_OrassanRocket</defaultProjectile>
-        <forcedMissRadius>0</forcedMissRadius>
+        <forcedMissRadius>0.1</forcedMissRadius>
         <warmupTime>2</warmupTime>
         <range>40</range>
         <burstShotCount>1</burstShotCount>
