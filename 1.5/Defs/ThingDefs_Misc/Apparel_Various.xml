@@ -151,7 +151,7 @@
 			<CarryingCapacity>100</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>Apparel</li>
+		   <li>ApparelArmor</li>
 		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li>
@@ -214,7 +214,7 @@
 			<CarryingCapacity>100</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>Apparel</li>
+			<li>ApparelArmor</li>
 		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li>
@@ -274,7 +274,7 @@
 			<CarryingCapacity>100</CarryingCapacity>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>Apparel</li>
+			<li>ApparelArmor</li>
 		</thingCategories>
 	    <tradeTags>
 			<li>HiTechArmor</li>
