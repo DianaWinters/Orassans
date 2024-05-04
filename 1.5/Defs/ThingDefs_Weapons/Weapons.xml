@@ -37,6 +37,9 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
+	<tradeTags>
+	  <li>OrassanWeapon</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== orassan rocket launcher ========================== -->
@@ -91,9 +94,6 @@
     <weaponTags>
       <li>OrassanMissile</li>
     </weaponTags>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
 	    <tools>
       <li>
         <label>barrel</label>
@@ -1176,6 +1176,9 @@
       <li>NonNeolithicOnlyMelee</li>
       <li>OrassanMelee</li>
     </weaponTags>
+	<tradeTags>
+	  <li>OrassanWeapon</li>
+    </tradeTags>
 	<weaponClasses>
       <li>MeleePiercer</li>
       <li>Ultratech</li>
@@ -1237,6 +1240,9 @@
     <weaponTags>
       <li>OrassanMeleeSidearm</li>
     </weaponTags>
+	<tradeTags>
+	  <li>OrassanWeapon</li>
+    </tradeTags>
     <costStuffCount>45</costStuffCount>
 	<statBases>
 		<WorkToMake>6400</WorkToMake>
@@ -1295,6 +1301,9 @@
     <weaponTags>
       <li>OrassanMeleeSidearm</li>
     </weaponTags>
+	<tradeTags>
+	  <li>OrassanWeapon</li>
+    </tradeTags>
     <costStuffCount>45</costStuffCount>
 	<statBases>
 		<WorkToMake>6400</WorkToMake>

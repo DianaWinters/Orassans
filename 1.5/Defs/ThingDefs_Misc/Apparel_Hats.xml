@@ -40,6 +40,9 @@
       <Plasteel>10</Plasteel>
       <Steel>10</Steel>
     </costList>
+	  <tradeTags>
+	    <li>OrassanArmor</li>
+	  </tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -97,6 +100,9 @@
 	  <ComponentIndustrial>4</ComponentIndustrial>
       <Plasteel>50</Plasteel>
     </costList>
+	<tradeTags>
+	    <li>OrassanArmor</li>
+	</tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>

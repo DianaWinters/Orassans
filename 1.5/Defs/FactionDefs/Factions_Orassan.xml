@@ -124,15 +124,13 @@
 			</thingDefs>
 		</apparelStuffFilter>
     <caravanTraderKinds>
-      <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
-      <li>Caravan_Outlander_Exotic</li>
+      <li>Orassan_Caravan_TraderGeneral</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Orassan_Standard</li>
     </visitorTraderKinds>
     <baseTraderKinds>
-      <li>Base_Outlander_Standard</li>
+      <li>Base_Orassan_Standard</li>
     </baseTraderKinds>
     <allowedArrivalTemperatureRange>-60~35</allowedArrivalTemperatureRange>
 	<maxPawnCostPerTotalPointsCurve>

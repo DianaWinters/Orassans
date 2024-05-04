@@ -90,6 +90,7 @@
 		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li>
+			<li>OrassanArmor</li>
         </tradeTags>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -155,6 +156,7 @@
 		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li>
+			<li>OrassanArmor</li>
 		</tradeTags>
 		<costList>
 			<ComponentSpacer>5</ComponentSpacer>
@@ -218,6 +220,7 @@
 		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li>
+			<li>OrassanArmor</li>
 		</tradeTags>
 		<costList>
 			<ComponentSpacer>2</ComponentSpacer>
@@ -278,6 +281,7 @@
 		</thingCategories>
 	    <tradeTags>
 			<li>HiTechArmor</li>
+			<li>OrassanArmor</li>
 		</tradeTags>
 		<costList>
 			<ComponentSpacer>2</ComponentSpacer>
