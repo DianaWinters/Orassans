@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Mousekin Race</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<operations>
+			<operations>-->
 
 				<!-- Allow Mousekins to wear Orassan apparel (some of which may have Mousekin body-specific alternative textures) -->
 				
-				<li Class="PatchOperationAdd">
+				<!--<li Class="PatchOperationAdd">
 					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/raceRestriction/apparelList</xpath>
 					<value>
 						<li>Apparel_KittyArmor</li>
@@ -17,9 +17,9 @@
 						<li>Apparel_LightKittyArmor</li>
 						<li>Apparel_MediumKittyArmor</li>
 						<li>Apparel_OrassanBasicTop</li>
-						<li>Apparel_OrassanBasicShorts</li>
+						<li>Apparel_OrassanBasicShorts</li>-->
 						<!--<li>Apparel_OrassanMilitaryPants</li>-->
-						<li>Apparel_OrassanMilitaryShirt</li>
+						<!--<li>Apparel_OrassanMilitaryShirt</li>
 						<li>Apparel_OrassanPowerArmorHelmet</li>
 						<li>Apparel_OrassanSacriArmorHelmet</li>
 					</value>
@@ -28,4 +28,4 @@
 			</operations>
 		</match>
 	</Operation>
-</Patch>
+</Patch>-->
