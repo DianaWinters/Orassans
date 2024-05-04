@@ -658,6 +658,7 @@
 			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
 			<ComfyTemperatureMax>26</ComfyTemperatureMax>
 			<LeatherAmount>35</LeatherAmount>
+			<RoyalFavorValue>4</RoyalFavorValue>
 			<ResearchSpeed>1.20</ResearchSpeed>
 			<MiningSpeed>0.95</MiningSpeed>
 			<SocialImpact>1.20</SocialImpact>
