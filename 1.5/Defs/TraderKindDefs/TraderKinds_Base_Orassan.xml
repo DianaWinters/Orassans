@@ -4,7 +4,6 @@
   <TraderKindDef>
     <defName>Base_Orassan_Standard</defName>
     <faction>Orassan</faction>
-    <permitRequiredForTrading>TradeSettlement</permitRequiredForTrading>
     <stockGenerators>
 
       <!-- Resources -->
@@ -268,6 +267,12 @@
       <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
         <thingDef>Apparel_CeremonialCultistMask</thingDef>
         <countRange>-1~2</countRange> <!-- 50% chance for 1~2 -->
+      </li>
+
+      <!-- SOS2 Uranium Fuel Pods (always) -->
+      <li MayRequire="kentington.saveourship2" Class="StockGenerator_SingleDef">
+        <thingDef>ShuttleFuelPods</thingDef>
+        <countRange>600~2300</countRange>
       </li>
 
       <!-- Buying -->

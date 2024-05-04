@@ -6,7 +6,6 @@
     <label>orassan trader</label>
     <commonality>1</commonality>
     <faction>Orassan</faction>
-    <permitRequiredForTrading>TradeCaravan</permitRequiredForTrading>
     <stockGenerators>
 
       <!-- Resources -->
@@ -155,6 +154,11 @@
         <countRange>5~15</countRange>
       </li>
 
+      <!-- SOS2 Uranium Fuel Pods (always) -->
+      <li MayRequire="kentington.saveourship2" Class="StockGenerator_SingleDef">
+        <thingDef>ShuttleFuelPods</thingDef>
+        <countRange>600~2300</countRange>
+      </li>
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />

@@ -7,7 +7,6 @@
     <commonality>1</commonality>
     <orbital>true</orbital>
     <faction>Orassan</faction>
-    <permitRequiredForTrading>TradeOrbital</permitRequiredForTrading>
     <stockGenerators>
 
     <!-- Resources -->
@@ -150,6 +149,12 @@
       <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
         <thingDef>ArchiteCapsule</thingDef>
         <countRange>20~30</countRange>
+      </li>
+
+      <!-- SOS2 Uranium Fuel Pods (always) -->
+      <li MayRequire="kentington.saveourship2" Class="StockGenerator_SingleDef">
+        <thingDef>ShuttleFuelPods</thingDef>
+        <countRange>600~2300</countRange>
       </li>
 
       <!-- Buying -->
