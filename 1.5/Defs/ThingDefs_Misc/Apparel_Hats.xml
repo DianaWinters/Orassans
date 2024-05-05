@@ -33,6 +33,8 @@
          <AimingDelayFactor>-0.05</AimingDelayFactor>
 		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
          <PsychicSensitivity>-1</PsychicSensitivity>
+		<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
@@ -94,6 +96,8 @@
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
          <PsychicSensitivity>-0.10</PsychicSensitivity>
 		 <SocialImpact>0.10</SocialImpact>
+		<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>

@@ -84,6 +84,7 @@
 		</statBases>
 		<equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Apparel</li>
@@ -150,6 +151,7 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>.1</ShootingAccuracyPawn>
 			<CarryingCapacity>100</CarryingCapacity>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 		</equippedStatOffsets>
 		<thingCategories>
 		   <li>ApparelArmor</li>
@@ -435,6 +437,9 @@
       <Insulation_Heat>6</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+	<equippedStatOffsets>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+	</equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
 			<li>Neck</li>
