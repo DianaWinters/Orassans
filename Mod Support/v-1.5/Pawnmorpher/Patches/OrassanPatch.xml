@@ -30,7 +30,7 @@
                             <mutationRetrievers>
                                 <li Class="Pawnmorph.Hediffs.MutationRetrievers.Mutations">
                                     <mutations>
-                                        <li>EtherCatEye</li>
+                                        <li>EtherFelineEye</li>
                                         <li>EtherCatTail</li>
                                         <li>EtherCatEar</li>
                                     </mutations>
