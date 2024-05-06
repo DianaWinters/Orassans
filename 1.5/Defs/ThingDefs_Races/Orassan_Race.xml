@@ -794,27 +794,27 @@
 				</li>
 			</lifeStageAges>
 			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-				<Firefighter>6</Firefighter>
+				<Firefighter>5</Firefighter>
 				<Patient>0</Patient>
-				<Doctor>9</Doctor>
+				<Doctor>8</Doctor>
 				<PatientBedRest>0</PatientBedRest>
 				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
-				<BasicWorker>6</BasicWorker>
-				<Warden>9</Warden>
-				<Handling>6</Handling>
-				<Cooking>6</Cooking>
-				<Hunting>6</Hunting>
-				<Construction>9</Construction>
-				<Growing>6</Growing>
-				<Mining>6</Mining>
-				<PlantCutting>6</PlantCutting>
-				<Smithing>12</Smithing>
-				<Tailoring>6</Tailoring>
-				<Art>9</Art>
-				<Crafting>6</Crafting>
+				<BasicWorker>5</BasicWorker>
+				<Warden>8</Warden>
+				<Handling>5</Handling>
+				<Cooking>5</Cooking>
+				<Hunting>5</Hunting>
+				<Construction>8</Construction>
+				<Growing>5</Growing>
+				<Mining>5</Mining>
+				<PlantCutting>5</PlantCutting>
+				<Smithing>11</Smithing>
+				<Tailoring>5</Tailoring>
+				<Art>8</Art>
+				<Crafting>5</Crafting>
 				<Hauling>3</Hauling>
 				<Cleaning>3</Cleaning>
-				<Research>12</Research>
+				<Research>11</Research>
 			</lifeStageWorkSettings>
 			<ageGenerationCurve>
 				<points>
