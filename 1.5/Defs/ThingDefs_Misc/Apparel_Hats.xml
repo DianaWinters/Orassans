@@ -34,7 +34,7 @@
 		<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
          <PsychicSensitivity>-1</PsychicSensitivity>
 		<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
-		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
@@ -56,6 +56,7 @@
       <tags>
         <li>Orassan</li>
 		<li>EVA</li>
+		<li>HideOEars</li>
       </tags>
       <defaultOutfitTags>
         <li>OrassanScientist</li>
@@ -97,7 +98,7 @@
          <PsychicSensitivity>-0.10</PsychicSensitivity>
 		 <SocialImpact>0.10</SocialImpact>
 		<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
-		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
@@ -118,6 +119,7 @@
       <tags>
         <li>OrassanMilitary</li>
 		<li>EVA</li>
+		<li>HideOEars</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>

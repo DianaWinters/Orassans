@@ -187,6 +187,11 @@
 							<alignWithHead>true</alignWithHead>
 							<layerInvert>False</layerInvert>
 							<conditions>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>HideOEars</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
 								<BodyPart>
 									<bodyPart>Ear</bodyPart>
 									<bodyPartLabel>left ear</bodyPartLabel>
@@ -274,6 +279,11 @@
 							<alignWithHead>true</alignWithHead>
 							<layerInvert>False</layerInvert>
 							<conditions>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>HideOEars</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
 								<BodyPart>
 									<bodyPart>Ear</bodyPart>
 									<bodyPartLabel>right ear</bodyPartLabel>
