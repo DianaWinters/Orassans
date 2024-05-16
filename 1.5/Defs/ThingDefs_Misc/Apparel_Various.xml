@@ -63,6 +63,11 @@
 		<label>orassan S.A.C.R.I suit</label>
 		<description>This special protective suit is the most popular choice among the Orassan scientists, astronauts, and hazardous areas explorers. Made of special coating with high-tech fibers, it gives the wearer an exceptionally high protection against many negative impact excluding kinetic damage. Soldered inside the armor vest partly solves this problem. Its name was received because of the new system S.A.C.R.I. (System of abnormality, chemical, and radiation isolation.) Protects from the vacuum of space.</description>
 		<techLevel>Ultra</techLevel>
+		<comps>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>OPoweredArmor</researchPrerequisite> 
@@ -84,7 +89,8 @@
 		</statBases>
 		<equippedStatOffsets>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
-		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+		<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Apparel</li>
@@ -129,6 +135,11 @@
 		<label>orassan heavy exoskeletal armor</label>
 		<description>Exoskeletal armor usually used by assault troops from The Orassan Empire.\n\nSlim and advanced, and the advanced servo-motors and micro thrusters greatly increase the wearer's load bearing capacity and assist in weapon-handling. This variant is heavily armored and can withstand even the most extreme punishment and allows the wearer to survive in the conditions of a vacuum.</description>
 		<techLevel>Ultra</techLevel>
+		<comps>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>OPoweredArmor</researchPrerequisite>
@@ -151,7 +162,8 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>.1</ShootingAccuracyPawn>
 			<CarryingCapacity>100</CarryingCapacity>
-		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+		<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</equippedStatOffsets>
 		<thingCategories>
 		   <li>ApparelArmor</li>
@@ -438,7 +450,8 @@
       <EquipDelay>2</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
-		<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+		<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 	</equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -469,6 +482,9 @@
         <hediff>HediffNoBleedArmor1</hediff>
         <part>Body</part>
       </li>
+	  <li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+	  </li>
     </comps>
   </ThingDef>
 	

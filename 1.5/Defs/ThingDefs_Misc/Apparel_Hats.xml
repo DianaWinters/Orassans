@@ -6,6 +6,11 @@
     <label>Orassan S.A.C.R.I Helmet</label>
     <description>This insulating helmet is part of the S.A.C.R.I suit set. Equipped with oxygen filter and a scanner with a system of identifying objects, including hostile lifeforms. Not intended for combat. Advanced filters allow for a sealed environment that protects from even the vacuum of space.</description>
     <techLevel>Spacer</techLevel>
+		<comps>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>OPoweredArmor</researchPrerequisite>
@@ -69,6 +74,11 @@
     <label>Orassan Exoskeleton Helmet</label>
     <description>A part of powered exoskeleton armor set, mostly used by Orassan infantry. Has advanced sensors and translation softer, improving combat effectiveness and negotiating skills. Advanced filters allow for a sealed environment that protects from even the vacuum of space.</description>
     <techLevel>Spacer</techLevel>
+		<comps>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>OPoweredArmor</researchPrerequisite>
