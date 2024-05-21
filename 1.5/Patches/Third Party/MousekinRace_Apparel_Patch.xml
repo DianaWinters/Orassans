@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Mousekin Race</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Hide Mousekin ears under Orassan helmets -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+						defName="Apparel_OrassanSacriArmorHelmet" or
+						defName="Apparel_OrassanPowerArmorHelmet"
+					]/apparel/tags</xpath>
+					<value>
+						<li>Mousekin_HideEars</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
