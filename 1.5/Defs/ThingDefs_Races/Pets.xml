@@ -1417,7 +1417,6 @@
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
-			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<MarketValue>160</MarketValue>
