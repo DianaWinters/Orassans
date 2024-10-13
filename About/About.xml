@@ -24,6 +24,7 @@
 </loadBefore>
 <loadAfter>
 <li>erdelf.HumanoidAlienRaces</li>
+<li>smashphil.srtsexpanded</li>
 </loadAfter>
 <incompatibleWith />
 </ModMetaData>

@@ -378,6 +378,7 @@
 		<xenotypeSet>
 			<xenotypeChances>
 				<SuperSoldier_Orassan MayRequire="Ludeon.RimWorld.Biotech">0.02</SuperSoldier_Orassan>
+				<Diplomat_Orassan MayRequire="Ludeon.RimWorld.Biotech">0</Diplomat_Orassan>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>

@@ -55,7 +55,6 @@
 			<li>FoamSpray</li>
 			<li>Hemogenic</li>
 			<li>Coagulate</li>
-			<li>ViolenceDisabled</li>
 			<li>AptitudePoor_Shooting</li>
 			<li>AptitudePoor_Melee</li>
 			<li>AptitudeRemarkable_Medicine</li>
@@ -105,13 +104,11 @@
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<canGenerateAsCombatant>false</canGenerateAsCombatant>
 		<genes>
-			<li>ViolenceDisabled</li>
 			<li>KindInstinct</li>
 			<li>Sleepy</li>
 			<li>Beauty_Beautiful</li>
 			<li>AptitudePoor_Shooting</li>
 			<li>AptitudePoor_Melee</li>
-			<li>AptitudeRemarkable_Artistic</li>
 			<li>AptitudeRemarkable_Social</li>
 		</genes>
 	</XenotypeDef>
